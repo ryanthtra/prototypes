@@ -21,7 +21,7 @@
 - Create three variables inside your script tag
 	- Create a variable `firstName`, set it to your first name
 	- Create a variable `lastName`, set it to your last name
-	- create a variable 'age', set it to your name
+	- create a variable `age`, set it to your name
 
 ## Step - 5
 - Using `console.log()` in your script tag log out a string as follows
@@ -38,11 +38,11 @@
 ## Step - 7 
 - Using three separate `console.log()` in your script tag log out the following:
 - As an example I'll choose 12 and 55
-	- Output 1: the total of x and y
-		- Example output: 67
+	- Output 1: the total of `x` and `y`
+		- Example output: `67`
 	- Output 2: x and y concatenated 
-		- Example output: "1255"
-	- Output 3: Text concatenated with the total of x and y
-		- Example output: "The total of x and y are 67"
+		- Example output: `"1255"`
+	- Output 3: Text concatenated with the total of `x` and `y`
+		- Example output: `"The total of x and y are 67"`
 
  
