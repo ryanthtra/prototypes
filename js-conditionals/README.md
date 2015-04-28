@@ -14,7 +14,7 @@ To get these files to your local machine you will need to do the following
 
 ### Getting Started
 
-1. Make an index.HTML inside the `js-conditionals` folder
+1. Make an index.html inside the `js-conditionals` folder
 
 2. Create a basic HTML DOM structure
 	- DOCTYPE tag
@@ -76,7 +76,7 @@ Add a comment in your code with your answer if you dare!
 	- else output `"I'm false!"`
 4. Using the `myLie` variable create just an if statement that evaluates to `true`
 	- Do not use an else condition
-	- Have the the output be: `"I'm a true lie!"`
+	- Have the output be `"I'm a true lie!"`
 
 #### Create a Switch Statement
 
