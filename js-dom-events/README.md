@@ -22,7 +22,7 @@ To get these files to your local machine you will need to do the following
 	- head tag
 	- body tag
 
-## Comparisons
+## DOM Events
 
 ### Prototype
 
@@ -37,12 +37,13 @@ To get these files to your local machine you will need to do the following
 	- Set the value of `onclick` to a `console.log()` add a message to be logged out
 	- Example: `"My header has been clicked"`
 
-**Note** - Make sure to create unique messages for each `onclick` event
+**Note** - Make sure to create a unique message for each `onclick` event
 
 Open your page in your browser (open your console)
 
 - Try clicking your button. What happens in the console?
 - Try clicking your header. What happens in the console?
+- Try clicking anywhere on the page. What happens in your console?
 
 #### Using the `onload` Attribute
 
@@ -55,7 +56,7 @@ Open your page in your browser (open your console)
 
 **Reminder** - Use unique and identifiable messages for your `console.log()`s
 
-Save your changes 
+Save your changes, 
 Refresh your page in the browser
 
 What load messages did you see in your console?
@@ -66,7 +67,19 @@ What load messages did you see in your console?
 2. Choose a word from your sentence and surround it with `<em></em>` tags
 	- Example: `<p>This is my <em>sentence</em></p>`
 3. Inside your opening `em` tag add an `onclick` attribute
-4. Set the value of `onclick` 
+4. Set the value of `onclick` to a `console.log()` add a message to be logged out
+	- Example: `"You have clicked on the word sentence"`
+5. Add an `onclick` attribute to your opening `body` tag
+	- Set the value of `onclick` to `console.log()` with a message of your choosing
+	- Example: `"Body has been clicked"`
+
+Save your changes, 
+Refresh your page in the browser
+
+-Try clicking on your *emphasized* word. What happens in your console?
+-Try clicking anywhere on the page. What happens in your console?  
+
+Notice the differences between where and how `onclick` works verses how `onload` works
 
 ## After you have completed all the above
 
