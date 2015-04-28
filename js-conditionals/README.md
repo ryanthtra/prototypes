@@ -14,7 +14,7 @@ To get these files to your local machine you will need to do the following
 
 ### Getting Started
 
-1. make an index.html 
+1. Make an index.html 
 
 2. Create a basic html DOM structure
 	- DOCTYPE tag
