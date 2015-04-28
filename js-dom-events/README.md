@@ -50,16 +50,13 @@ Open your page in your browser (open your console)
 1. In your opening `body` tag  add an `onload` attribute
 	- Set the value of `onload` to a `console.log()` add a message to be logged out
 	- Example Message: `"Body loaded"`
-2. In your opening `button` tag add an `onload` attribute
-	- Set the value of `onload` to a `console.log()` add a message to be logged out
-	- Example Message: `"Button loaded"`
 
 **Reminder** - Use unique and identifiable messages for your `console.log()`s
 
 Save your changes, 
 Refresh your page in the browser
 
-What load messages did you see in your console?
+Did you see your load message in the console?
 
 #### More `onclick` Fun
 
@@ -80,6 +77,10 @@ Refresh your page in the browser
 -Try clicking anywhere on the page. What happens in your console?  
 
 Notice the differences between where and how `onclick` works verses how `onload` works
+
+## Advanced Topic
+
+<a href="http://javascript.info/tutorial/bubbling-and-capturing" target="_blank">Click Here</a> For some advanced information on event bubbling and capturing
 
 ## After you have completed all the above
 
