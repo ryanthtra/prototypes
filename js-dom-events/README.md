@@ -45,6 +45,18 @@ Open your page in your browser (open your console)
 - Try clicking your header. What happens in the console?
 - Try clicking anywhere on the page. What happens in your console?
 
+#### Using the `onhover` Attribute
+
+1. Add an `h2` tag with any text you want
+2. In your opening `h2` tag add an `onhover` attribute
+	- Set the value of `onhover` to `console.log()` add a message to be logged out
+	- Example message: `"You hovered over your h2 element"`
+
+Save your changes, 
+Refresh your page in the browser
+
+Hover over your `h2` element. What happened in the console?
+
 #### Using the `onload` Attribute
 
 1. In your opening `body` tag  add an `onload` attribute
