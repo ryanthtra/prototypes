@@ -31,11 +31,11 @@ To get these files to your local machine you will need to do the following
 1. Inside your body tags create a `button` it can say whatever you like
 	- Inside your opening `button` tag add an `onclick` attribute
 	- Set the value of `onclick` to a `console.log()` add a message to be logged out
-	- Example: `"My button has been clicked"`
+	- Example Message: `"My button has been clicked"`
 2. Now add a `h1` tag, it can also say whatever you would like
 	- Inside your opening `h1` tag add an `onclick` attribute
 	- Set the value of `onclick` to a `console.log()` add a message to be logged out
-	- Example: `"My header has been clicked"`
+	- Example Message: `"My header has been clicked"`
 
 **Note** - Make sure to create a unique message for each `onclick` event
 
@@ -49,10 +49,10 @@ Open your page in your browser (open your console)
 
 1. In your opening `body` tag  add an `onload` attribute
 	- Set the value of `onload` to a `console.log()` add a message to be logged out
-	- Example: `"Body loaded"`
+	- Example Message: `"Body loaded"`
 2. In your opening `button` tag add an `onload` attribute
 	- Set the value of `onload` to a `console.log()` add a message to be logged out
-	- Example: `"Button loaded"`
+	- Example Message: `"Button loaded"`
 
 **Reminder** - Use unique and identifiable messages for your `console.log()`s
 
@@ -65,18 +65,18 @@ What load messages did you see in your console?
 
 1. Create a `p` tag, write a short sentence
 2. Choose a word from your sentence and surround it with `<em></em>` tags
-	- Example: `<p>This is my <em>sentence</em></p>`
+	- Example Message: `<p>This is my <em>sentence</em></p>`
 3. Inside your opening `em` tag add an `onclick` attribute
 4. Set the value of `onclick` to a `console.log()` add a message to be logged out
-	- Example: `"You have clicked on the word sentence"`
+	- Example Message: `"You have clicked on the word sentence"`
 5. Add an `onclick` attribute to your opening `body` tag
 	- Set the value of `onclick` to `console.log()` with a message of your choosing
-	- Example: `"Body has been clicked"`
+	- Example Message: `"Body has been clicked"`
 
 Save your changes, 
 Refresh your page in the browser
 
--Try clicking on your *emphasized* word. What happens in your console?
+-Try clicking on your *emphasized* word. What happens in your console?<br>
 -Try clicking anywhere on the page. What happens in your console?  
 
 Notice the differences between where and how `onclick` works verses how `onload` works
