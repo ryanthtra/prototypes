@@ -14,11 +14,11 @@ To get these files to your local machine you will need to do the following
 
 ### Getting Started
 
-1. Make an index.html 
+1. Make an index.HTML inside the `js-conditionals` folder
 
-2. Create a basic html DOM structure
+2. Create a basic HTML DOM structure
 	- DOCTYPE tag
-	- html tag
+	- HTML tag
 	- head tag
 	- body tag
 
@@ -32,9 +32,9 @@ To get these files to your local machine you will need to do the following
 
 Between your script tags create the following variables
 
-1. Create a variable named `mySmallNumber` Set it to `5`
-2. Create a variable named `myString` Set it to `"5"`
-3. Create a variable named `myBigNumber` Set it to `255`
+1. Declare a variable named `mySmallNumber` Set its value to `5`
+2. Declare a variable named `myString` Set its value to `"5"`
+3. Declare a variable named `myBigNumber` Set its value to `255`
 
 #### Create output
 
@@ -55,14 +55,14 @@ then Use ` === ` to compare another concatenation of the two variables
 
 What is the result?
 
-Add a commented out line in your code with your answer if you dare!
+Add a comment in your code with your answer if you dare!
 
 ## Conditionals
 
 #### Create some more variables
 
-1. Create a variable named `myTruth` Set it to `true`
-2. Create a variable named `myLie` Set it to `false`
+1. Declare a variable named `myTruth` Set its value to `true`
+2. Declare a variable named `myLie` Set its value to `false`
 
 #### Create some conditionals
 
@@ -74,10 +74,13 @@ Add a commented out line in your code with your answer if you dare!
 	- Example: if(myTruth == myLie)...
 	- if true output `"I'm true!"`
 	- else output `"I'm false!"`
+4. Using the `myLie` variable create just an if statement that evaluates to `true`
+	- Do not use an else condition
+	- Have the the output be: `"I'm a true lie!"`
 
 #### Create a Switch Statement
 
-1. Create a new variable called `myNumber` Set it equal to a number between 1-100
+1. Declare a new variable called `myNumber` Set its value equal to a number between 1-100
 2. Write a switch statement based on myNUmber that has three `case` statements plus a `default`
 3. Make it so one of your `case` statements will be true
 4. Create a unique `console.log()` for each `case` statement
