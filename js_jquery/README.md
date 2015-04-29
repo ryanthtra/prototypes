@@ -10,7 +10,7 @@ To get these files to your local machine you will need to do the following
 		`git pull https://github.com/Learning-Fuze/prototypes.git master`
 	- This will pull all the files from the original LearningFuze repo that you forked from, then merge the files with your existing files on your local machine.
 
-<a href="https://github.com/Learning-Fuze/git-workflow#github-workflow">Click Here</a> For help with gitHub 
+<a href="https://github.com/Learning-Fuze/git-workflow#github-workflow" target="_blank">Click Here</a> For help with gitHub 
 
 ### Getting Started
 
@@ -45,22 +45,22 @@ Open the `index.html` file in your browser (open your console)
 #### Time to try it on your own 
 
 1. Using jQuery add the class "card-back" to `div3` and `div4`
-	- <a href="https://api.jquery.com/addclass/">Click Here</a> For an explanation and examples of the `.addClass()` method
+	- <a href="https://api.jquery.com/addclass/" target="_blank">Click Here</a> For an explanation and examples of the `.addClass()` method
 2. Now using jQuery create a click handler for `div3`
 	- Refer to `index.html` for an example (line 19)
 	- Inside your click handler use the `.toggleClass()` method to change the class to "flag"
-	- <a href="https://api.jquery.com/toggleclass/">Click Here</a> For an explanation and examples of the `.toggleClass()` method
+	- <a href="https://api.jquery.com/toggleclass/" target="_blank">Click Here</a> For an explanation and examples of the `.toggleClass()` method
 3. Using jQuery create a click handler for `div4`
 	- Refer to `index.html` for an example (line 19)
 	- Inside your click handler use the `.toggleClass()` method to change the class to "path"
-	- <a href="https://api.jquery.com/toggleclass/">Click Here</a> For an explanation and examples of the `.toggleClass()` method
+	- <a href="https://api.jquery.com/toggleclass/" target="_blank">Click Here</a> For an explanation and examples of the `.toggleClass()` method
 
 Now when you click on `div3` it should switch between the picture of the card back and a picture of the British flag. Also clicking on `div4` should change the picture between the card back and a picture of a nice path
 
 ## After you have completed all the above
 
 1. add, commit, and push your updated files to your master branch on gitHub
-	- <a href="https://github.com/Learning-Fuze/git-workflow#step-4---pushing-your-work-back-to-github">Click Here</a> If you need help pushing to gitHub
+	- <a href="https://github.com/Learning-Fuze/git-workflow#step-4---pushing-your-work-back-to-github" target="_blank">Click Here</a> If you need help pushing to gitHub
 2. Create a pull request
 	- If your last pull request for the `prototypes` repo is still open, you can skip this step
-	- <a href="https://github.com/Learning-Fuze/git-workflow#step-5---creating-a-pull-request-1">Click Here</a> For help creating a pull request
+	- <a href="https://github.com/Learning-Fuze/git-workflow#step-5---creating-a-pull-request-1" target="_blank">Click Here</a> For help creating a pull request
