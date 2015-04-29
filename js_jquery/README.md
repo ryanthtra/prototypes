@@ -45,13 +45,15 @@ Open the `index.html` file in your browser (open your console)
 #### Time to try it on your own 
 
 1. Using jQuery add the class "card-back" to `div3` and `div4`
-	- **Remember** - `$("#example").addClass("myClass");`
+	- <a href="https://api.jquery.com/addclass/">Click Here</a> For an explanation and examples of the `.addClass()` method
 2. Now using jQuery create a click handler for `div3`
 	- Refer to `index.html` for an example (line 19)
-	- Inside your click handler use `.toggleClass()` to change the class to "flag"
+	- Inside your click handler use the `.toggleClass()` method to change the class to "flag"
+	- <a href="https://api.jquery.com/toggleclass/">Click Here</a> For an explanation and examples of the `.toggleClass()` method
 3. Using jQuery create a click handler for `div4`
 	- Refer to `index.html` for an example (line 19)
-	- Inside your click handler use `.toggleClass()` to change the class to "path"
+	- Inside your click handler use the `.toggleClass()` method to change the class to "path"
+	- <a href="https://api.jquery.com/toggleclass/">Click Here</a> For an explanation and examples of the `.toggleClass()` method
 
 Now when you click on `div3` it should switch between the picture of the card back and a picture of the British flag. Also clicking on `div4` should change the picture between the card back and a picture of a nice path
 
