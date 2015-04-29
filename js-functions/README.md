@@ -35,7 +35,7 @@ To get these files to your local machine you will need to do the following
 
 #### Use your function
 
-1. Between your `body` tags create a `button` it can say whatever you would like
+1. Between your `body` tags create a `button`, it can say whatever you would like
 2. Add an `onclick` attribute to your opening `button` tag
 3. Set the value of `onclick` to your function from above
 	- Example: `onclick="myMessage()"`
