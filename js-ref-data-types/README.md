@@ -62,13 +62,23 @@ Notice the difference, this is why using commas in your `console.log()` can be v
 		- This function should output: `"Hello, my name is [your name]"`
 	- `aboutMe()`
 		- This function should output: `"My full name is [your first and last name], I am [age] years old and I am a student at [school name]."`
-	- 'myClasses()' **Alert** - This function is optional
+	- `myClasses()` **Alert** - This function is optional
 		- This function should output: `"I am taking the following classes: [class 1] [class 2] [class 3] etc.."`
 		- This can be done by looping through your classList array 
 		- *Reminder* - `myClasses()` is optional
 4. Using `console.log()` create output in your console from your functions
 	- *Hint* - `console.log("Greeting function: ", student.greeting());`
 
+Save your work, refresh the page
+
+Use the console to make sure everything works as expected.
+
+#### Quick `console.log()` exercise (yes, again)
+
+1. In your console, type: `console.log("Here is my student object " + student);`
+2. Now try typing: `console.log("Here is my student object", student);`
+
+Notice the difference, this is why using commas in your `console.log()` can be very useful.
 
 ## After you have completed all the above
 
