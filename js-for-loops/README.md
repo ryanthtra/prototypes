@@ -1,7 +1,5 @@
 # Prototypes
 
-accuracy 
-
 ## Javascript - For Loops
 
 To get these files to your local machine you will need to do the following
@@ -34,9 +32,9 @@ To get these files to your local machine you will need to do the following
 
 1. Create an array the contains at least five values of your choosing
 2. Build a `for` loop that will use `console.log` to log out each value in your array to the console
-	- **Hint** - `for(var i=0; i < myArray.length; i++){...}`
-	- **Hint** - Place the `console.log()` between the `{}` of your `for` loop
-	- **Reminder** - To access values in an array: `myArray[0]` **Try** replacing the `0` with `i`
+	- *Hint* - `for(var i=0; i < myArray.length; i++){...}`
+	- *Hint* - Place the `console.log()` between the `{}` of your `for` loop
+	- *Reminder* - To access values in an array: `myArray[0]` **Try** replacing the `0` with `i`
 3. Save your work and test your code, notice the output in the console
 4. In the `for` loop you just created add an additional `console.log()` to log out the `i` variable
 	- **Hint** - `console.log("i is equal to:", i);`
@@ -45,17 +43,17 @@ To get these files to your local machine you will need to do the following
 
 #### More array looping fun!
 
-1. Create the *exact* following array
+1. Create the **exact** following array
 	- `var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];`
-2. Using a `for` loop, output *all* the numbers in *ascending* order, `1-10`
+2. Using a `for` loop, output **all** the numbers in **ascending** order, `1-10`
 3. Save your work and test your code
-4. Using the same array from above write a different `for` loop that outputs *all* the numbers in *descending* order, `10-1`
+4. Using the same array from above write a different `for` loop that outputs **all** the numbers in **descending** order, `10-1`
 5. Save your work and test your code
-6. Using the same array again write a `for` loop that only outputs the *odd* numbers, `1 3 5 7...` 
+6. Using the same array again write a `for` loop that only outputs **odd** numbers, `1 3 5 7...` 
 
 #### Bonus Questions (OPTIONAL)
 
-1. Using your `for` loop from #6 above try using the following array
+1. Using your `for` loop from #6 above, try using the following array (without changing anything but the variable name)
 	- `var mixedArray = [4, 56, 11, 13, 97, 22, 7, 36, 19, 5, 8, 10];`
 	- Does it still only output *odd* numbers?
 	- If not can you fix it?
