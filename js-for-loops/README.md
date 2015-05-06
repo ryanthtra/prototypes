@@ -37,7 +37,7 @@ To get these files to your local machine you will need to do the following
 	- *Reminder* - To access values in an array: `myArray[0]` **Try** replacing the `0` with `i`
 3. Save your work and test your code, notice the output in the console
 4. In the `for` loop you just created add an additional `console.log()` to log out the `i` variable
-	- **Hint** - `console.log("i is equal to:", i);`
+	- *Hint* - `console.log("i is equal to:", i);`
 5. Save your work and test your code, notice the output in the console
 	- note your new output for `i`
 
@@ -49,7 +49,7 @@ To get these files to your local machine you will need to do the following
 3. Save your work and test your code
 4. Using the same array from above write a different `for` loop that outputs **all** the numbers in **descending** order, `10-1`
 5. Save your work and test your code
-6. Using the same array again write a `for` loop that only outputs **odd** numbers, `1 3 5 7...` 
+6. Using the same array again write yet another `for` loop that only outputs **odd** numbers, `1 3 5 7...` 
 
 #### Bonus Questions (OPTIONAL)
 
