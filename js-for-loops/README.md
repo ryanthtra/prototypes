@@ -50,7 +50,7 @@ To get these files to your local machine you will need to do the following
 4. Using the same array from above write a different `for` loop that outputs **all** the numbers in **descending** order, `10-1`
 5. Save your work and test your code
 6. Using the same array again write yet another `for` loop that only outputs **odd** numbers, `1 3 5 7...` 
-7. Using your `for` loop from the previous step (#6), try using the following array (without changing anything but the variable name in the for loop)
+7. Using your **exact** `for` loop from the previous step (#6), try using the following array
 	- `var mixedArray = [4, 56, 11, 13, 97, 22, 7, 36, 19, 5, 8, 10];`
 	- Does it still only output *odd* numbers?
 	- If not can you fix it?
