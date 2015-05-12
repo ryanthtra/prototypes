@@ -44,7 +44,7 @@ Open the `index.html` file in your browser
 	- 4 columns would use `col-md-3` and so on...
 	<img src="https://github.com/Learning-Fuze/prototypes/blob/bs-grids/bs-grids/images/bs-grid-layout.png?raw=true" alt="Bootstrap column example">
 
-	For a more detailed explanation of the bootstrap grid system <a href="http://www.w3schools.com/bootstrap/bootstrap_grid_system.asp">Click Here</a>
+	For a more detailed explanation of the bootstrap grid system <a href="http://www.w3schools.com/bootstrap/bootstrap_grid_system.asp target="_blank">Click Here</a>
 
 #### Add some more columns 
 - Add two more divs in your row
