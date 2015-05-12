@@ -33,7 +33,7 @@ Open the `index.html` file in your browser
 
 #### First columns  
 
-- Add a class to both the `blue` and `yellow` `div`s of `col-md-6`
+- Add a class to both the `blue` and `yellow` divs of `col-md-6`
 	- *Hint* - `<div class="blue col-md-6"></div>`
 - Save your work and refresh your page in the browser
 	- Notice now the two divs are side by side
@@ -54,9 +54,9 @@ Open the `index.html` file in your browser
 - You should now have four columns of different colors vertically centered on your page
 
 #### Add an additional row
-- Add another `div` with a class of row and fill it with four colored divs
+- Add another `div` with a class of `row` and fill it with four colored divs
 	- Put the colors in a different order than that of your first row so you can see the separate rows
-- You should now how have two rows of colored `div`s
+- You should now have two rows of colored divs
 
 #### The grid
 - Pick two colors and build at least a 6x6 checkerboard
