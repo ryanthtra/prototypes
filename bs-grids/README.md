@@ -14,7 +14,7 @@ To get these files to your local machine you will need to do the following
 
 ### Getting Started
 
-1. `index.html` and `style.css` have already been created for you to use
+1. `index.html` has already been created for you to use
 
 In the head tag you will see a `link` tag that looks like:<br>
 	`<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">`<br>
@@ -29,23 +29,25 @@ Open the `index.html` file in your browser
 #### Looking over some examples
 
 - Look in your browser if you haven't already
-- Notice the blue and yellow `div`s are stacked on top of each other
+- Notice the blue and yellow divs are stacked on top of each other
 
 #### First columns  
 
 - Add a class to both the `blue` and `yellow` `div`s of `col-md-6`
 	- *Hint* - `<div class="blue col-md-6"></div>`
 - Save your work and refresh your page in the browser
-	- Notice now the two `div`s are side by side
-- A couple things to note: The colored `div`s are inside a `div` with a class of `row` which is in turn inside a `div` with a class of `container`
+	- Notice now the two divs are side by side
+- A couple things to note: The colored divs are inside a `div` with a class of `row` which is in turn inside a `div` with a class of `container`
 
 - The number 6 in the class name above represents the width of your column. The total of all your columns should always be equal to 12.
 	- If you have 3 columns you would use `col-md-4`
 	- 4 columns would use `col-md-3` and so on...
-	<img src="#" alt="Bootstrap column example">
+	<img src="https://github.com/Learning-Fuze/prototypes/blob/bs-grids/bs-grids/images/bs-grid-layout.png?raw=true" alt="Bootstrap column example">
+
+	For a more detailed explanation of the bootstrap grid system <a href="http://www.w3schools.com/bootstrap/bootstrap_grid_system.asp">Click Here</a>
 
 #### Add some more columns 
-- Add two more `div`s in your row
+- Add two more divs in your row
 	- Use the pre-made color classes to give one a color of `red` and the other `green`
 - Add the appropriate bootstarp class for four columns
 - Save your work and refresh your page
@@ -58,7 +60,7 @@ Open the `index.html` file in your browser
 
 #### The grid
 - Pick two colors and build at least a 6x6 checkerboard
-- You will need to adjust the height of your `div`s inside the style tags 
+- You will need to adjust the height of your divs inside the style tags 
 
 ## After you have completed all the above
 
