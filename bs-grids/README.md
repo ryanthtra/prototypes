@@ -42,7 +42,7 @@ Open the `index.html` file in your browser
 - The number 6 in the class name above represents the width of your column. The total of all your columns should always be equal to 12.
 	- If you have 3 columns you would use `col-md-4`
 	- 4 columns would use `col-md-3` and so on...
-	<img src="https://github.com/Learning-Fuze/prototypes/blob/bs-grids/bs-grids/images/bs-grid-layout.png?raw=true" alt="Bootstrap column example">
+	<img src="https://github.com/Learning-Fuze/prototypes/blob/master/bs-grids/images/bs-grid-layout.png?raw=true" alt="Bootstrap column example">
 
 	For a more detailed explanation of the bootstrap grid system <a href="http://www.w3schools.com/bootstrap/bootstrap_grid_system.asp" target="_blank">Click Here</a>
 
