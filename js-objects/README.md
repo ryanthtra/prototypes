@@ -14,7 +14,7 @@ To get these files to your local machine you will need to do the following
 
 ### Getting Started
 
-1. Make an index.html inside the `js-for-loops` folder
+1. Make an index.html inside the `js-objects` folder
 
 2. Create a basic HTML DOM structure
 	- DOCTYPE tag
