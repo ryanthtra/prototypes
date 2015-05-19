@@ -13,8 +13,26 @@
 <div id='student_container'>
 	<div class='student_row'>
 		<span class='student_name'>John</span>
-		<span class='student_class'>Physics,</span>
+		<span class='student_class'>Physics</span>
+	</div>
+	<div class='student_row'>
+		<span class='student_name'>Jane</span>
+		<span class='student_class'>Math</span>
 	</div>
 </div>
-</xmp>	
-</pre>
+</xmp></pre>
+### In your repeat loop above
+- create an attribute for student_row that holds the index for each student
+- for example:
+<pre><xmp>
+<div id='student_container'>
+	<div class='student_row' data-index='0'>
+		<span class='student_name'>John</span>
+		<span class='student_class'>Physics</span>
+	</div>
+	<div class='student_row' data-index='1'>
+		<span class='student_name'>Jane</span>
+		<span class='student_class'>Math</span>
+	</div>
+</div>
+</xmp></pre>
