@@ -50,7 +50,7 @@
 - Console log out the new array
 
 ### in the click handler
-- using <em>this</em> and the jquery function <em>remove</em> remove the corresponding student_row
+- using <em>this</em> and the jquery function <em>remove</em> to delete the corresponding student_row
 
 
 
