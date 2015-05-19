@@ -7,32 +7,51 @@
 		{name: 'Joan', class:'English'},
 	  ]
 
-###
-- Create a repeat loop that creates a div for each student in a main container, for example:
+### Create a repeat loop that creates a div for each student in a main container, for example:
 <pre><xmp>
 <div id='student_container'>
-	<div class='student_row'>
-		<span class='student_name'>John</span>
-		<span class='student_class'>Physics</span>
-	</div>
-	<div class='student_row'>
-		<span class='student_name'>Jane</span>
-		<span class='student_class'>Math</span>
-	</div>
+		<div class='student_row'>
+			<span class='student_name'>John</span>
+			<span class='student_class'>Physics</span>
+		</div>
+		<div class='student_row'>
+			<span class='student_name'>Jane</span>
+			<span class='student_class'>Math</span>
+		</div>
 </div>
 </xmp></pre>
+
 ### In your repeat loop above
 - create an attribute for student_row that holds the index for each student
 - for example:
 <pre><xmp>
 <div id='student_container'>
-	<div class='student_row' data-index='0'>
-		<span class='student_name'>John</span>
-		<span class='student_class'>Physics</span>
-	</div>
-	<div class='student_row' data-index='1'>
-		<span class='student_name'>Jane</span>
-		<span class='student_class'>Math</span>
-	</div>
+		<div class='student_row' data-index='0'>
+			<span class='student_name'>John</span>
+			<span class='student_class'>Physics</span>
+		</div>
+		<div class='student_row' data-index='1'>
+			<span class='student_name'>Jane</span>
+			<span class='student_class'>Math</span>
+		</div>
 </div>
 </xmp></pre>
+
+### Add a click handler 
+- that puts a click handler onto each student_row
+   - the click handler should save a variable that contains the data-index
+   - Use <em>this</em> should be used to get the attribute
+   - console.log the the variable, for example:
+       - "student 0 was clicked"
+       - "student 5 was clicked"
+
+### in the click handler:
+- Delete the object that corresponds to the index found above
+- Console log out the new array
+
+### in the click handler
+- using <em>this</em> and the jquery function <em>remove</em> remove the corresponding student_row
+
+
+
+    
