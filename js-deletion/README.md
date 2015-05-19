@@ -3,11 +3,12 @@ Modify your code successively with each step.  Make sure to do a commit step, at
 ### 1) create an array named student_array
 - it should contain 10 objects with the following definition: {name: &lt;pick a name;&gt;}, class:&lt;pick a class;&gt;}
 - For example:
-	- [
+<pre>[
 		{name: 'John', class:'Physics'},
 		{name: 'Jane', class:'Math'},
 		{name: 'Joan', class:'English'},
-	  ]
+	]
+</pre>
 
 ### 2) Create a repeat loop that creates a div for each student in a main container, for example:
 <pre><xmp>
