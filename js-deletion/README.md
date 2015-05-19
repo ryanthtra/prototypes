@@ -40,7 +40,7 @@
 ### Add a click handler 
 - that puts a click handler onto each student_row
    - the click handler should save a variable that contains the data-index
-   - Use <em>this</em> should be used to get the attribute
+   - Use the keyword <em>this</em> to get the attribute
    - console.log the the variable, for example:
        - "student 0 was clicked"
        - "student 5 was clicked"
