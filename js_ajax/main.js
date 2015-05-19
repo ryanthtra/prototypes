@@ -6,7 +6,7 @@ $(document).ready(function(){
 			url: 'http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/ws/RSS/topMovies/json',
 			success: function(result){
 				console.log('loaded',result);
-
+				global_response = result;	
 			}
 		});
 	});
