@@ -1,4 +1,6 @@
-### create an array named student_array
+Modify your code successively with each step.  Make sure to do a commit step, at least.
+
+### 1) create an array named student_array
 - it should contain 10 objects with the following definition: {name: &lt;pick a name;&gt;}, class:&lt;pick a class;&gt;}
 - For example:
 	- [
@@ -7,7 +9,7 @@
 		{name: 'Joan', class:'English'},
 	  ]
 
-### Create a repeat loop that creates a div for each student in a main container, for example:
+### 2) Create a repeat loop that creates a div for each student in a main container, for example:
 <pre><xmp>
 <div id='student_container'>
 		<div class='student_row'>
@@ -21,7 +23,7 @@
 </div>
 </xmp></pre>
 
-### In your repeat loop above
+### 3) In your repeat loop above
 - create an attribute for student_row that holds the index for each student
 - for example:
 <pre><xmp>
@@ -37,7 +39,7 @@
 </div>
 </xmp></pre>
 
-### Add a click handler 
+### 4) Add a click handler 
 - that puts a click handler onto each student_row
    - the click handler should save a variable that contains the data-index
    - Use the keyword <em>this</em> to get the attribute
@@ -45,12 +47,12 @@
        - "student 0 was clicked"
        - "student 5 was clicked"
 
-### in the click handler:
+### 5) In the click handler:
 - Delete the object that corresponds to the index found above
 - Console log out the new array
 
-### in the click handler
-- using <em>this</em> and the jquery function <em>remove</em> to delete the corresponding student_row
+### 6) In the click handler
+- using <em>this</em> and the jquery function <em>remove</em>, delete the corresponding student_row
 
 
 
