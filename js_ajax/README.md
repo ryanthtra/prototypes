@@ -22,3 +22,4 @@
 ### 4) In your main.js, in the AJAX success call:
 - Find the movie title and director
 - Create appropriate HTML to add the movie title and director to each movie image created in #3
+
