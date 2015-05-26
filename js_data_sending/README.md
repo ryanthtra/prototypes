@@ -1,6 +1,6 @@
 # ajax_prototype
 
-### 1) In index.html:
+### 1) In index.html, in the #input_area
 - Add 3 inputs holding
 	- Name
 	- Age
