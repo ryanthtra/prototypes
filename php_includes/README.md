@@ -32,6 +32,7 @@
     $result2=$c;
     print("<br>Result 2 = $result2");
 ?>
+```
 - Create the file 'data2.php' with the following content:
 ```
 <?php 
