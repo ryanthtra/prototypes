@@ -23,5 +23,20 @@
 
 # Prototype 2
 - Add the following code to the bottom of 'index.php'
-  
+```
+<?php
+    $c=2;
+    include('includes/data2.php');
+    include_once('includes/data2.php');
+    include('includes/data2.php');
+    $result2=$c;
+    print("<br>Result 2 = $result2");
+?>
+- Create the file 'data2.php' with the following content:
+```
+<?php 
+$c = $c * 2; 
+?>
+```
+- Run index.php and note the value of result2
     
