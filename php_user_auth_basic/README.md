@@ -55,6 +55,7 @@
 		- // outputs 2beb0192eb1ca5a8756bc89a09b93036e1854049
 - in login_handler.php
 	- update the password in your $user_info array
+	- 
 
 		$user_info = [
 			['id'=> 0, 'username'=>'dpaschal', 'password' => '2beb0192eb1ca5a8756bc89a09b93036e1854049']
