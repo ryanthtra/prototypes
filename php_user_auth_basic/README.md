@@ -43,3 +43,22 @@
 - In login_form.php
 	- change dataType to 'json'
 	- in the success handler, handle the incoming json data to inform the user of success or failure
+	- 
+	
+## Prototype 3
+- in phpfiddle
+	- use sha1 to encrypt your password
+	- sha1([YOUR PASSWORD])
+	- for example:
+		- $encrypted_pass = sha1('fluffybunnies');
+		- print($encrypted_pass);
+		- // outputs 2beb0192eb1ca5a8756bc89a09b93036e1854049
+- in login_handler.php
+	- update the password in your $user_info array
+		```
+		<pre>
+		$user_info = [
+			['id'=> 0, 'username'=>'dpaschal', 'password' => '2beb0192eb1ca5a8756bc89a09b93036e1854049']
+		];
+		</pre>
+		```
