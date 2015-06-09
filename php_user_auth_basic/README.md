@@ -57,7 +57,8 @@
 - in login_handler.php
 	- update the password in your $user_info array to use sha1()
 	- Validate your user using sha1()
-	`	$user_info = [
+		
+		`$user_info = [
 			['id'=> 0, 'username'=>'dpaschal', 'password' => '2beb0192eb1ca5a8756bc89a09b93036e1854049']
 		];`
 
