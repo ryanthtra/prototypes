@@ -43,7 +43,6 @@
 - In login_form.php
 	- change dataType to 'json'
 	- in the success handler, handle the incoming json data to inform the user of success or failure
-	- 
 	
 ## Prototype 3
 
