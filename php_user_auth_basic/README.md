@@ -14,6 +14,7 @@
 			- Check response for the word "true" or "false"
 - Create a new file, login_handler.php
 	- Create a nested associative array: $user_info
+	- 
 		```
 		<pre>
 		$user_info = [
@@ -21,6 +22,7 @@
 		];
 		</pre>
 		```
+		
 	- get the data you received from your login_form.php
 	- loop through the array till you find a matching username. 
 	- Once you get the correct record, check the password within that record
