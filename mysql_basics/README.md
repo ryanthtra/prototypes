@@ -2,6 +2,7 @@
 ## Prototype 1
 ### do all of this in phpmyadmin
 #### make sure to check your database's contents between each operation
+#### put all answer SQL statements into mysql_queries.sql
 - using 'SELECT', find 1 user from your user table by username
 	- for example: "SELECT * FROM `users` WHERE `username`='Juan'"
 - using 'UPDATE', change one user's email from your user table.  Update only the user that you had previously selected above
