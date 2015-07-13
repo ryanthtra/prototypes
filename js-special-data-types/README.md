@@ -5,6 +5,7 @@
 ### Getting Started
 
 1. make an index.html inside the `js-special-data-types` folder
+- DO NOT edit this README
 
 2. Create a basic HTML DOM structure
 	- DOCTYPE tag
