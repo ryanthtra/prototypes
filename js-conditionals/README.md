@@ -94,5 +94,12 @@ Add a comment in your code with your answer if you dare!
 2. Create a pull request
 	- Title your pull request: `Your Name - Prototypes 7/13/2015`
 	- Make sure you are creating the pull request as follows:
+	- In the image below make sure the numbered arrows match **YOUR** info
+		- 1. Should be your branch name - Look down the list to find your branch
+		- 2. Should be your Repo name - Look down the list to find your Repo
+		- 3. Should be your master
+	- If you are unsure on any of this or are unable to find your branch or repo, ask for help, don't just guess
+	- This is important if you want feedback and credit for the prototypes 
 
-<img src="#" alt="">
+<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/pull-request.png?raw=true" alt="">
+
