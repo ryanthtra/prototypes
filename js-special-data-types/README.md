@@ -52,3 +52,6 @@ After you have successfully created the above outputs, try the following lines i
 6. Type: `x == z` hit enter
 7. Type: `y == z` hit enter
 8. Type: `y == w` hit enter
+
+## Save
+- Save your work and push to gitHub
