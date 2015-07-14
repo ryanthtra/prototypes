@@ -123,4 +123,4 @@ Notice the differences between where and how `onclick` works verses how `onload`
 	- If you are unsure on any of this or are unable to find your branch or repo, ask for help, don't just guess
 	- This is important if you want feedback and credit for the prototypes 
 
-<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/pull-request.png?raw=true" alt="">
+<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/PR_js-dom-events.png?raw=true" alt="">
