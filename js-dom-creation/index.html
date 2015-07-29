@@ -49,7 +49,7 @@
         //playground 1 code
         var pg1 = $("<div>", {
             class: 'playground playground_source',
-            id:'play1',
+            id: 'play1',
         });
         var pg1Heading = $('<h1>', {
             text: 'I am a heading',
@@ -62,12 +62,33 @@
             text: 'This has red text',
         });
         $('#playground1').append(pg1);
-        console.log('success');
         $('.playground_source:nth-child(1)').append(pg1Heading);
         $('.playground_source:nth-child(1)').append(pg1Para1);
         $('.playground_source:nth-child(1)').append(pg1Para2);
-
         //playground 2 code
+        var pg2 = $('<div>', {
+            class: 'playground playground_source',
+            id: 'pg2target'
+        });
+        var pg2div1 = $('<div>', {
+            class: 'awesome_class',
+            text: 'Here is some awesome div text',
+        });
+        var pg2div2 = $('<div>', {
+            class: 'awesome_class',
+            id: 'my_awesome_div2',
+            text: 'Here is MORE awesome div text',
+        });
+        var pg2div3 = $('<div>', {
+            class: 'awesome_class',
+            id: 'my_awesome_div3',
+            //data-coolness:'high',
+            html: 'Here is <strong>EVEN MORE</strong> awesome div text',
+        });
+        $('#playground2').append(pg2);
+        $('#playground2 .playground').append(pg2div1);
+        $('#playground2 .playground').append(pg2div2);
+        $('#playground2 .playground').append(pg2div3);
 
         //playground 3 code
     });
@@ -89,7 +110,7 @@
     </div>
     <!-- ************** Playground 2 ************** -->
     <!-- ********** Playground 2 Source ********** -->
-    <div class="playground playground_source">
+    <!--<div class="playground playground_source">
         <div class='awesome_class'>
             Here is some awesome div text
         </div>
@@ -99,7 +120,7 @@
         <div class='awesome_class' id='my_awesome_div3' data-coolness='high'>
             Here is <strong>EVEN MORE</strong> awesome div text
         </div>
-    </div>
+    </div>-->
     <!-- ********** Playground 2 destination ********** -->
     <div class="playground playground_destination" id="playground2">
         <!--copy code into here using jQuery ONLY-->
