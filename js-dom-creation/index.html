@@ -89,8 +89,39 @@
         $('#playground2 .playground').append(pg2div1);
         $('#playground2 .playground').append(pg2div2);
         $('#playground2 .playground').append(pg2div3);
-
         //playground 3 code
+        var pg3 = $('<div>', {
+            class: 'playground playground_source',
+        });
+        var pg3ul = $('<ul>', {
+            class: 'neato',
+        });
+        var li1 = $('<li>', {
+            text: 'Link 1',
+        });
+        var li2 = $('<li>', {
+            text: 'Link 2',
+        });
+        var li3 = $('<li>', {
+            text: 'Link 3',
+        });
+        var fig = $('<figure>',{
+        	class:'awesome_picture',
+        });
+        var figimg = $('<img>',{
+        	src:'http://comerecommended.com/wp-content/uploads/2013/01/how-to-get-awesome-back.jpg',
+        });
+        var figcap = $('<figcaption>',{
+        	html:'That\'s right, <span class="bold_text">you are</span>',
+        });
+        $('#playground3').append(pg3);
+        $('#playground3 .playground').append(pg3ul);
+        $('ul').append(li1);
+        $('ul').append(li2);
+        $('ul').append(li3);
+        $('#playground3 .playground').append(fig);
+        $('.awesome_picture').append(figimg);
+        $('.awesome_picture').append(figcap);
     });
     </script>
 </head>
@@ -128,7 +159,7 @@
     </div>
     <!-- ************** Playground 3 ************** -->
     <!-- ********** Playground 3 Source ********** -->
-    <div class="playground playground_source">
+    <!--<div class="playground playground_source">
         <ul class="neato">
             <li>Link 1</li>
             <li>Link 2</li>
@@ -138,7 +169,7 @@
             <img src="http://comerecommended.com/wp-content/uploads/2013/01/how-to-get-awesome-back.jpg">
             <figcaption>That's right, <span class="bold_text">you are</span></figcaption>
         </figure>
-    </div>
+    </div>-->
     <!-- ********** Playground 3 Destination ********** -->
     <div class="playground playground_destination" id="playground3">
         <!--copy code into here using jQuery ONLY-->
