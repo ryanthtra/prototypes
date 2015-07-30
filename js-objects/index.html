@@ -33,15 +33,41 @@
     });
     ///////////////////////////////////Prototype 3
     function list_students() {
-
+        $('.row').empty();
+        for (var i = 0; i < student_array.length; i++) {
+            var stuHtml = $('<div>', {
+                class: "col-xs-3 list",
+                text: i + 1 + ') ' + student_array[i].name + ' ' + student_array[i].grade,
+            });
+            var rowHtml = $('<div>', {
+                    class: "row",
+                    id: "stuRow",
+                })
+                //console.log(student_array[i].name + ' ' + student_array[i].grade);
+            $('.row').append(stuHtml);
+        }
     }
+    $(document).ready(function() {
+        $("#refresh-student-data").click(function() {
+            list_students();
+        });
+    });
     </script>
+    <style>
+    .list {
+        font-size: 10px;
+    }
+    </style>
 </head>
 
 <body>
-    <button id="addStudent" class="button">Add New Student</button>
     <div id="student-display-area">
-    
+        <div class="container">
+            <button class="btn" id="addStudent">Add New Student</button>
+            <button class="btn" id="refresh-student-data">Refresh Student Data</button>
+            <div class="row" id="stuRow">
+            </div>
+        </div>
     </div>
 </body>
 
