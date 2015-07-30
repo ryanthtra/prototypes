@@ -97,6 +97,8 @@ To get these files to your local machine you will need to do the following
 	- prompt for an ID number
 	- delete the student corresponding to the ID returned from the prompt
 		- Verify the chosen ID exists in array
+		- Remove student object from array
+			- *HINT* - `splice()`
 		- Indicate which user was removed from the list 
 	- Refresh the data by calling the function list_students()
 - Create a new button `delete-student` to delete a student
