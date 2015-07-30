@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-		<title>JS Objects</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		
-		<script>
-			//Your JS here
 
-		</script>
-    </head>
-	<body>
-		<div id="student-display-area">
-			
-		</div>
-	</body>
+<head>
+    <title>JS Objects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+    //Your JS here
+    ///////////////////////////////////Global Variables
+    var student_array = [];
+    ///////////////////////////////////Prototype 1
+    var student_object = {};
+    student_object.name = "Dan Yell";
+    student_object.grade = 100;
+    ///////////////////////////////////Prototype 2
+    function add_student() {
+        var namePrompt = prompt('What is your name?');
+        var gradePrompt = prompt('What is your grade?');
+        console.log('Student Name: ' + namePrompt);
+        console.log('Student Grade: ' + gradePrompt);
+        var student_object = {};
+        student_object.name = namePrompt;
+        student_object.grade = gradePrompt;
+        student_array.push(student_object);
+        console.log(student_array);
+    }
+    $(document).ready(function() {
+        $("#addStudent").click(function() {
+            add_student();
+        });
+    });
+    ///////////////////////////////////Prototype 3
+    function list_students() {
+
+    }
+    </script>
+</head>
+
+<body>
+    <button id="addStudent" class="button">Add New Student</button>
+    <div id="student-display-area">
+    
+    </div>
+</body>
+
 </html>
