@@ -12,19 +12,17 @@
     var student_array = [];
     var idNum = 0001;
     ///////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////////////Prototype 1/////////////////////////////////////    ///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////Prototype 1/////////////////////////////////////    
     var student_object = {};
     student_object.name = "Dan Yell";
     student_object.grade = 100;
     ///////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////////////Prototype 2/////////////////////////////////////    ///////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////Prototype 2/////////////////////////////////////    
     function add_student() {
         var firstNamePrompt = prompt('What is student\'s first name?');
         var lastNamePrompt = prompt('What is student\'s last name?');
-        var gradePrompt = prompt('What is your grade?');
         var coursePrompt = prompt('What course is the student in?');
-        //console.log('Student Name: ' + namePrompt);
-        //console.log('Student Grade: ' + gradePrompt);
+        var gradePrompt = prompt('What is your grade?');
         var student_object = {};
         student_object.first = firstNamePrompt;
         student_object.last = lastNamePrompt;
@@ -42,7 +40,6 @@
     });
     ///////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////Prototype 3/////////////////////////////////////
-    ///////////////////////////////////////////////////////////////////////////////////
     function list_students() {
         $('#column1').empty();
         $('#column2').empty();
@@ -61,7 +58,7 @@
                 text: student_array[i].last,
             });
             var stuID = $('<p>', {
-                text: student_array[i].idNumber,
+                text: ''+student_array[i].idNumber,
             });
             var stuCourse = $('<p>', {
                 text: student_array[i].course,
@@ -85,7 +82,6 @@
     });
     ///////////////////////////////////////////////////////////////////////////////////
     ///////////////////////////////////Prototype 4/////////////////////////////////////
-    ///////////////////////////////////////////////////////////////////////////////////
     function delete_student() {
         var idPrompt = prompt('Please Enter the ID # of the student you want to delete');
         var idPrompt = idPrompt - 1;
@@ -110,13 +106,15 @@
     
     .parentcolumn {
         font-size: 10px;
-        border-right:1px solid green;
+        border-right: 1px solid green;
     }
+    
     #column6 {
-    	border-right:none;
+        border-right: none;
     }
+    
     #columnTitles {
-    	border-bottom:1px solid green;
+        border-bottom: 1px solid green;
     }
     </style>
 </head>
