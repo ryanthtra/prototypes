@@ -20,9 +20,21 @@
     ///////////////////////////////////Prototype 2/////////////////////////////////////    
     function add_student() {
         var firstNamePrompt = prompt('What is student\'s first name?');
+        if(firstNamePrompt === ''){
+            firstNamePrompt = 'Bob'
+        };
         var lastNamePrompt = prompt('What is student\'s last name?');
+        if(lastNamePrompt === ''){
+            lastNamePrompt = 'Bob'
+        };
         var coursePrompt = prompt('What course is the student in?');
+        if(coursePrompt === ''){
+            coursePrompt = 'learnding'
+        };
         var gradePrompt = prompt('What is your grade?');
+        if(gradePrompt === ''){
+            gradePrompt = '0'
+        };
         var student_object = {};
         student_object.first = firstNamePrompt;
         student_object.last = lastNamePrompt;
@@ -52,19 +64,22 @@
                 text: i + 1,
             });
             var stuFirst = $('<p>', {
-                text: student_array[i].first,
+                text: ' ' +
+                    student_array[i].first,
             });
             var stuLast = $('<p>', {
-                text: student_array[i].last,
+                text: ' ' +
+                    student_array[i].last,
             });
             var stuID = $('<p>', {
-                text: ''+student_array[i].idNumber,
+                text: ' ' + student_array[i].idNumber,
             });
             var stuCourse = $('<p>', {
-                text: student_array[i].course,
+                text: ' ' +
+                    student_array[i].course,
             });
             var stuGrade = $('<p>', {
-                    text: student_array[i].grade,
+                    text: ' ' + student_array[i].grade,
                 })
                 //console.log(student_array[i].name + ' ' + student_array[i].grade);
             $('#column1').append(stuIndex);
