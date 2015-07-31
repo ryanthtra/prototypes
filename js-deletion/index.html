@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        var student_array = [{
+            name: 'John',
+            class: 'Physics'
+        }, {
+            name: 'Jane',
+            class: 'Math'
+        }, {
+            name: 'Joan',
+            class: 'English'
+        }];
+        $(document).ready(function () {
+            for (var i = 0; i < student_array.length; i++) {
+                var row = $('<div>', {
+                    class: 'student_row',
+                    data-index: i
+                });
+                var stuName = $('<span>', {
+                    class: 'student_name',
+                    text: student_array[i].name
+                });
+                var stuClass = $('<span>', {
+                    class: 'student_class',
+                    text: student_array[i].class
+                });
+                $('#student_container').append(row);
+                $('.student_row:nth-child(' + (i + 1) + ')').append(stuName, stuClass);
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="student_container">
+
+</div>
+
+</body>
+</html>
