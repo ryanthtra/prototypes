@@ -2,18 +2,18 @@
 
 ### Prototype 1
 - Create a student object constructor function called student_object
-	- purpose: 
+	- **purpose**: 
 		- populate the object with passed in parameters
-	- properties: 
+	- **properties**: 
 		- first name (string)(passed as parameter) : the student's first name
 		- last name (string)(passed as parameter) : the student's last name
 		- age (number)(passed as parameter) : the student's age
 		- grade (number)(passed as parameter) : the student's numeric grade
 - Add the following methods to your student object:
-	- fullName (method): Returns the students full name
+	- **fullName** (method): Returns the students full name
 		- parameters: none
 		- returns:  **RETURN** the student's full name as a string, for example "John Doe"
-	- removeSelf (method):
+	- **removeSelf** (method):
 		- purpose: deletes the object
 		- parameters: none
 		- returns: none
@@ -24,19 +24,19 @@
 ### Prototype 2
 
 - Create a course object constructor called course_object with the following info:
-	- properties:
+	- **properties**:
 		- students_array (array): an array of student_object 
 		- teacher (string): the course's teacher's name
 		- course_name (string): the course's name
 - Add the following methods to your classroom object:
-	- add_student (method)
+	- **add_student** (method)
 		- parameters:
 			- student (object): the student to add to the course
 		- purpose:
 		 	- The function should place the student into the students_array
 		- returns: 
 			- The number of students in the course
-	- remove_student (method)
+	- **remove_student** (method)
 		- purpose: delete a student from the course's students_array
 		- parameters: 
 			- index (number) : the index of the student
@@ -47,7 +47,7 @@
 			- success (boolean): whether the student was deleted or not
 			- "That student is not enrolled in this class"
 			- "student removed from class"
-	- find_student_by_name (method)
+	- **find_student_by_name** (method)
 		- purpose: 
 			- find a student by name
 		- parameters:
@@ -55,14 +55,14 @@
 			- lname(string): Student's second name
 		- returns:
 			- object: a reference to the student
-	- dismiss_all_students (method)
+	- **dismiss_all_students** (method)
 		- purpose: 
 			- removes all students from the course
 		- parameters:
 			- none
 		- returns:
 			- boolean: success or failure of delete operation
-	- list_all_students (method)
+	- **list_all_students** (method)
 		- purpose:
 			- return the student array
 		- parameters: 
