@@ -1,83 +1,82 @@
 # JavaScript - Object Oriented Programming (oop)
 
 ### Prototype 1
-
-- Create a student object with the following info:
-	- first name
-	- last name 
-	- age
-	- grade
+- Create a student object constructor function called student_object
+	- purpose: 
+		- populate the object with passed in parameters
+	- properties: 
+		- first name (string)(passed as parameter) : the student's first name
+		- last name (string)(passed as parameter) : the student's last name
+		- age (number)(passed as parameter) : the student's age
+		- grade (number)(passed as parameter) : the student's numeric grade
 - Add the following methods to your student object:
-	- Method that returns the students full name
-		- This function should take no parameters
-		- The function should **RETURN** a string similar to: "John Doe"
+	- fullName (method): Returns the students full name
+		- parameters: none
+		- returns:  **RETURN** the student's full name as a string, for example "John Doe"
+	- removeSelf (method):
+		- purpose: deletes the object
+		- parameters: none
+		- returns: none
 - Test your student object by making 3 different students and storing them in variables
-	- Call your "fullName" method to ensure it is working properly 
+	- instantiate 3 students, storing them into an array 
+	- Use a loop to call your "fullName" method on each object to make sure it is working  
 
 ### Prototype 2
 
-- Create a classroom object with the following info:
-	- students in class, as array
-	- students out of class, as array
-	- Teacher, as a string
+- Create a course object constructor called course_object with the following info:
+	- properties:
+		- students_array (array): an array of student_object 
+		- teacher (string): the course's teacher's name
+		- course_name (string): the course's name
 - Add the following methods to your classroom object:
-	- enroll student
-		- This function should take in one student object as a parameter
-		- The function should place the newly added student into the "in class" array
-		- The function should return a message that the student was successfully enrolled
-	- put a student in class
-		-  This function should take an already enrolled student that is in the "out of class" array and move them to the "in class" array
-		- The function should take in two parameters
-			- Parameter 1 - Students first name
-			- Parameter 2 - Students second name
+	- add_student (method)
+		- parameters:
+			- student (object): the student to add to the course
+		- purpose:
+		 	- The function should place the student into the students_array
+		- returns: 
+			- The number of students in the course
+	- remove_student (method)
+		- purpose: delete a student from the course's students_array
+		- parameters: 
+			- index (number) : the index of the student
+			- OR (you may choose either)
+			- student (object) : a direct reference to the student
 		- The function should verify that the student is an enrolled student 
-		- If the student is enrolled and is "out of class", then move them to the "in class" array
-		- The function should return a message according to the actions taken for that student, for example:
-			- "No student by that name enrolled in this class"
-			- "Student is already in class"
-			- "Student successfully returned to class"
-	- send a student out of class
-		-  This function should take an already enrolled student that is in the "in class" array and move them to the "out of class" array
-		- The function should take in two parameters
-			- Parameter 1 - Students first name
-			- Parameter 2 - Students second name
-		- The function should verify that the student is an enrolled student 
-		- If the student is enrolled and is "in class", then move them to the "out of class" array
-		- The function should return a message according to the actions taken for that student, for example:
-			- "No student by that name enrolled in this class"
-			- "Student is already out of class"
-			- "Student successfully sent out of class"
-	- dismiss all students
-		- This function should take no parameters
-		- The function should remove all students that are in the "in class" array and add them to the "out of class" array
-		- The function should return a message on success:
-			- "All students have left the classroom"
-	- return all students
-		- This function should take no parameters
-		- The function should remove all students that are in the "out of class" array and add them to the "in class" array
-		- The function should return a message on success:
-			- "All students have returned to the classroom"
-	- show students in class
-		- This function should take no parameters
-		- The function should return a list of all students currently in the classroom, using there first and last names
-	- show students out of class
-		- This function should take no parameters
-		- The function should return a list of all students currently out of the classroom, using there first and last names
+		- returns: object with the following data:
+			- success (boolean): whether the student was deleted or not
+			- "That student is not enrolled in this class"
+			- "student removed from class"
+	- find_student_by_name (method)
+		- purpose: 
+			- find a student by name
+		- parameters:
+			- fname(string): Student's first name
+			- lname(string): Student's second name
+		- returns:
+			- object: a reference to the student
+	- dismiss_all_students (method)
+		- purpose: 
+			- removes all students from the course
+		- parameters:
+			- none
+		- returns:
+			- boolean: success or failure of delete operation
+	- list_all_students (method)
+		- purpose:
+			- return the student array
+		- parameters: 
+			- none
+		- returns: array of students
 
 ### Prototype 3
 
-- Using your student object from above
- - Create 6 unique students
-
-- Using your classroom object from above
- - Add all six students to one new classroom object
- - Using all the methods for your classroom object:
- 	- Send three students out of class
- 		- output a list of the remaining students in class
-	- Use the dismiss all students method to remove the reaming students from class
-		- output a list of the students that are out of class (should be all 6)
-		- output a list of students remaining in class (should be 0)
-	- Send 2 students back to class
-		- output both lists, one for students in class, one for students out of class
-	- Return the reaming students to class using the "return all students" method 
-		- output both lists, one for students in class, one for students out of class
+- test your objects
+	- using prompt and a for loop, add 3 students to one course, "geometry", under "Professor Collins"
+	- using prompt and another for loop, add 2 students to another course, "algebra", under "Professor Kimura"
+	- find one student from one of the courses, your choice, where the name is valid
+	- find one student from one of the courses, your choice, whose name is invalid
+	- list all students from geometry (in the console)
+	- remove all students from geometry
+	- add a student to "geometry", removing them from "algebra"
+	- list all students in geometry and in algebra (in the console)
