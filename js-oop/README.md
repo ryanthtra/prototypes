@@ -72,6 +72,30 @@ To get these files to your local machine you will need to do the following
 			- teacher (string): the course's teacher's name
 			- course_name (string): the course's name
 - Add the following methods to your course_object:
+	- **set_teacher** (method)
+		- *parameters*:
+			- teacher (string): The name of the teacher for this course
+		- *purpose*:
+			- The function should set the teacher variable in the object to a given teachers name
+		- *returns*:
+			- Nothing returned
+	- **set_course_name**
+		- *parameters*:
+			- course_name (string): The name of the course
+		- *purpose*:
+			- The function should set the name of the course based on given input
+		- *returns*:
+			- Nothing returned
+	- **course_info**
+		- *parameters*:
+			- None
+		- *purpose*:
+			- The function should return a string that gives info about the course, including:
+				- Course name
+				- Teacher's name
+				- Total students in course
+		- *returns*:
+			- Course name, teacher's name, total students as a string
 	- **add_student** (method)
 		- *parameters*:
 			- student (object): the student to add to the course
