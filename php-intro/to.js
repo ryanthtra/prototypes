@@ -71,6 +71,21 @@
         var greatest = null;
         var greatest_index = null;
         if (direction >= 0) {
-        console.log("Is this real life?");
+            var i = 0;
+            var increment = 1;
+            var end_loop = num_array.length;
+        } else {
+            var i = num_array.length;
+            var increment = -1;
+            var end_loop = 0;
         }
+        while(i != end_loop) {
+            if(num_array[i] > greatest) {
+                greatest = num_array[i];
+                greatest_index = i;
+            }
+            i += increment;
+        }
+        console.log('greatest', greatest, ' greatest-index', greatest_index);
     }
+find_greatest_num_and_index(1);
