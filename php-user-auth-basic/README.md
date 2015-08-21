@@ -42,6 +42,7 @@ To get these files to your local machine you will need to do the following
 		- calls a function that performs an ajax call
 		- url: login_handler.php
 		- data: username, password
+		- cache: false
 		- method: post
 		- dataType: 'text'
 		- success: inform user if they successfully logged in or not
