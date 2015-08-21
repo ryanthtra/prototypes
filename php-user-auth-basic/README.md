@@ -34,7 +34,7 @@ To get these files to your local machine you will need to do the following
 
 ## PHP Basic User Authentication
 ## Prototype 1
-- Create a new file, login_form.php
+- In login_form.php do the following:
 	- Create an input for username
 	- Create an input for password
 	- Create a login button that will be used to submit the form
@@ -46,7 +46,7 @@ To get these files to your local machine you will need to do the following
 		- dataType: 'text'
 		- success: inform user if they successfully logged in or not
 			- Check response for the word "true" or "false"
-- Create a new file, login_handler.php
+- In login_handler.php do the following:
 	- Create a nested associative array: $user_info
 
 	```PHP
