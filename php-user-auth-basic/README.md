@@ -25,8 +25,8 @@ To get these files to your local machine you will need to do the following
 ### Getting Started
 
 1. The following two files have been included your php-user-auth-basic folder
-	- login.php
-	- session_setter.php
+	- login_form.php
+	- login_handler.php
 
 2. Add your code to the appropriate files based on the below instructions
 
