@@ -2,9 +2,10 @@
 
 In this example we are going to walk through the process of working on a new prototype and the set of instructions that go with it.<b>The instructions below are used for video recording reasons and are not used within the curriculum or being graded by the instructors.</b>
 
-## How to complete the Prototype Overview
+## Overview - How to complete the Prototype
 
 > <h4>Code Setup - <a href="https://github.com/Learning-Fuze/prototypes/tree/example/example#code-setup-details">Details</a></h4>
+>> 1. Open PhpStorm
 >> 1. Fork Repository
 >> 1. Copy locally (Clone the Repo)
 >> 1. Create a feature grouping (Create feature branch)
@@ -34,11 +35,12 @@ In this example we are going to walk through the process of working on a new pro
 
 > <b>[your-user-name] should be replaced with your exact github account name</b>
 
-> Cloning a repository is making a copy of the repo that was forked on github.com/[your_account_name/prototypes (in the step above) and saving it too your computer (Local Machine).
+> Cloning a repository is making a copy of the repo that was forked on github.com/[your_account_name]/prototypes (in the step above) and saving it too your computer (Local Machine).
 
 #####3. Create a feature grouping (Create feature branch)
 
 > `cd prototypes` - change the directory to the prototypes folder that was just copied
+
 > `git checkout -b feature-1`
 
 > Creating feature groupings allow users to modify code without causing issues with the current functioning code. 
