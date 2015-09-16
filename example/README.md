@@ -1,5 +1,6 @@
 #Example Prototype
-<b>The instructions below are used for video recording reasons and are not used within the ciriculmn or being graded by the instructors</b>
+<b>The instructions below are used for video recording reasons and are not used within the ciriculmn or being graded by the instructors.</b>
+
 In this example we are going to walk through the process of working on a new prototype and the set of instructions that go with it.
 
 ## Code Setup
