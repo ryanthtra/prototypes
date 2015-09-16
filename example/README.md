@@ -8,7 +8,7 @@ In this example we are going to walk through the process of working on a new pro
 ##### 1. Fork Repository
 > Forking the repoistory or Repo will give you a copy of this repo under your own GitHub user account. We will be starting with a Learning-Fuze account repo.
 
-> <img src="need-fork-screenshot" width="600" />
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/6.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/6.jpg?raw=true" width="800" />
 
 #####2. Cloning the Repo - Copy locally
 > `git clone https://github.com/[your-user-name]/prototypes.git`
@@ -58,7 +58,46 @@ In this example we are going to walk through the process of working on a new pro
 
 ##### 4. See if your feature fits with what everyone else was working on - Pull Request
 
-> <img src="need-screen-shot-pr" width="650" /> 
+> ####Step 1. Click Pull request tab to open the pull request list
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" width="350"/></a>
+
+> ---
+
+> ####Step 2. Click "New Pull request" button
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blo b/assets/assets/example/2.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/2.jpg?raw=true" width="800" /></a>
+
+> ---
+
+> ####Step 3. Select the <b>feature-1</b> branch from the drop down
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/3.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/3.jpg?raw=true" width="800" /></a>
+
+> ---
+
+> ####Step 4. Comparing Changes
+> During this step there are a hand full of highlighted things that need to be taken into consideration.
+
+> 1. Appropriate base and compare branches (packages) are selected. *this won't always be "master" & "feature-1"
+> 1. Github will let you know if the code can be merged automatically (without needing a manual merge)
+>   1. If the text says something other than "able to merge". <b>Contact an instructor</b>
+>   1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by instructors at start)
+> 1. Once we have verified #1 and noted #2, we click the "Create Pull request" button
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
+
+> ---
+
+> ####Step 5. Add details into the pull request
+> 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
+> 1. Assign to a user. (An Instructor should be selected)
+>   1. Further into the cohort we will have students learn to review pull requests
+> 1. Click on "Create pull Request"
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" width="800" /></a>
+
+> ---
 
 ##### 5. Watch perfect prototype
 
