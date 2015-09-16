@@ -64,15 +64,15 @@ In this example we are going to walk through the process of working on a new pro
 
 ##### 6. Collaborate on feedback 
 
-> Within gihub.com another develolper or in this case an instrutor will review the Pull Request you made - Is your feature working. Collaboration happen through github and noticiations are sent through the pull request UI
+> Within the gihub.com UI another develolper or in this case an instrutor will review the Pull Request you made - <b>Is your feature working</b>. Collaboration happens through github UI & the noticiations are sent through email when comments are added to pull requests
 
 > <img src="collaboration-image" width="650" />
 
 > + Make additional modification based on feedback
 >   + more commits to the same branch
 
-##### 7. Pull Request complete
-> + Pull request assignee merges in code through github UI
+##### 7. Pull Request Closed
+> + Pull request assignee Merges and Closes Pull Request through github UI.
 
 > *<b>Common Issues</b>*
 
