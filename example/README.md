@@ -44,14 +44,14 @@ In this example we are going to walk through the process of working on a new pro
 ##### 1. Save files to Git - Add all modified & created files 
 > `git add .`
 
-> Saving files to Git allows registers the changed files in Git, allowing them to be grouped together by a message (commit)
+> Saving files to Git registers the changed files in Git, allowing them to be grouped together by a message (commit)
 
 ##### 2. Package (group) all saved git files with a commit message
 > `git commit -m "Example Prototype - EJ020586"`
 
 > Grouping files with a message allows those changes to be seen by others a referenced for specific states of code
 
-##### 3. Store your changes on the GitHub website, allowing others to see your modifications
+##### 3. Allow others to see your changes by uploading them to the Github website
 > `git push origin feature-1`
 
 > When running the code above, the Git application will send all commits (<b>groupings of saved files</b>) to the remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</b>), specifically to the feature branch/group <b>feature-1</b>
