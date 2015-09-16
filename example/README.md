@@ -31,7 +31,8 @@ In this example we are going to walk through the process of working on a new pro
 >   1. Insert the basic HTML structure tags (html,head,body)
 > 1. Add a header and h1 tag with the text "This is a test header"
 > 1. Add 5 content sections inside the appropriate paragraph tags.
->   1. Inside the content sections add Lorem Ipsum text from here (http://www.lipsum.com/feed/html) <a href="http://www.lipsum.com" target="_blank">What is Lorem Ipsum</a>
+>   1. Inside the content sections add Lorem Ipsum text from here - http://www.lipsum.com/feed/html)
+>       1. <a href="http://www.lipsum.com" target="_blank">What is Lorem Ipsum</a>
 
 ##### Basic Styling
 > 1. Make the font size of the h1 tag equal to 28 pixels
