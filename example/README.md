@@ -6,7 +6,7 @@ In this example we are going to walk through the process of working on a new pro
 ## Code Setup
 
 ##### 1. Fork Repository
-> Forking the repoistory or Repo will give you a copy of this repo under your own user account. We will be starting with a Learning-Fuze account repo.
+> Forking the repoistory or Repo will give you a copy of this repo under your own GitHub user account. We will be starting with a Learning-Fuze account repo.
 
 > <img src="need-fork-screenshot" width="600" />
 
@@ -15,7 +15,7 @@ In this example we are going to walk through the process of working on a new pro
 
 > <b>[your-user-name] should be replaced with your exact github account name</b>
 
-> Cloning a repository is taking the copy that was forked on github.com/[your_account_name/prototypes (in the step above) and saving it too your computer (Local Machine).
+> Cloning a repository is making a copy of the repo that was forked on github.com/[your_account_name/prototypes (in the step above) and saving it too your computer (Local Machine).
 
 #####3. Create a feature grouping - Create feature branch
 
@@ -23,6 +23,7 @@ In this example we are going to walk through the process of working on a new pro
 
 > Creating feature groupings allow users to modify code without causing issues with the current functioning code. 
 > *Any modifications to these files after <b>branching</b> can be undone*
+> *"feature-1" is the branch name.  In the future, you can use any descriptive name you want*
 
 ## Coding Instructions (scope)
 
@@ -30,7 +31,7 @@ In this example we are going to walk through the process of working on a new pro
 > 1. Create an html file inside the example folder
 >   1. Insert the basic HTML structure tags (html,head,body)
 > 1. Add a header and h1 tag with the text "This is a test header"
-> 1. Add 5 content sections inside the appropriate paragraph tags.
+> 1. Add 5 content sections inside the appropriate tag to make a paragraph.
 >   1. Inside the content sections add Lorem Ipsum text from here - http://www.lipsum.com/feed/html)
 >       1. <a href="http://www.lipsum.com" target="_blank">What is Lorem Ipsum</a>
 
@@ -43,17 +44,17 @@ In this example we are going to walk through the process of working on a new pro
 ##### 1. Save files to Git - Add all modified & created files 
 > `git add .`
 
-> Saving files to Git allows those files to be grouped together by a message (commit)
+> Saving files to Git registers the changed files in Git, allowing them to be grouped together by a message (commit)
 
-##### 2. Group all saved git files with a commit message
+##### 2. Package (group) all saved git files with a commit message
 > `git commit -m "Example Prototype - EJ020586"`
 
 > Grouping files with a message allows those changes to be seen by others a referenced for specific states of code
 
-##### 3. Allow others to see your modifications
+##### 3. Allow others to see your changes by uploading them to the Github website
 > `git push origin feature-1`
 
-> When running the code above, the Git application will send all commits (<b>groupings of saved files</b>) to the remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</b>) to the feature branch/group <b>prototype-1</b>
+> When running the code above, the Git application will send all commits (<b>groupings of saved files</b>) to the remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</b>), specifically to the feature branch/group <b>feature-1</b>
 
 ##### 4. See if your feature fits with what everyone else was working on - Pull Request
 
