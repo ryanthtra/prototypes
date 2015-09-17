@@ -113,7 +113,7 @@ In this example we are going to walk through the process of working on a new pro
 
 > ####Step 5. Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
-> 1. Assign to a user. (An Instructor should be selected)
+> 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
 
