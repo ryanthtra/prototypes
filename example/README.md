@@ -101,11 +101,24 @@ In this example we are going to walk through the process of working on a new pro
 > ####Step 4. Comparing Changes
 > During this step there are a hand full of highlighted things that need to be taken into consideration.
 
-> 1. Appropriate base and compare branches (packages) are selected. *this won't always be "master" & "feature-1"
+> 1. Click the compare across forks link (pictured below)
+
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/7.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/7.jpg?raw=true" width="800" /></a>
+
+> 1. `base fork: Learning-Fuze/prototypes`
+>   1. For all prototypes this will always remain the same
+> 1. `base: C#_userName`
+>   1. Here you will select the option that matches your username
+>   1. If you can not locate an option that has your username, contact an instructor
+> 1. `head fork: scbowler/prototypes-1`
+>   1. Here you will select the option that matches your username / prototypes
+> 1. `compare: feature-1`
+>   1. Here you will locate the branch name (or feature name) you created at the beginning of the prototype
+>   1. This will usually be the same as the name of the prototype
 > 1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
 >   1. If the text says something other than "able to merge". <b>Contact an instructor</b>
 >   1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by instructors at start)
-> 1. Once we have verified #1 and noted #2, we click the "Create Pull request" button
+> 1. Once we have verified #1-#4 and noted #5, we click the "Create Pull request" button (#5 in the image below)
 
 > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
 
@@ -113,6 +126,8 @@ In this example we are going to walk through the process of working on a new pro
 
 > ####Step 5. Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
+>   1. Title the pull request with the name of the prototype followed by your first and last name
+>       - Example: Example Prototype - Eric Johnson
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
