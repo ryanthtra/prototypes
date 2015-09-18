@@ -7,7 +7,15 @@
 
 ### Getting Started
 
-1. In PHP Storm, on the left hand side, right click on the html_fundamentals_1 folder, click on "new", then on "file"
+1. In PHP Storm
+	- Expand the lfz folder, if you haven't already
+	- #### SCREENSHOT
+	- Go into your prototypes directory, then into your html_fundamentals_1 folder
+	- right click on the html_fundamentals_1 folder, click on "new", then on "file"
+	- #### SCREENSHOT
+	- Enter the name of the file: "index.html" without the quote marks
+	- #### SCREENSHOT
+	- Press OK
 
 2. You will be entering your code directly into the index.html file starting on line 44
 
