@@ -7,7 +7,7 @@
 
 ### Getting Started
 
-1. An index.html file is included in this prototype
+1. In PHP Storm, on the left hand side, right click on the html_fundamentals_1 folder, click on "new", then on "file"
 
 2. You will be entering your code directly into the index.html file starting on line 44
 
