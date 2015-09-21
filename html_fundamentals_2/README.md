@@ -1,19 +1,19 @@
 # Prototypes
 
-## HTML - Elements, Attributes, and comments
+## HTML - HTML - Text Formatting/Styling
 
 #### Purpose
 
-- To teach you basic html element construction
+- Expand your HTML knowledge with basic formatting elements and adding basic inline CSS styling.
 
 #### Project Tie-In 
 
 - Portfolio v1.0
 
-#### Project Topics 
+#### Project Topics
 
-- HTML Elements: basic layout and formatting elements
-- HTML Attributes: intro to attributes for future use
+- HTML Formatting: How to apply special formatting to skill and experience sections
+- HTML Styling: Applying CSS to our section headers and paragraphs
 
 #INSERT BEFORE HERE
 
@@ -22,9 +22,12 @@
 
 #### Prototype 1 
 
-1. In PHP Storm
-	- Expand the lfz folder, if you haven't already
-	- #### SCREENSHOT
+1. Start using the file "index.php" provided in the same folder as this readme
+1. Add an h1 element to the body, give it the text of a title for your portfolio
+1. Add a title tag to your head, with the same text as your h1 tag
+1. Add an h3 title, give it the text of "About me"
+1. Add a p tag, put into it the same text you used from html_fundamentals_1
+	- 
 	- Go into your prototypes directory, then into your html_fundamentals_1 folder
 	- right click on the html_fundamentals_1 folder, click on "new", then on "file"
 	- #### SCREENSHOT
@@ -73,10 +76,6 @@
 1. Create a new h3 tag, after the existing code.  Give it the text of "Skills"
 2. Add 5 skills that you have, each inside its own paragraph.
 
-### Prototype 4
-
-1. Create comments before each of your paragraphs, describing the purpose of that paragraph that immediately follows.
-
 #### *Hints*
 
 - Test your code frequently, don't wait till you're done to test your code
@@ -84,7 +83,7 @@
 - Save and push to gitHub often
 	- Save as often as you can it's simple, quick and will save you a lot of headache
 	- Push to gitHub after each playground is successfully created (at least)
-	- Remember to push to your `html_fundamentals_1` branch
+	- Remember to push to your `js-dom-creation` branch
 - Don't forget to ask for help if you get stuck
 
 # INSERT AFTER HERE
