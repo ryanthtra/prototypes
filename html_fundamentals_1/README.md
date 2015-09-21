@@ -69,18 +69,12 @@
 
 >1. In PHP Storm
 >>	- Expand the lfz folder, if you haven't already
->>	
->>	<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/1.png?raw=true">
->>
+>>	<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/1.png?raw=true" width="350px"><br>
 >>	- Go into your prototypes directory, then into your html_fundamentals_1 folder
 >>	- right click on the html_fundamentals_1 folder, click on "new", then on "file"
->>
->>	<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/2.png?raw=true">
->>
+>>	<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/2.png?raw=true" width="350px"><br>
 >>	- Enter the name of the file: "index.html" without the quote marks
->>	
->>	<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true">
->>
+>>	<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true"><br>
 >>	- Press OK
 >1. Create a basic HTML Skeleton, including
 >>	- doctype
@@ -93,10 +87,8 @@
 >>	- In the URL (not search bar) type "localhost:8888/lfz".  If your MAMP port is not 8888, enter the port appropriate for your system
 >>	- Navigate through the displayed links to get to your prototypes/html_fundamentals_1 folder
 >>	- Your index page will now display.  
->>	- <b>It will be blank</b>
->>
->>	<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/4.png?raw=true">
->>
+>>	- **It will be blank**
+>>	<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/4.png?raw=true"><br>
 >1. Add content
 >>	- In PHP Storm:
 >>		- between the &lt;body&gt; and &lt;/body&gt; tags, add "Hello, I am [your name]" 
@@ -106,8 +98,7 @@
 >>	- In Chrome
 >>		- Refresh the page
 >>		- See if your message appears
->>
->>		<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/5.png?raw=true">
+>>		<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/5.png?raw=true"><br>
 		
 #### Prototype 2
 
