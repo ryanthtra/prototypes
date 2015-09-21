@@ -69,12 +69,12 @@
 
 >1. In PHP Storm
 >	- Expand the lfz folder, if you haven't already
->	- #### SCREENSHOT
+>	- <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/1.png?raw=true">
 >	- Go into your prototypes directory, then into your html_fundamentals_1 folder
 >	- right click on the html_fundamentals_1 folder, click on "new", then on "file"
->	- #### SCREENSHOT
+>	- <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/2.png?raw=true">
 >	- Enter the name of the file: "index.html" without the quote marks
->	- #### SCREENSHOT
+>	- <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true">
 >	- Press OK
 >1. Create a basic HTML Skeleton, including
 >	- doctype
@@ -88,6 +88,7 @@
 >	- Navigate through the displayed links to get to your prototypes/html_fundamentals_1 folder
 >	- Your index page will now display.  
 >	- <b>It will be blank</b>
+> 	- <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/4.png?raw=true">
 >1. Add content
 >	- In PHP Storm:
 >		- between the &lt;body&gt; and &lt;/body&gt; tags, add "Hello, I am [your name]" 
@@ -97,7 +98,7 @@
 >	- In Chrome
 >		- Refresh the page
 >		- See if your message appears
->		- #### SCREENSHOT
+>		- <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/5.png?raw=true">
 		
 ##### Prototype 2
 
@@ -140,7 +141,7 @@
 ##### 2. Package (group) all saved git files with a commit message
 > `git commit -m "html_fundamentals_1 - Your Name"`
 >	- Replace "Your Name" with your first and last name
-> Grouping files with a message allows those changes to be seen by others and referenced for specific states of code
+> 	- Grouping files with a message allows those changes to be seen by others and referenced for specific states of code
 
 ##### 3. Allow others to see your changes by uploading them to the Github website
 > `git push origin html_fundamentals_1`
@@ -197,11 +198,11 @@
 
 > ####Step 5. Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. Title the pull request with the name of the prototype followed by your first and last name
->       1. <b>Example:</b> html_fundamentals_1 - Your Name
+>   - Title the pull request with the name of the prototype followed by your first and last name
+>       - <b>Example:</b> html_fundamentals_1 - Your Name
 			- Replace "Your Name" with your first and last name
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
->   1. Further into the cohort we will have students learn to review pull requests
+>   - Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
 
 > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" width="800" /></a>
