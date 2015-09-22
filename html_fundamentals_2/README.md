@@ -56,7 +56,7 @@ on the information that you obtained through the following resources (<b>If you 
 
 ### Feature Set 2 - Adding Styling
 
-> 1. Add inline styling to the About Me header to be your favorite color
+> 1. Add inline styling to the About Me header text to be your favorite color
 > 1. Make the about me paragraph font size equal to 12px
 > 1. Italicize the Skills header either by inline style or formatting elements
 > 1. Bold each skill title but not the description
