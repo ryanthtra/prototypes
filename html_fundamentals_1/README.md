@@ -68,10 +68,10 @@
 ### Prototype 1 
 
 ><h5>1. In PHP Storm</h5>
->>	1. Expand the lfz folder, if you haven't already <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/1.png?raw=true" width="250px"><br>
+>>	1. Expand the lfz folder, if you haven't already <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/1.png?raw=true" width="250px"><br><br>
 >>	1. Go into your prototypes directory, then into your html_fundamentals_1 folder
->>	1. right click on the html_fundamentals_1 folder, click on "new", then on "file" <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/2.png?raw=true" width="250px"><br>
->>	1. Enter the name of the file: "index.html" without the quote marks <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true" width="250px"><br>
+>>	1. right click on the html_fundamentals_1 folder, click on "new", then on "file" <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/2.png?raw=true" width="250px"><br><br>
+>>	1. Enter the name of the file: "index.html" without the quote marks <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true" width="250px"><br><br>
 >>	1. Press OK
 
 > <h5>1. Create a basic HTML Skeleton, including</h5>
@@ -210,7 +210,8 @@
 
 ##### 5. Watch perfect prototype
 
-> <img src="prefect-prototype-image-and-video-link" width="650" /> 
+> - A perfect prototype will come in the form of either code, a video or both
+> - The perfect prototype will be available shortly after you have submitted this prototype
 
 ##### 6. Collaborate on feedback 
 
@@ -220,6 +221,7 @@
 >   - more commits to the same branch
 
 ##### 7. Pull Request Closed
+
 > - Pull request assignee Merges and Closes Pull Request through Github.com UI.
 
 > *<b>Common Issues</b>*
