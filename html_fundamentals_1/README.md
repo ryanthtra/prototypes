@@ -68,37 +68,36 @@
 ### Prototype 1 
 
 ><h5>1. In PHP Storm</h5>
->	1. Expand the lfz folder, if you haven't already
->>	<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/1.png?raw=true" width="350px"><br>
->	1. Go into your prototypes directory, then into your html_fundamentals_1 folder
->	1. right click on the html_fundamentals_1 folder, click on "new", then on "file"
->>	<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/2.png?raw=true" width="350px"><br>
->	1. Enter the name of the file: "index.html" without the quote marks
->>	<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true"><br>
->	1. Press OK
-><h5>1. Create a basic HTML Skeleton, including</h5>
->	- doctype
->	- html
->	- head
->	- body
-><h5>1. Inside the body tags, type the words "Hello World"</h5>
-><h5>1. Test your output.</h5>
->	1. Open a browser
->	1. In the URL (not search bar) type "localhost:8888/lfz".  If your MAMP port is not 8888, enter the port appropriate for your system
->	1. Navigate through the displayed links to get to your prototypes/html_fundamentals_1 folder
->	1. Your index page will now display.
->	1. **It will be blank**
->>	<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/4.png?raw=true"><br>
+>>	1. Expand the lfz folder, if you haven't already <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/1.png?raw=true" width="250px"><br>
+>>	1. Go into your prototypes directory, then into your html_fundamentals_1 folder
+>>	1. right click on the html_fundamentals_1 folder, click on "new", then on "file" <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/2.png?raw=true" width="250px"><br>
+>>	1. Enter the name of the file: "index.html" without the quote marks <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true" width="250px"><br>
+>>	1. Press OK
+
+> <h5>1. Create a basic HTML Skeleton, including</h5>
+>>	- doctype
+>>	- html
+>>	- head
+>>	- body
+
+> <h5>1. Inside the body tags, type the words "Hello World"</h5>
+> <h5>1. Test your output.</h5>
+>>	1. Open a browser
+>>	1. In the URL (not search bar) type "localhost:8888/lfz".  If your MAMP port is not 8888, enter the port appropriate for your system
+>>	1. Navigate through the displayed links to get to your prototypes/html_fundamentals_1 folder
+>>	1. Your index page will now display.
+>>	1. **It will be blank** <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/4.png?raw=true" width="250px"><br>
+
 ><h5>1. Add content</h5>
->	1. In PHP Storm:
+>>	1. In PHP Storm:
 >>		- between the &lt;body&gt; and &lt;/body&gt; tags, add "Hello, I am [your name]" 
 >>			- don't put the quotes
 >>			- replace the [your name] with your name, without the brackets
->1. Check your code
->	- In Chrome
+
+><h5>1. Check your code</h5>
+>>	- In Chrome
 >>		- Refresh the page
->>		- See if your message appears
->>		<br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/5.png?raw=true"><br>
+>>		- See if your message appears <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/5.png?raw=true" width="250px"><br>
 		
 ### Prototype 2
 
