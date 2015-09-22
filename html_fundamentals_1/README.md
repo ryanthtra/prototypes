@@ -74,14 +74,14 @@
 >>	1. Enter the name of the file: "index.html" without the quote marks <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true" width="250px"><br><br>
 >>	1. Press OK
 
-> <h5>1. Create a basic HTML Skeleton, including</h5>
+><h5>1. Create a basic HTML Skeleton, including</h5>
 >>	- doctype
 >>	- html
 >>	- head
 >>	- body
 
-> <h5>1. Inside the body tags, type the words "Hello World"</h5>
-> <h5>1. Test your output.</h5>
+><h5>1. Inside the body tags, type the words "Hello World"</h5>
+><h5>1. Test your output.</h5>
 >>	1. Open a browser
 >>	1. In the URL (not search bar) type "localhost:8888/lfz".  If your MAMP port is not 8888, enter the port appropriate for your system
 >>	1. Navigate through the displayed links to get to your prototypes/html_fundamentals_1 folder
@@ -105,11 +105,12 @@
 >1. Add a paragraph tag, and fill it with a short description about your past career.  Don't forget the close p tag!
 >1. Add a second paragraph tag, and fill it with a short description of what you want to do with your LearningFuze education.
 >1. In the second paragraph, after the text you entered above, 
->	1. nest an h3 tag inside the paragraph.  The h3 tag should be the **child** of the p tag, after the text
->		1. please note that we do not normally nest headers in paragraphs
->	1. Add the text "Experience" to your h3 tag
->	1. After the h3 close tag, add a break tag.  The p tag should be the **parent** of the h3 and br tag  
->	1. Add the text "Todo: fill in skills"
+>>	1. nest an h3 tag inside the paragraph.  The h3 tag should be the **child** of the p tag, after the text
+>>		1. please note that we do not normally nest headers in paragraphs
+>>	1. Add the text "Experience" to your h3 tag
+>>	1. After the h3 close tag, add a break tag.  The p tag should be the **parent** of the h3 and br tag  
+>>	1. Add the text "Todo: fill in skills"
+
 >1. In the h3 tag, add a title **attribute**.  title will be the **key**, and add "This is an example title" as the **value**
 
 ### Prototype 3
