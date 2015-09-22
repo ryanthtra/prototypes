@@ -67,34 +67,34 @@
 
 ### Prototype 1 
 
-><h5>1. In PHP Storm</h5>
+> 1. In PHP Storm
 >>	1. Expand the lfz folder, if you haven't already <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/1.png?raw=true" width="250px"><br><br>
 >>	1. Go into your prototypes directory, then into your html_fundamentals_1 folder
 >>	1. right click on the html_fundamentals_1 folder, click on "new", then on "file" <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/2.png?raw=true" width="250px"><br><br>
 >>	1. Enter the name of the file: "index.html" without the quote marks <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/3.png?raw=true" width="250px"><br><br>
 >>	1. Press OK
 
-> <h5>1. Create a basic HTML Skeleton, including</h5>
+> 1. Create a basic HTML Skeleton, including
 >>	- doctype
 >>	- html
 >>	- head
 >>	- body
 
-> <h5>1. Inside the body tags, type the words "Hello World"</h5>
-> <h5>1. Test your output.</h5>
+> 1. Inside the body tags, type the words "Hello World"
+> 1. Test your output.
 >>	1. Open a browser
 >>	1. In the URL (not search bar) type "localhost:8888/lfz".  If your MAMP port is not 8888, enter the port appropriate for your system
 >>	1. Navigate through the displayed links to get to your prototypes/html_fundamentals_1 folder
 >>	1. Your index page will now display.
 >>	1. **It will be blank** 
 
-><h5>1. Add content</h5>
+> 1. Add content
 >>	1. In PHP Storm:
 >>		- between the &lt;body&gt; and &lt;/body&gt; tags, add "Hello, I am [your name]" 
 >>			- don't put the quotes
 >>			- replace the [your name] with your name, without the brackets
 
-><h5>1. Check your code</h5>
+> 1. Check your code
 >>	- In Chrome
 >>		- Refresh the page
 >>		- See if your message appears <br><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_1/5.png?raw=true" width="250px"><br>
@@ -105,17 +105,18 @@
 >1. Add a paragraph tag, and fill it with a short description about your past career.  Don't forget the close p tag!
 >1. Add a second paragraph tag, and fill it with a short description of what you want to do with your LearningFuze education.
 >1. In the second paragraph, after the text you entered above, 
->	1. nest an h3 tag inside the paragraph.  The h3 tag should be the **child** of the p tag, after the text
->		1. please note that we do not normally nest headers in paragraphs
->	1. Add the text "Experience" to your h3 tag
->	1. After the h3 close tag, add a break tag.  The p tag should be the **parent** of the h3 and br tag  
->	1. Add the text "Todo: fill in skills"
+>>	1. nest an h3 tag inside the paragraph.  The h3 tag should be the **child** of the p tag, after the text
+>>		1. please note that we do not normally nest headers in paragraphs
+>>	1. Add the text "Experience" to your h3 tag
+>>	1. After the h3 close tag, add a break tag.  The p tag should be the **parent** of the h3 and br tag  
+>>	1. Add the text "Todo: fill in skills"
+
 >1. In the h3 tag, add a title **attribute**.  title will be the **key**, and add "This is an example title" as the **value**
 
 ### Prototype 3
 
->1. Create a new h3 tag, after the existing code.  Give it the text of "Skills"
->1. Add 5 skills that you have, each inside its own paragraph.
+> 1. Create a new h3 tag, after the existing code.  Give it the text of "Skills"
+> 1. Add 5 skills that you have, each inside its own paragraph.
 
 ### Prototype 4
 
@@ -126,9 +127,10 @@
 > 1. Test your code frequently, don't wait till you're done to test your code
 > 1. Always have your console open while testing your code
 > 1. Save and push to gitHub often
->	1. Save as often as you can it's simple, quick and will save you a lot of headache
->	1. Push to gitHub after each playground is successfully created (at least)
->	1. Remember to push to your `html_fundamentals_1` branch
+>>	1. Save as often as you can it's simple, quick and will save you a lot of headache
+>>	1. Push to gitHub after each playground is successfully created (at least)
+>>	1. Remember to push to your `html_fundamentals_1` branch
+
 > 1. Don't forget to ask for help if you get stuck
 
 ## After Coding Details
