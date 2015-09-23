@@ -135,7 +135,7 @@ on the information that you obtained through the following resources (<b>If you 
 
 > ####Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. If you set the commit message correctly above get you would get <b>html_fundamentals_2 - [you name first & last name]</b> already pre populated in the Title field
+>   1. If you set the commit message above you should get get <b>html_fundamentals_2 - [you name first & last name]</b> already pre populated in the Title field
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
