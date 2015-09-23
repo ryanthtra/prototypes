@@ -100,7 +100,7 @@ on the information that you obtained through the following resources (<b>If you 
 ##### 4. See if your feature fits with what everyone else was working on (Pull Request)
 
 > ####Step 4.1 Open your prototypes Repo in the browser
-> - The link Should follow this format http://github.com/[your user name]/prototypes
+> - The link Should follow this format "http://github.com/[your user name]/prototypes"
 
 > ####Step 4.2 Click Pull request tab to open the pull request list
 
