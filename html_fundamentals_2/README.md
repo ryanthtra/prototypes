@@ -86,8 +86,8 @@ on the information that you obtained through the following resources (<b>If you 
 
 > Run below command in terminal tab
 
-> `git commit -m "html_fundamentals_2 - EJ020586"`
-> - EJ020586 should be replaced with your username
+> `git commit -m "html_fundamentals_2 - Eric Johnson"`
+> - Eric Johnson should be replaced with your First & Last name
 > - Grouping files with a message allows those changes to be seen by others as a specific version of the code
 
 ##### 3. Allow others to see your changes by uploading them to the Github website
@@ -140,9 +140,7 @@ on the information that you obtained through the following resources (<b>If you 
 
 > ####Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. Title the pull request with the name of the prototype followed by your first and last name
->       1. <b>Example: </b> Example - EJ020586
-> 		1. [prototype Name] - [your user name]
+>   1. If you set the commit message correctly above get html_fundamentals_2 - [you name first & last name]
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
