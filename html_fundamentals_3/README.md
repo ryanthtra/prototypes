@@ -47,6 +47,7 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 >	- html
 >	- head
 >	- body
+> 1. Make an overall heading for the page. Something that describes the intent. ex. [Firstname Lastname]
 > 1. Make a Heading & paragraph for each of the following sections
 >	1. About Me
 > 		1. Heading - About Me
@@ -57,7 +58,9 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 >	1. Experience
 >		1. Heading - Experience
 >		1. Paragraph - Write a paragraph that describes any of your past job experience
-
+>   1. Contact
+>       1. Heading - Contact
+>       1. Paragraph - 
 ### Feature Set 2 - Head Elements
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
 > 1. Within the head tags
@@ -83,10 +86,6 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 >     1. Add the google font family to the Experience header
 >     1. Add a background color of green to the experience paragraph
 >     1. Change the About Me header text to be your favorite color
->     1. Make the about me paragraph font size equal to 12px
->     1. Italicize the Skills header 
->     1. Bold each skill title but not the description
->     1. Add the font family of Arial to the Experience header
 >     1. Add a background color of green to the experience paragraph
 
 ### Feature Set 4 - Research other formatting options
@@ -99,8 +98,8 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 
 ### Feature Set 5 - External Style Sheet
 > 1. Utilizing the external style sheet 
->       1. Change the background color of the experience paragraph to salmon
->       1. Change the font of the title element to the google font provided
+>       1. Change the text color of the experience paragraph to salmon
+>       1. Change the font of the overall page header element to the google font provided
 
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
