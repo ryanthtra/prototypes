@@ -17,21 +17,25 @@ on the information that you obtained through the following resources (<b>If you 
 
 > Insert this command in the terminal tab
 
-> `cd prototypes`
+> `cd prototypes` & press enter
 
 > - this changes the directory to the prototypes folder
 > - If you get an error with the above command its probably because you are already within the correct directory
 
 #####3. Create a feature grouping (*Create feature branch*)
 
-> Insert this command in the terminal tab
+> Insert & execute these command in the terminal tab individually
+
+> `git checkout master` & press enter
+> - The command above switches to the default branch
+
+> `git pull https://github.com/Learning-Fuze/prototypes.git` & press enter
+> - The command above downloads the newly posted prototypes and saves them to your local machine
 
 > `git checkout -b html_fundamentals_2`
-
 > - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
 > - Any modifications to these files after <b>branching</b> can be undone
 > - "html_fundamentals_2" is the branch name.
-
 
 ## Coding Instructions
 
@@ -82,8 +86,8 @@ on the information that you obtained through the following resources (<b>If you 
 
 > Run below command in terminal tab
 
-> `git commit -m "html_fundamentals_2 - EJ020586"`
-> - EJ020586 should be replaced with your username
+> `git commit -m "html_fundamentals_2 - Eric Johnson"`
+> - Eric Johnson should be replaced with your First & Last name
 > - Grouping files with a message allows those changes to be seen by others as a specific version of the code
 
 ##### 3. Allow others to see your changes by uploading them to the Github website
@@ -95,24 +99,21 @@ on the information that you obtained through the following resources (<b>If you 
 
 ##### 4. See if your feature fits with what everyone else was working on (Pull Request)
 
-> ####Step 4.1 Click Pull request tab to open the pull request list
+> ####Step 4.1 Open your prototypes Repo in the browser
+> - The link Should follow this format github.com / [your user name] / prototypes
+
+> ####Step 4.2 Click Pull request tab to open the pull request list
 
 > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" width="350"/></a>
 
-> ---
-
-> ####Step 4.2 Click "New Pull request" button
+> ####Step 4.3 Click "New Pull request" button
 
 > <a href="https://github.com/Learning-Fuze/prototypes/blo b/assets/assets/example/2.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/2.jpg?raw=true" width="800" /></a>
 
-> ---
-
-> ####Step 4.3 Comparing Changes
+> ####Step 4.4 Comparing Changes
 > During this step there are a hand full of highlighted things that need to be taken into consideration.
 
-> 1. Click the compare across forks link (pictured below)
-
-> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/7.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/7.jpg?raw=true" width="800" /></a>
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
 
 >> 1. `base fork: Learning-Fuze/prototypes`
 >>   1. For all prototypes this will always remain the same
@@ -128,17 +129,13 @@ on the information that you obtained through the following resources (<b>If you 
 >> 1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
 >>   1. If the text says something other than "able to merge". <b>Contact an instructor</b>
 >>   1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by instructors at start)
->> 1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button (#5 in the image below)
-
-> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
+>> 1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button (#5 in the image above)
 
 > ---
 
 > ####Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. Title the pull request with the name of the prototype followed by your first and last name
->       1. <b>Example: </b> Example - EJ020586
-> 		1. [prototype Name] - [your user name]
+>   1. If you set the commit message above you should get get <b>html_fundamentals_2 - [you name first & last name]</b> already pre populated in the Title field
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
