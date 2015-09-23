@@ -25,8 +25,11 @@
 >           1. description  
 >           1. keywords  
 >           1. author 
+>     1. Add a title with the text: [My Portfolio]
+>           1. bookmark the index.html page
+>           1. note by bookmarking your page, the title content will show up in the actual bookmark
 >     1. Add an external google font `<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>`
->           1. `font-family: 'Montserrat', sans-serif;` 
+>           1. to use the google font: `font-family: 'Montserrat', sans-serif;` 
 >     1. Create style tags
 >     1. Add link to the provided  external stylesheet:
 >           1. `style.css`
@@ -36,7 +39,7 @@
 >     1. Make the about me paragraph font size equal to 12px 
 >     1. Italicize the Skills header
 >     1. Bold each skill title but not the description
->     1. Add the font family of Arial to the Experience header
+>     1. Add the google font family to the Experience header
 >     1. Add a background color of green to the experience paragraph
 >     1. Change the About Me header text to be your favorite color
 >     1. Make the about me paragraph font size equal to 12px
@@ -54,7 +57,6 @@
 >       1. Make the border of the paragraph tag not solid
 
 ### Feature Set 5 - External Style Sheet
-> 1. Copy all styling within the style tags in the head element
-> 1. Comment out the style tags in the head element
-> 1. Paste all the styles in the style.css file provided
-> 1. Change the background color of the experience paragraph to salmon
+> 1. Utilizing the external style sheet 
+>       1. Change the background color of the experience paragraph to salmon
+>       1. Change the font of the title element to the google font provided
