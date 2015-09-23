@@ -17,21 +17,25 @@ on the information that you obtained through the following resources (<b>If you 
 
 > Insert this command in the terminal tab
 
-> `cd prototypes`
+> `cd prototypes` & press enter
 
 > - this changes the directory to the prototypes folder
 > - If you get an error with the above command its probably because you are already within the correct directory
 
 #####3. Create a feature grouping (*Create feature branch*)
 
-> Insert this command in the terminal tab
+> Insert & execute these command in the terminal tab individually
+
+> `git checkout master` & press enter
+> - The command above switches to the default branch
+
+> `git pull https://github.com/Learning-Fuze/prototypes.git` & press enter
+> - The command above downloads the newly posted prototypes and saves them to your local machine
 
 > `git checkout -b html_fundamentals_2`
-
 > - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
 > - Any modifications to these files after <b>branching</b> can be undone
 > - "html_fundamentals_2" is the branch name.
-
 
 ## Coding Instructions
 
