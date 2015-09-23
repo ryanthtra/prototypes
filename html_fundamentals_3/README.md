@@ -7,7 +7,7 @@ on the information that you obtained through the following resources (<b>If you 
 - Readings
  - HTML Head - <a href="http://www.w3schools.com/html/html_head.asp" target="_blank">Link</a>
  - HTML CSS - <a href="http://www.w3schools.com/html/html_css.asp" target="_blank">Link</a>
-- HTML Formatting & HTML Styling (<a href="https://docs.google.com/presentation/d/1_FMjUbUgJjMOroOlVG4wkkNO9tvgRDVQ7YS2dirDPEI">Presentation</a>, <a href="https://www.youtube.com/watch?v=Jnirh7CCMW8" target="_blank">Video</a>)
+- HTML Formatting & HTML Styling (<a href="https://drive.google.com/open?id=0B6mn1BHjNxTgVk96ei1wRE9pd0k">Presentation</a>, <a href="https://www.youtube.com/watch?v=Jnirh7CCMW8" target="_blank">Video</a>)
 
 ## Code Setup Details
 
