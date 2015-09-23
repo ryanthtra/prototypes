@@ -99,24 +99,21 @@ on the information that you obtained through the following resources (<b>If you 
 
 ##### 4. See if your feature fits with what everyone else was working on (Pull Request)
 
-> ####Step 4.1 Click Pull request tab to open the pull request list
+> ####Step 4.1 Open your prototypes Repo in the browser
+> - The link Should follow this format http://github.com/[your user name]/prototypes
+
+> ####Step 4.2 Click Pull request tab to open the pull request list
 
 > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" width="350"/></a>
 
-> ---
-
-> ####Step 4.2 Click "New Pull request" button
+> ####Step 4.3 Click "New Pull request" button
 
 > <a href="https://github.com/Learning-Fuze/prototypes/blo b/assets/assets/example/2.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/2.jpg?raw=true" width="800" /></a>
 
-> ---
-
-> ####Step 4.3 Comparing Changes
+> ####Step 4.4 Comparing Changes
 > During this step there are a hand full of highlighted things that need to be taken into consideration.
 
-> 1. Click the compare across forks link (pictured below)
-
-> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/7.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/7.jpg?raw=true" width="800" /></a>
+> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
 
 >> 1. `base fork: Learning-Fuze/prototypes`
 >>   1. For all prototypes this will always remain the same
@@ -132,15 +129,13 @@ on the information that you obtained through the following resources (<b>If you 
 >> 1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
 >>   1. If the text says something other than "able to merge". <b>Contact an instructor</b>
 >>   1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by instructors at start)
->> 1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button (#5 in the image below)
-
-> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
+>> 1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button (#5 in the image above)
 
 > ---
 
 > ####Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. If you set the commit message correctly above get html_fundamentals_2 - [you name first & last name]
+>   1. If you set the commit message correctly above get you would get <b>html_fundamentals_2 - [you name first & last name]</b> already pre populated in the Title field
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
