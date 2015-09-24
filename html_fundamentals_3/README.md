@@ -1,4 +1,4 @@
-# Prototype - HTML Head, internal/external styles & links
+# HTML Head - internal/external styles & links
 
 Expand your HTML knowledge with better understanding of the head element and adding basic internal and external CSS styling. As you work through this
 prototype we will be building out aspects of the portfolio project v1 (Explanation Coming Soon). This prototype is based
