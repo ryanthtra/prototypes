@@ -43,7 +43,7 @@ on the information that you obtained through the following resources (<b>If you 
 
 ## Coding Instructions
 
-#### Feature Set 1 - Creating Structure & Content
+### Feature Set 1 - Creating Structure & Content
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
 > 1. Start using the file "index.html" provided in the same folder as this readme
 > 1. Create a basic HTML Skeleton, including
@@ -62,19 +62,18 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 ### Feature Set 2 - Head Elements
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
 > 1. Within the head tags
->>  1. Add 3 meta tags:
+>>  1. Add 3 meta tags
 >>      1. description  
 >>      1. keywords  
 >>      1. author
- 
 >>  1. Add a title with the text: **My Portfolio - Home**
 >>  1. Add an external google font 
 >>      1. `<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>`
 >>      1. to be utilized in feature set 7: `font-family: 'Montserrat', sans-serif;` 
-
 >>  1. Create style tags
 >>      1. Add link to the provided external stylesheet:
 >>      1. `style.css`
+>
 
 ### Feature Set 3 - Adding Additional Pages
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
@@ -95,22 +94,21 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 
 ### Feature Set 4 - Creating Navigation
 > 1. On all three pages do the following
->>  1. Add an unordered list under your main heading on each page
->>      1. give the list a class of `nav`
->>      1. Add the following items to the list
->>          - home
->>          - skills
->>          - Experience
-
->>      1. Each list item should be wrapped in an <a> tag to create a link to its corresponding page
->>          - Example: `<li><a href="index.html">Home</a>`
+>   1. Add an unordered list under your main heading on each page
+>       1. give the list a class of `nav`
+>       1. Add the following items to the list
+>           - home
+>           - skills
+>           - Experience
+>       1. Each list item should be wrapped in an <a> tag to create a link to its corresponding page
+>           - Example: `<li><a href="index.html">Home</a>`
 
 ### Feature set 5 - Adding an Image
 > 1. Find or take a picture of yourself
 > 1. Add the picture into the `images` folder
 > 1. On your `index.html` page
->>  1. Add an `<img>` tag to the page between your "About Me" header and your description paragraph
->>  1. Have the `<img>` tag link to your image in the images folder
+>   1. Add an `<img>` tag to the page between your "About Me" header and your description paragraph
+>   1. Have the `<img>` tag link to your image in the images folder
 
 ### Feature set 6 - Adding content
 > 1. On the skills page
