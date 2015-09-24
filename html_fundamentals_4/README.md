@@ -62,18 +62,21 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 ### Feature Set 2 - Head Elements
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
 > 1. Within the head tags
->>  1. Add 3 meta tags
->>      1. description  
->>      1. keywords  
->>      1. author
->>  1. Add a title with the text: **My Portfolio - Home**
->>  1. Add an external google font 
->>      1. `<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>`
->>      1. to be utilized in feature set 7: `font-family: 'Montserrat', sans-serif;` 
->>  1. Create style tags
->>      1. Add link to the provided external stylesheet:
->>      1. `style.css`
->
+> 1. Add 3 meta tags
+>>  1. description  
+>>  1. keywords  
+>>  1. author
+
+> 1. Add a title with the text: **My Portfolio - Home**
+
+> 1. Add an external google font 
+>>  1. `<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>`
+>>  1. to be utilized in feature set 7: `font-family: 'Montserrat', sans-serif;` 
+
+> 1. Create style tags
+>>  1. Add link to the provided external stylesheet:
+>>  1. `style.css`
+
 
 ### Feature Set 3 - Adding Additional Pages
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
@@ -101,7 +104,7 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 >           - skills
 >           - Experience
 >       1. Each list item should be wrapped in an <a> tag to create a link to its corresponding page
->           - Example: `<li><a href="index.html">Home</a>`
+>           - Example: `<li><a href="index.html">Home</a></li>`
 
 ### Feature set 5 - Adding an Image
 > 1. Find or take a picture of yourself
