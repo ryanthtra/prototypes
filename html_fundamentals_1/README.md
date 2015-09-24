@@ -1,6 +1,4 @@
-# Prototypes
-
-## HTML - Elements, Attributes, and comments
+# HTML - Elements, Attributes, and comments
 
 > <h4>Purpose</h4>
 
