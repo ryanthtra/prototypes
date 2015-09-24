@@ -61,7 +61,8 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 
 ### Feature Set 2 - Head Elements
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
-> 1. Within the head tags
+> **Within the head tags**
+
 > 1. Add 3 meta tags
 >>  1. description  
 >>  1. keywords  
@@ -96,22 +97,24 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 >>  1. Add a `<h1>` header at the top of your page that fits your experience page
 
 ### Feature Set 4 - Creating Navigation
-> 1. On all three pages do the following
->   1. Add an unordered list under your main heading on each page
->       1. give the list a class of `nav`
->       1. Add the following items to the list
->           - home
->           - skills
->           - Experience
->       1. Each list item should be wrapped in an <a> tag to create a link to its corresponding page
->           - Example: `<li><a href="index.html">Home</a></li>`
+> **On all three pages do the following**
+
+> 1. Add an unordered list under your main heading on each page
+>>  1. give the list a class of `nav`
+>>  1. Add the following items to the list
+>>      - home
+>>      - skills
+>>      - Experience
+>>  1. Each list item should be wrapped in an <a> tag to create a link to its corresponding page
+>>      - Example: `<li><a href="index.html">Home</a></li>`
 
 ### Feature set 5 - Adding an Image
 > 1. Find or take a picture of yourself
 > 1. Add the picture into the `images` folder
+
 > 1. On your `index.html` page
->   1. Add an `<img>` tag to the page between your "About Me" header and your description paragraph
->   1. Have the `<img>` tag link to your image in the images folder
+>>   1. Add an `<img>` tag to the page between your "About Me" header and your description paragraph
+>>   1. Have the `<img>` tag link to your image in the images folder
 
 ### Feature set 6 - Adding content
 > 1. On the skills page
@@ -151,7 +154,8 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 
 ### Feature Set 7 - Adding Styling
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
-> 1. Inside your `style.css` file
+> **Inside your `style.css` file**
+
 > 1. For the home page (index.html)
 >>  1. Make the about me paragraph font size equal to 12px on the home page (index.html)
 >>  1. Change the About Me header text to be your favorite color
