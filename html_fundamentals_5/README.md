@@ -50,7 +50,7 @@ then please do so now</b>).
 <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%203.jpg" width="30%">
 ### Feature Set 1 -
 
-> - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%201.png" target="_blank">here</a>
+> - Using divs, create the **layout 1** found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%201.png" target="_blank">here</a>
   - Give each section an ID for that section
       - header
         - main_content
@@ -80,7 +80,7 @@ then please do so now</b>).
 
 ### Feature Set 2 - 
 
-> - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%202.png" target="_blank">here</a>
+> - Using divs, create the **layout 2** found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%202.png" target="_blank">here</a>
   - Give each section an ID for that section
         - header
         - main_content
@@ -105,7 +105,7 @@ then please do so now</b>).
     
 ### Feature Set 3 - 
 
-> - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%203.png" target="_blank">here</a>
+> - Using divs, create the **layout 3** found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%203.png" target="_blank">here</a>
   - Give each section an ID for that section
       - title
         - left_nav
