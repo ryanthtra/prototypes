@@ -48,7 +48,7 @@ then please do so now</b>).
 <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%201.jpg" width="30%">
 <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%202.jpg" width="30%">
 <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%203.jpg" width="30%">
-### Feature Set 1 -
+### Feature Set 1 (Layout 1)
 
 > - Using divs, create the **layout 1** above, found above, click <a href="https://drive.google.com/open?id=0B7eOl4joefDuNTNSblF3M3BmaXc" target="_blank">here for a pdf version</a>
   - Give each section an ID for that section
@@ -78,7 +78,7 @@ then please do so now</b>).
     - Put an appropriate icon into the email's li to designate it's role
         - refer to <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">the font awesome website</a> to find an appropriate icon
 
-### Feature Set 2 - 
+### Feature Set 2 (Layout 2) 
 
 > - Using divs, create the **layout 2** found above.  Click here for a pdf version <a href="https://drive.google.com/open?id=0B7eOl4joefDuZ2NLTWtwOURpcWM" target="_blank">here for a pdf version</a>
   - Give each section an ID for that section
@@ -103,7 +103,7 @@ then please do so now</b>).
                 - inside the href attribute, put "#[the id of the corresponding element]" inside it.
                 - Don't put #[the id of the corresponding element], change it to the appropriate element!
     
-### Feature Set 3 - 
+### Feature Set 3 (Layout 3) 
 
 > - Using divs, create the **layout 3** found above, click <a href="https://drive.google.com/open?id=0B7eOl4joefDuUGZSUlE0d3RYb3M" target="_blank">here for a pdf version</a>
   - Give each section an ID for that section
