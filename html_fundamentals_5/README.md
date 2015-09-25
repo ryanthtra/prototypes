@@ -74,7 +74,7 @@ then please do so now</b>).
     - add the following style sheet link to the document:
         - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
     - in the footer's ul element, inside the li for the phone number, add the following
-        - <i class="fa fa-mobile"></i>
+        - &lt;i class="fa fa-mobile"&gt;&lt;/i&gt;
     - Put an appropriate icon into the email's li to designate it's role
         - refer to <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">the font awesome website</a> to find an appropriate icon
 
