@@ -127,11 +127,11 @@ Make a folder for each layout, and inside that make an index.html.  So you shoul
     - main content:
         - Put 4 paragraphs of lorem ipsum in
         - add a form element after the lorem ipsum
-        - add the following inputs:
-            - name (text type)
-            - message (textarea type)
-            - email (text type)
-            - submit (submit type)
+        - add the following h4 tags (we'll get into inputs next week):
+            - name 
+            - message 
+            - email 
+            - submit 
 
 
 ## After Coding Details
