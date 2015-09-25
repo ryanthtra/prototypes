@@ -166,7 +166,7 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 > ##### For the Experience page
 
 >>  1. Add the google font family to the Experience header
->>  1. Add a background color of your choosing to the experience paragraph (not white)
+>>  1. Add a background color of your choosing to the experience section (not white)
 >>  1. Change the bullets or numbers on your experience list to something other than the default
 
 > ##### For the skill page
