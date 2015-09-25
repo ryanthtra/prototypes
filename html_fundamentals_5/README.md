@@ -45,7 +45,9 @@ then please do so now</b>).
 > - "html_fundamentals_5" is the branch name.
 
 ## Coding Instructions
-
+<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%201.jpg" width="30%">
+<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%202.jpg" width="30%">
+<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%203.jpg" width="30%">
 ### Feature Set 1 -
 
 > - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%201.png" target="_blank">here</a>
