@@ -80,16 +80,15 @@ then please do so now</b>).
 
 > - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%202.png" target="_blank">here</a>
   - Give each section an ID for that section
-      - header
+        - header
         - main_content
-        - footer
-    - main content:
+  - main content:
         - Put 4 paragraphs of lorem ipsum in
         - each paragraph should have a title relating to you header menu below:
             - About Me, Skills, etc
             - Inside each title, add an anchor tag. 
             - Inside the anchor tag, give it an ID corresponding to the section, for example #about_me
-    - In the header
+  - In the header
         - make a menu utilizing ul / li
             - li elements css:  no bullet point
             - li elements css: display type of "inline-block"
@@ -104,29 +103,20 @@ then please do so now</b>).
     
 ### Feature Set 3 - 
 
-> - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%202.png" target="_blank">here</a>
+> - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%203.png" target="_blank">here</a>
   - Give each section an ID for that section
-      - header
+      - title
+        - left_nav
         - main_content
-        - footer
     - main content:
         - Put 4 paragraphs of lorem ipsum in
-        - each paragraph should have a title relating to you header menu below:
-            - About Me, Skills, etc
-            - Inside each title, add an anchor tag. 
-            - Inside the anchor tag, give it an ID corresponding to the section, for example #about_me
-    - In the header
-        - make a menu utilizing ul / li
-            - li elements css:  no bullet point
-            - li elements css: display type of "inline-block"
-            - Menu items should include
-                - About Me
-                - Skills
-                - Experience
-                - Contact Me
-            - Each menu item should have an anchor tag.  
-                - inside the href attribute, put "#[the id of the corresponding element]" inside it.
-                - Don't put #[the id of the corresponding element], change it to the appropriate element!
+        - add a form element after the lorem ipsum
+        - add the following inputs:
+            - name (text type)
+            - message (textarea type)
+            - email (text type)
+            - submit (submit type)
+
 
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
