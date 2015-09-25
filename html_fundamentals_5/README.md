@@ -48,12 +48,85 @@ then please do so now</b>).
 
 ### Feature Set 1 -
 
+> - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%201.png" target="_blank">here</a>
+  - Give each section an ID for that section
+      - header
+        - main_content
+        - footer
+    - main content:
+        - Put 3 paragraphs of lorem ipsum in
+    - In the header
+        - make a menu utilizing ul / li
+            - li elements css:  no bullet point
+            - li elements css: display type of "inline-block"
+            - Menu items should include
+                - About Me
+                - Skills
+                - Experience
+                - Contact Me
+    - in the footer
+        - put a regular ul / li
+            - take away the bullet point dot
+            - put a phone number (doesn't have to be yours if you don't want to) in one li,
+            - put your learningfuze email address in the second li
+    - add the following style sheet link to the document:
+        - https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+    - in the footer's ul element, inside the li for the phone number, add the following
+        - <i class="fa fa-mobile"></i>
+    - Put an appropriate icon into the email's li to designate it's role
+        - refer to <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">the font awesome website</a> to find an appropriate icon
 
 ### Feature Set 2 - 
 
-
+> - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%202.png" target="_blank">here</a>
+  - Give each section an ID for that section
+      - header
+        - main_content
+        - footer
+    - main content:
+        - Put 4 paragraphs of lorem ipsum in
+        - each paragraph should have a title relating to you header menu below:
+            - About Me, Skills, etc
+            - Inside each title, add an anchor tag. 
+            - Inside the anchor tag, give it an ID corresponding to the section, for example #about_me
+    - In the header
+        - make a menu utilizing ul / li
+            - li elements css:  no bullet point
+            - li elements css: display type of "inline-block"
+            - Menu items should include
+                - About Me
+                - Skills
+                - Experience
+                - Contact Me
+            - Each menu item should have an anchor tag.  
+                - inside the href attribute, put "#[the id of the corresponding element]" inside it.
+                - Don't put #[the id of the corresponding element], change it to the appropriate element!
+    
 ### Feature Set 3 - 
 
+> - Using divs, create the layout found <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_fundamentals_5/layouts/portfolio%20layout%202.png" target="_blank">here</a>
+  - Give each section an ID for that section
+      - header
+        - main_content
+        - footer
+    - main content:
+        - Put 4 paragraphs of lorem ipsum in
+        - each paragraph should have a title relating to you header menu below:
+            - About Me, Skills, etc
+            - Inside each title, add an anchor tag. 
+            - Inside the anchor tag, give it an ID corresponding to the section, for example #about_me
+    - In the header
+        - make a menu utilizing ul / li
+            - li elements css:  no bullet point
+            - li elements css: display type of "inline-block"
+            - Menu items should include
+                - About Me
+                - Skills
+                - Experience
+                - Contact Me
+            - Each menu item should have an anchor tag.  
+                - inside the href attribute, put "#[the id of the corresponding element]" inside it.
+                - Don't put #[the id of the corresponding element], change it to the appropriate element!
 
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
