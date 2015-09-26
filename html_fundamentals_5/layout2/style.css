@@ -1,0 +1,31 @@
+#header
+{
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: yellow;
+    height: 15vh;
+    text-align: center;
+}
+
+#header ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#header ul li
+{
+    display: inline-block;
+}
+
+#main_content
+{
+    height: auto;
+    border: 1px solid black;
+}
+
+#main_content div
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}

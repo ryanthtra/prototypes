@@ -1,0 +1,40 @@
+#title
+{
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: yellow;
+    height: 15vh;
+    text-align: center;
+}
+
+#main_body
+{
+    height: 85vh;
+}
+
+#left_nav
+{
+    border: 1px solid black;
+    background-color: yellow;
+    width: 15vw;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#main_content
+{
+    border: 1px solid black;
+    border-left: none;
+    background-color: lightskyblue;
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+
+#main_content #inner
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
