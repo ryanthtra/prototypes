@@ -1,20 +1,18 @@
-# Prototype - HTML Layout Structure, Blocks &amp; Design
+# Prototype - CSS Design & Layout 1, Box Model, margin, padding, border, and dimensions
 
-Expand your HTML knowledge with better understanding of HTML layout structure, blocks and design. As you work through 
-this prototype we will be building out aspects of the portfolio project v1 (Explanation Coming Soon). This prototype 
+Expanding on your understanding of CSS layouts and how they pertain to web page design. This prototype 
 is based on the information that you obtained through the following resources (<b>If you haven't gone through these 
 then please do so now</b>).
 
 - Readings
-    - HTML Blocks - <a href="http://www.w3schools.com/html/html_blocks.asp" target="_blank">Link</a>
-    - HTML Layout - <a href="http://www.w3schools.com/html/html_layout.asp" target="_blank">Link</a>
-    - HTML Lists - <a href="http://www.w3schools.com/html/html_lists.asp" target="_blank">Link</a>
+    - CSS Box Model - <a href="http://www.w3schools.com/css/css_boxmodel.asp" target="_blank">Link</a>
+    - CSS Margins- <a href="http://www.w3schools.com/css/css_margin.asp" target="_blank">Link</a>
+    - CSS Padding - <a href="http://www.w3schools.com/css/css_padding.asp" target="_blank">Link</a>
+    - CSS Dimensions - <a href="http://www.w3schools.com/css/css_dimension.asp" target="_blank">Link</a>
 - Presentations
-    - 6. HTML Structure Intent and Layout
-        - <a href="https://drive.google.com/drive/u/0/folders/0B6mn1BHjNxTgVTVuNzdLMVNYRGs" target="_blank">Slides Link</a>
-    - 7. HTML Horizontal Layout &amp; Semantic Elements
-        - <a href="https://drive.google.com/drive/u/0/folders/0B6mn1BHjNxTgVTVuNzdLMVNYRGs" target="_blank">Slides Link</a>
-        - <a href="https://www.youtube.com/watch?v=0-WRsALktzE" target="_blank">Video Link (covers both)</a>
+    - 6. CSS Design & Layout 1
+        - <a href="https://drive.google.com/open?id=0B7eOl4joefDueXdic3dWekhXdWc" target="_blank">Slides Link</a>
+        - <a href="https:https://www.youtube.com/watch?v=9xixJDx7pWo" target="_blank">Video Link (covers both)</a>
 
 ## Code Setup Details
 
