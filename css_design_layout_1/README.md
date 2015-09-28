@@ -71,31 +71,31 @@ then please do so now</b>).
 ### Feature Set 2 (Layout 2) 
 
 > - create a file called nav.html
-        - create an internal style sheet inside nav.html
-        - add a <nav> element and closing tag, put the remaining code from this featureset inside the nav element
-        - make a UL / LI element construct 
-            - with the following hyperlinks (none of these files exist, don't worry)
-                - home : links to home.html 
-                - about us : links to about_us.html
-                - our menu : links to our_menu.html
-                - contact us : links to contact_us.html
-            - remove the bullet points
-            - add a border with appropriate spacing around the menu items
-            - add padding to space the border from the words
-            - capitalize the text within the menu WITHOUT changing the text in your element directly
-            - add margin sufficient to space the menu items out relatively evenly across the page
-            - resize your page.  What happens?  Tweak this till it works correctly at most sizes.
-                - have you tried making the font size depend on the page size?  This might help.  Explore!
-            
+    - create an internal style sheet inside nav.html
+    - add a <nav> element and closing tag, put the remaining code from this featureset inside the nav element
+    - make a UL / LI element construct 
+        - with the following hyperlinks (none of these files exist, don't worry)
+            - home : links to home.html 
+            - about us : links to about_us.html
+            - our menu : links to our_menu.html
+            - contact us : links to contact_us.html
+        - remove the bullet points
+        - add a border with appropriate spacing around the menu items
+        - add padding to space the border from the words
+        - capitalize the text within the menu WITHOUT changing the text in your element directly
+        - add margin sufficient to space the menu items out relatively evenly across the page
+        - resize your page.  What happens?  Tweak this till it works correctly at most sizes.
+            - have you tried making the font size depend on the page size?  This might help.  Explore!
+        
         
 ### Feature Set 3 (Layout 3) 
 
 > - create a file called gallery.html
-        - add an internal style sheet
-        - add 5 photos that feature yourself in them.  If you are a complete recluse, use any photos.  
-        - add css to your stylesheet that allows all 5 photos to exist on the same line, as well as margin/padding/border (as you wish) to space them out from one another
-            - if resizing the photos is required, make sure they maintain their previous aspect ratio
-        - have each photo link to the full size photo directly.  Should open via a hyperlink.  Only clicking the photo should open this link.
+    - add an internal style sheet
+    - add 5 photos that feature yourself in them.  If you are a complete recluse, use any photos.  
+    - add css to your stylesheet that allows all 5 photos to exist on the same line, as well as margin/padding/border (as you wish) to space them out from one another
+        - if resizing the photos is required, make sure they maintain their previous aspect ratio
+    - have each photo link to the full size photo directly.  Should open via a hyperlink.  Only clicking the photo should open this link.
 
 
 ## After Coding Details
