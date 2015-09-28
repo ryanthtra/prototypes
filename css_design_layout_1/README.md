@@ -13,6 +13,8 @@ then please do so now</b>).
     - 6. CSS Design & Layout 1
         - <a href="https://drive.google.com/open?id=0B7eOl4joefDueXdic3dWekhXdWc" target="_blank">Slides Link</a>
         - <a href="https:https://www.youtube.com/watch?v=9xixJDx7pWo" target="_blank">Video Link (covers both)</a>
+- Projects
+    - This project will help build towards the MBoutique projects
 
 ## Code Setup Details
 
