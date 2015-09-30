@@ -9,7 +9,7 @@ then please do so now</b>).
     - CSS Floating - <a href="http://www.w3schools.com/css/css_float.asp" target="_blank">Link</a>
 - Presentations
     - CSS Design & Layout 2
-        - <a href="" target="_blank">Slides Link</a>
+        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuOGVTZXpHOWtrNGM/view" target="_blank">Slides Link</a>
         - <a href="https://www.youtube.com/watch?v=cOAHWiAxgoI" target="_blank">Video Link (covers both)</a>
 - Projects
     - This project will help build towards the MBoutique projects
@@ -50,7 +50,7 @@ then please do so now</b>).
   
 >   1. add an internal CSS stylesheet
     1. in it, do the following
-    1. Using the <header> tag, create a container for your header
+    1. Using the `<header>` tag, create a container for your header
         1. Set its width to be the full width of the page
         1. Set its height to 15%-20% of the view area's height
         1. Add a background color of your choosing
@@ -96,7 +96,7 @@ then please do so now</b>).
 
 > #####Beneath your Section fs-2
 
->   1. Create another <section>
+>   1. Create another `<section>`
       1. Give the section an ID of `fs-3`
       1. Make the width 100% the width of the view area
       1. Make the height about 30% of the view area (depending on the size of your header)
