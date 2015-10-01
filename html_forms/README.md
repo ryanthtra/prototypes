@@ -35,14 +35,15 @@
 > - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
 > - Any modifications to these files after <b>branching</b> can be undone
 > - "html_forms" is the branch name.
->
+
 #Coding Instructions
->
+
 ##Feature Set 1:
->
+
 >(The following feature set is intentionally vague to encourage subject exploration)
 ###Create the following:
 >
+> - form_1.html (this is where we will create our feature sets)
 #### Unstyled Text Inputs x 2
 >
 > - style one with background color
@@ -81,14 +82,14 @@
 >
 >Verify that the form data is reflected in the echo.php results
 >*note* submitting the form will leave your current page.
->
+
 ##Feature Set 2: 
->
+
 >(The following feature set is intentionally vague to encourage subject exploration)
-#### Duplicate the following contact form
+#### Create a new html file called form2.html. In it  Duplicate the following contact form:
 >
-> <img src="https://github.com/Learning-Fuze/prototypes/blob/master/html_forms/form3.png" alt="Form 3 layout">
-> 
+> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_forms/form3.png" alt="Form 3 layout">
+
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
 > Run below command in terminal tab
@@ -131,21 +132,21 @@ remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</
 
 > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
 
->> 1. `base fork: Learning-Fuze/prototypes`
->>   1. For all prototypes this will always remain the same
->> 1. `base: C#_userName`
->>   1. Here you will select the option that matches your username
->>   1. If you can not locate an option that has your username, contact an instructor
->> 1. `head fork: [your_user_name]/prototypes`
->>   1. Here you will select the option that matches your username / prototypes
->>   1. If you can not locate an option that has your username / prototypes, contact an instructor
->> 1. `compare: html_forms`
->>   1. Here you will locate the branch name (or feature name) you created at the beginning of the prototype
->>   1. This will usually be the same as the name of the prototype
->> 1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
->>   1. If the text says something other than "able to merge". <b>Contact an instructor</b>
->>   1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by instructors at start)
->> 1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button (#5 in the image above)
+> 1. `base fork: Learning-Fuze/prototypes`
+>   1. For all prototypes this will always remain the same
+> 1. `base: C#_userName`
+>   1. Here you will select the option that matches your username
+>   1. If you can not locate an option that has your username, contact an instructor
+> 1. `head fork: [your_user_name]/prototypes`
+>   1. Here you will select the option that matches your username / prototypes
+>   1. If you can not locate an option that has your username / prototypes, contact an instructor
+> 1. `compare: html_forms`
+>   1. Here you will locate the branch name (or feature name) you created at the beginning of the prototype
+>   1. This will usually be the same as the name of the prototype
+> 1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
+>   1. If the text says something other than "able to merge". <b>Contact an instructor</b>
+>   1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by instructors at start)
+> 1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button (#5 in the image above)
 
 > ---
 
