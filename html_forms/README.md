@@ -43,7 +43,7 @@
 >(The following feature set is intentionally vague to encourage subject exploration)
 ###Create the following:
 >
-> - form_1.html
+> - form_1.html (this is where we will create our feature sets)
 #### Unstyled Text Inputs x 2
 >
 > - style one with background color
@@ -86,7 +86,7 @@
 ##Feature Set 2: 
 >
 >(The following feature set is intentionally vague to encourage subject exploration)
-#### Duplicate the following contact form
+#### Create a new html file called form2.html. In it  Duplicate the following contact form:
 >
 > <img src="https://github.com/Learning-Fuze/prototypes/blob/master/html_forms/form3.png" alt="Form 3 layout">
 > 
