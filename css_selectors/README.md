@@ -54,8 +54,8 @@ Expanding on your understanding of CSS selectors and how they can be used to tar
 
 > - You are **NOT** required to do both the easy and hard Feature sets
 > - Choose one or the other
-> - If you choose to do both only the **Hard** version will be reviewed
-    - Unless time permits to review both
+> - If you choose to do both, only the **Hard** version will be reviewed
+    - Review of the easy version will require students spending accumulated **additional** instructor time, if any
 > - Choose the one you feel the most comfortable tackling
 > - Looks can be deceiving, although the harder one might not look much tougher ... It is!
 
@@ -71,7 +71,7 @@ Expanding on your understanding of CSS selectors and how they can be used to tar
     
 ### Feature Set 1a - Body Size and Header
 
-> 1. Give the body element a set *height* and *width*
+> 1. Give the body element a set (fixed) *height* and *width*
     - Height = 600px
     - Width = 1200px
     
