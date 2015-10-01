@@ -18,7 +18,7 @@ Expanding on your understanding of CSS selectors and how they can be used to tar
         - <a href="https:///www.youtube.com/watch?v=456PdCCQX3c" target="_blank">Video Link (covers all)</a>
 - Projects
     - This prototype is a general prototype and will help strengthen your skills in CSS selectors, helping in the 
-    design of all future projects
+    design of all future and present projects including, <a href="https://github.com/Learning-Fuze/portfolio" target="_blank">Portfolio</a>, <a href="https://github.com/Learning-Fuze/mboutique" target="_blank">mBoutique</a> and coming soon **Memory Match**.
 
 ## Code Setup Details
 
@@ -67,7 +67,7 @@ Expanding on your understanding of CSS selectors and how they can be used to tar
 > 1. Create a css style sheet named `style-easy.css`
     1. The link has already been added to the HTML so make sure to name it as shown
      
-><img src="" width="800px" alt="Contact an Instructor if you see this (easy-1)">
+><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/css_selectors/CSS%20Selectors%20Easy.png" width="800px" alt="Contact an Instructor if you see this (easy-1)">
     
 ### Feature Set 1a - Body Size and Header
 
@@ -134,9 +134,22 @@ Expanding on your understanding of CSS selectors and how they can be used to tar
     
 > 1. There are no step by step instructions for this one, just try to match the images the best you can
 
-><img src="" width="800px" alt="Contact an Instructor if you see this (hard-1)">
+> ---
 
-><img src="" width="800px" alt="Contact an Instructor if you see this (hard-2)"> 
+><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/css_selectors/CSS%20Selectors%20Hard%201.png" width="800px" alt="Contact an Instructor if you see this (hard-1)">
+
+> ---
+
+### Notes For Hard 
+
+1. **Note** in image two when you hover over "Menu Item 1" there is a drop down menu
+1. The main menu and sub menu items also highlight with gray on hover
+
+> ---
+
+><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/css_selectors/CSS%20Selectors%20Hard%202.png" width="800px" alt="Contact an Instructor if you see this (hard-2)"> 
+
+> ---
 
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
