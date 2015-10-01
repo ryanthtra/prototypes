@@ -88,7 +88,7 @@
 >(The following feature set is intentionally vague to encourage subject exploration)
 #### Create a new html file called form2.html. In it  Duplicate the following contact form:
 >
-> <img src="https://github.com/Learning-Fuze/prototypes/blob/master/html_forms/form3.png" alt="Form 3 layout">
+> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_forms/form3.png" alt="Form 3 layout">
 > 
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
