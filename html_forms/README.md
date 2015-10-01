@@ -35,11 +35,11 @@
 > - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
 > - Any modifications to these files after <b>branching</b> can be undone
 > - "html_forms" is the branch name.
->
+
 #Coding Instructions
->
+
 ##Feature Set 1:
->
+
 >(The following feature set is intentionally vague to encourage subject exploration)
 ###Create the following:
 >
