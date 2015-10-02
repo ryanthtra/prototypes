@@ -1,7 +1,10 @@
 # HTML & CSS - Responsive Design
 
+- Presentaion
+    -  HTML & CSS Responsive and Mobile First - <a href="https://www.youtube.com/watch?v=aZbTiZg_i1U" target="_blank">Video Link</a>
 - Readings
- - HTML & CSS: Responsive & Mobile First - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDubE1qWDRZSVJXcWM/view?usp=sharing" target="_blank">Link</a>
+    - HTML & CSS: Responsive & Mobile First - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDubE1qWDRZSVJXcWM/view?usp=sharing" target="_blank">Link</a>
+    - w3schools: HTML Responsive - <a href="http://www.w3schools.com/html/html_responsive.asp" target="_blank">Link</a>
 
 ## Code Setup Details
 
@@ -34,15 +37,16 @@
 ## Coding Instructions
 
 ### Feature Set 1 - Basic responsive layout
-This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
-#### 1. Create index.html
+####  Create index.html
 ##### Include:
 > - A graphic that is 50% of its available size - minimum 75px
 > - Float the graphic left
 > - 2 paragraphs containing <a href="http://www.lipsum.com/" target="_blank">lorem ipsum</a>
 > - Ensure that fonts are responsive to the page and scale as necessary
 >
-### Use dev tools to test mobile view and functionality
+### Upon completion of Feature Set 1
+>
+Use dev tools to test mobile view and functionality
 >
 > 1. Open <a href="learningfuze.com">learningfuze.com</a> in your browser
 > 1. Open the inspector
@@ -58,16 +62,33 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 > <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/mobile-view-reload.png">
 > 1. Following the refresh, notice the difference in the look of learningfuze.com
 > <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/mobile-view-refreshed.png">
+>
+
 ### Feature Set 2 - Responsive form
 > 
 #### Make the form you just created (form2.html) responsive
-> - create the HTML file responsive.html
+>
+> - create the HTML file: responsive.html
 > - copy and paste the code from form2.html that you previously created in the <a href="https://github.com/Learning-Fuze/prototypes/tree/master/html_forms" target="_blank">html forms prototype</a>
-> - 
+> 
 #### Media queries
 > 
-> 
+##### At the iphone6 screen width (375px)
 >
+Your form should do the following:
+>
+> 1. inputs should be in a single column 
+> 1. inputs should be nearly full width, with some side gutters
+> 1. Should be adaptable between desktop and mobile
+>
+### Example images
+> 
+form3 should look like the following at the iphone6 width and height:
+> #### iphone6 devtools view:
+> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/iphone6_responsive.png">
+>
+> #### close up: 
+> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/form3_responsive.png">
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
 > Run below command in terminal tab
