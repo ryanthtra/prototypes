@@ -44,6 +44,17 @@ This is intentionally similar to the previous prototype to reinforce comprehensi
 >
 ### Feature Set 2 - Responsive form
 This is intentionally similar to the previous prototype to reinforce comprehension of fundamental material
+#### Use the developer tools to see mobile view
+> 1. Open <a href="learningfuze.com">learningfuze.com</a> in your browser
+> 1. Open the inspector
+> 1. Look for the phone icon (right next to the elements tab) as illustrated below
+> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/toggle-device-image.png">
+> 
+#### Once in the mobile view
+> 1. In the upper left hand corner click on the device drop down as illustrated below 
+> 1. Look for the iphone6 view, click on it
+> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/device_view_tool.png">
+>
 #### 1. Create form.html
 > 1. Within the head tags
 >
