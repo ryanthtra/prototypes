@@ -1,39 +1,126 @@
-/***/
-/*{*/
-    /*border: 1px solid red;*/
-    /*box-sizing: border-box;*/
-/*}*/
+@font-face
+{
+    font-family: korataki;
+    src: url(ufonts.com_korataki.ttf);
+}
+
+*
+{
+    font-family: korataki;
+}
+
+div.page-wrapper
+{
+    width: 70vw;
+    margin: 0 auto;
+}
 
 header
 {
-    border: 1px solid lawngreen;
+    /*border: 1px solid lawngreen;*/
     width: 100%;
     height: 20vh;
     background-color: rgb(41,50,58);
 }
 
-div#logo-wrapper
-{
-    display: inline-block;
-    height: inherit;
-}
-
-div#logo-wrapper>img#logo
+header>img
 {
     float: left;
-    height: inherit;
-    width: auto;
-    /*margin: 15% 5vw;*/
-}
-
-div#headline-wrapper
-{
-    display: inline-flex;
-    height: inherit;
-}
-
-div#headline-wrapper>h1
-{
-    position: relative;
     display: inline-block;
+    height: 80%;
+    width: auto;
+    /*position: relative;*/
+    /*transform: translateY(15%);*/
+    margin: .5% .5%
+}
+
+header>h1
+{
+    font-size: 4vmin;
+    position: relative;
+    left: 8%;
+    color: lightgray;
+    margin: .5% auto;
+}
+
+nav
+{
+    width: 50%;
+    float: right;
+    margin: 1% 0 0 0;
+    font-size: 1.2vmin;
+    text-align: center;
+    color: lightgray;
+}
+nav>ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav>ul>li
+{
+    display: inline-block;
+    margin: 0 5px;
+    text-transform: capitalize;
+}
+
+section#fs-2
+{
+    width: 100%;
+    height: 30vh;
+}
+
+section#fs-2>div
+{
+    height: 100%;
+}
+
+section#fs-2>div:first-of-type
+{
+    float: left;
+    width: 25%;
+    background-color: red;
+}
+
+section#fs-2>div:nth-of-type(2)
+{
+    float: right;
+    width: 75%;
+    background-color: green;
+}
+
+section#fs-3
+{
+    width: 100%;
+    height: 30vh;
+}
+
+section#fs-3>div
+{
+    height: 100%;
+}
+
+section#fs-3>div:first-of-type
+{
+    width: 24%;
+    background-color: blue;
+    display: inline-flex;
+    position: relative;
+}
+
+section#fs-3>div:nth-of-type(2)
+{
+    width: 74%;
+    background-color: rgb(255,255,0);
+    display: inline-flex;
+    position: relative;
+    right: 0.5%;
+}
+
+footer
+{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(41,50,58);
 }
