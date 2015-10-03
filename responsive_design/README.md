@@ -1,8 +1,10 @@
 # HTML & CSS - Responsive Design
 
-- Dev Tools Instruction
-    - Using dev tools to see mobile views in the browser - <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/README.md" target="_blank">Reference Link</a>
-- Presentaion
+##Dev Tools Instruction - This is important
+   - Using dev tools to see mobile views in the browser - <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/README.md" target="_blank">Reference Link</a>
+
+## Subject Resources
+- Presentation
     -  HTML & CSS Responsive and Mobile First - <a href="https://www.youtube.com/watch?v=aZbTiZg_i1U" target="_blank">Video Link</a>
 - Readings
     - HTML & CSS: Responsive & Mobile First - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDubE1qWDRZSVJXcWM/view?usp=sharing" target="_blank">Link</a>
@@ -68,6 +70,7 @@ Your form should do the following:
 > 
 form3 should look like the following at the iphone6 width and height:
 > #### iphone6 devtools view:
+  - Using dev tools to see mobile views in the browser - <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/README.md" target="_blank">Reference Link</a>
 > <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/iphone6_responsive.png">
 >
 > #### close up: 
