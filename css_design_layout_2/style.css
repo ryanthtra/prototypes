@@ -103,19 +103,20 @@ section#fs-3>div
 
 section#fs-3>div:first-of-type
 {
-    width: 24%;
+    position: relative;
+    width: 25%;
+    left: 0px;
     background-color: blue;
     display: inline-flex;
-    position: relative;
 }
 
 section#fs-3>div:nth-of-type(2)
 {
-    width: 74%;
+    position: relative;
+    width: 74.3%;
+    right: 0px;
     background-color: rgb(255,255,0);
     display: inline-flex;
-    position: relative;
-    right: 0.5%;
 }
 
 footer
