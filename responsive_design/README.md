@@ -1,6 +1,10 @@
 # HTML & CSS - Responsive Design
 
-- Presentaion
+##Dev Tools Instruction - This is important
+   - Using dev tools to see mobile views in the browser - <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/README.md" target="_blank">Reference Link</a>
+
+## Subject Resources
+- Presentation
     -  HTML & CSS Responsive and Mobile First - <a href="https://www.youtube.com/watch?v=aZbTiZg_i1U" target="_blank">Video Link</a>
 - Readings
     - HTML & CSS: Responsive & Mobile First - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDubE1qWDRZSVJXcWM/view?usp=sharing" target="_blank">Link</a>
@@ -44,31 +48,12 @@
 > - 2 paragraphs containing <a href="http://www.lipsum.com/" target="_blank">lorem ipsum</a>
 > - Ensure that fonts are responsive to the page and scale as necessary
 >
-### Upon completion of Feature Set 1
->
-Use dev tools to test mobile view and functionality
->
-> 1. Open <a href="learningfuze.com">learningfuze.com</a> in your browser
-> 1. Open the inspector
-> 1. Look for the phone icon (right next to the elements tab) as illustrated below
-> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/toggle-device-image.png">
-> 
-#### Once in the mobile dev tools view
-> 1. In the upper left hand corner click on the device drop down as illustrated below 
-> 1. Look for the iphone6 view, click on it
-> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/device_view_tool.png">
-> 1. Look for the phone icon again
-> 1. If the phone icon has a yellow caution sign, reload the page, because the view is not an accurate representation yet
-> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/mobile-view-reload.png">
-> 1. Following the refresh, notice the difference in the look of learningfuze.com
-> <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/mobile-view-refreshed.png">
->
 
 ### Feature Set 2 - Responsive form
-> 
-#### Make the form you just created (form2.html) responsive
->
-> - create the HTML file: responsive.html
+> - Make form2.html responsive
+
+#### Create responsive.html
+
 > - copy and paste the code from form2.html that you previously created in the <a href="https://github.com/Learning-Fuze/prototypes/tree/master/html_forms" target="_blank">html forms prototype</a>
 > 
 #### Media queries
@@ -85,6 +70,7 @@ Your form should do the following:
 > 
 form3 should look like the following at the iphone6 width and height:
 > #### iphone6 devtools view:
+  - Using dev tools to see mobile views in the browser - <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/README.md" target="_blank">Reference Link</a>
 > <img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/iphone6_responsive.png">
 >
 > #### close up: 
