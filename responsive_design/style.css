@@ -1,0 +1,10 @@
+.page-wrapper>img
+{
+    zoom: 50%;
+    float: left;
+}
+
+.page-wrapper>p
+{
+    font-size: 2vw;
+}
