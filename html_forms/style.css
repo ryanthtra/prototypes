@@ -1,0 +1,92 @@
+@font-face
+{
+    font-family: korataki;
+    src: url(ufonts.com_korataki.ttf);
+}
+
+form#fs-1>input:nth-of-type(2)
+{
+    font-family: korataki;
+    background-color: darkturquoise;
+    border: 2px solid red;
+    box-shadow: 3px 3px 2px rgb(0,0,255);
+}
+
+
+
+div.page-wrapper-2
+{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(177,57,57);
+    color: white;
+    font-family: arial, helvetica, sans-serif;
+}
+
+div.page-wrapper-2>div#page-contents
+{
+    position: relative;
+    margin: 0% 7.5%;
+}
+
+div#page-contents>ol
+{
+    padding: 0 0 0 2.5%;
+}
+
+div#page-contents>ol>h3
+{
+    text-align: center;
+    font-weight: normal;
+    padding: 0 2.5% 0 0;
+}
+
+div#page-contents>ol>li
+{
+    font-size: 75%;
+}
+
+div#page-contents>p
+{
+    font-size: 75%;
+}
+
+form#fs-2>input
+{
+    box-shadow: 0px 2px 0px rgb(149, 44, 51);
+}
+
+form#fs-2>input[type=text], form#fs-2>input[type=number]
+{
+    height: 40px;
+    width: 49%;
+    border: 1px solid rgb(222, 165, 105);
+}
+
+form#fs-2>input[type=text]:nth-of-type(odd)
+{
+    margin-right: .25%;
+}
+
+form#fs-2>input[type=text]:nth-of-type(even)
+{
+    margin-left: .25%;
+}
+
+form#fs-2>input[type=text][name=ssn]
+{
+    width: 24.5%;
+}
+
+form#fs-2>input[type=submit]
+{
+    float: right;
+    height: 40px;
+    width: 24%;
+    border: 1px solid rgb( 135, 22, 22);
+    background-color: rgb(136, 23, 23);
+    color: white;
+}
+
+
