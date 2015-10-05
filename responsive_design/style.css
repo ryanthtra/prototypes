@@ -8,3 +8,160 @@
 {
     font-size: 2vw;
 }
+
+/*below for feature set 2 (form2.html)*/
+
+div.page-wrapper-2
+{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(177,57,57);
+    color: white;
+    font-family: arial, helvetica, sans-serif;
+}
+
+div.page-wrapper-2>div#page-contents
+{
+    position: relative;
+    margin: 0% 7.5%;
+}
+
+div#page-contents>ol
+{
+    padding: 0 0 0 2.5%;
+}
+
+div#page-contents>ol>h3
+{
+    text-align: center;
+    font-weight: normal;
+    padding: 0 2.5% 0 0;
+}
+
+div#page-contents>ol>li
+{
+    font-size: 75%;
+}
+
+div#page-contents>p
+{
+    font-size: 75%;
+}
+
+form#fs-2>input
+{
+    box-shadow: 0px 2px 0px rgb(149, 44, 51);
+}
+
+form#fs-2>input[type=text], form#fs-2>input[type=number]
+{
+    height: 40px;
+    width: 49%;
+    border: 1px solid rgb(222, 165, 105);
+    margin: .5vh auto;
+}
+
+form#fs-2>input[type=text]:nth-of-type(odd)
+{
+    margin-right: .25%;
+}
+
+form#fs-2>input[type=text]:nth-of-type(even)
+{
+    margin-left: .25%;
+}
+
+form#fs-2>input[type=text][name=ssn]
+{
+    width: 24.5%;
+}
+
+form#fs-2>input[type=submit]
+{
+    float: right;
+    height: 40px;
+    width: 24%;
+    border: 1px solid rgb( 135, 22, 22);
+    background-color: rgb(136, 23, 23);
+    color: white;
+}
+
+/* below for responsive form2.html*/
+/* 750px portrait width of iPhone 6 */
+@media screen and (max-device-width: 480px)
+{
+    div.page-wrapper-2
+    {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
+
+    div#page-contents h3
+    {
+        font-size: 135%;
+    }
+
+    div#page-contents>ol>li
+    {
+        line-height: 200%;
+        font-size: 90%;
+    }
+
+    div#page-contents>p
+    {
+        line-height: 150%;
+        font-size: 90%;
+    }
+
+    div#page-contents>form#fs-2>div#form-title
+    {
+        text-align: center;
+        font-size: 150%;
+        margin: .75vh auto;
+    }
+
+    div#page-contents>form#fs-2>input
+    {
+        width: 100%;
+        height: 4vh;
+        margin: .75vh auto;
+    }
+
+    /* Chrome - input placeholder */
+    div#page-contents>form#fs-2>input::-webkit-input-placeholder
+    {
+        height: 100%;
+        font-size: 150%;
+        padding-left: 3%;
+        padding-bottom: 5%;
+    }
+
+    /* Firefox 19+ - input placeholder */
+    div#page-contents>form#fs-2>input::-moz-placeholder
+    {
+        height: 100%;
+        font-size: 150%;
+        padding-left: 3%;
+        padding-bottom: 5%;
+    }
+
+    /* Firefox 18- - input placeholder */
+    div#page-contents>form#fs-2>input:-moz-placeholder
+    {
+        height: 100%;
+        font-size: 150%;
+        padding-left: 3%;
+        padding-bottom: 5%;
+    }
+
+    /* IE - input placeholder */
+    div#page-contents>form#fs-2>input::-ms-input-placeholder
+    {
+        height: 100%;
+        font-size: 150%;
+        padding-left: 3%;
+        padding-bottom: 5%;
+    }
+}
