@@ -1,12 +1,10 @@
-#Prototype - HTML Forms
-- Readings
-    - HTML Forms - <a href="http://www.w3schools.com/html/html_forms.asp" target="_blank">Link</a>
-    - HTML Input Types - <a href="http://www.w3schools.com/html/html_form_input_types.asp" target="_blank">Link</a>
+#Bootstrap Redux
+
 - Presentations
-    - HTML Forms and Inputs
-        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuVmRORkljSDVGTUk/views" target="_blank">Slides Link</a>
-    - HTML Forms and Form Elements Video: 
-        - <a href="https://www.youtube.com/watch?v=R6NGGRiU7nEs" target="_blank">Video Link</a>
+    - Bootstrap Redux
+        <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuTWJrVk9YTXR5M2c/view" target="_blank">Link</a>
+    - Bootstrap Redux Video: 
+        - <a href="https://www.youtube.com/watch?v=HFhIYttrvWM" target="_blank">Video Link</a>
 
 ## Code Setup Details
 
@@ -31,10 +29,10 @@
 > `git pull https://github.com/Learning-Fuze/prototypes.git` & press enter
 > - The command above downloads the newly posted prototypes and saves them to your local machine
 
-> `git checkout -b html_forms`
+> `git checkout -b css_bootstrap_redux`
 > - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
 > - Any modifications to these files after <b>branching</b> can be undone
-> - "html_forms" is the branch name.
+> - "css_bootstrap_redux" is the branch name.
 
 #Coding Instructions
 
@@ -84,7 +82,7 @@
 
 > Run below command in terminal tab
 
-> `git commit -m "html_forms - Your Name"`
+> `git commit -m "css_bootstrap_redux - Your Name"`
 > - Your Name should be replaced with your First & Last name
 > - Grouping files with a message allows those changes to be seen by others as a specific version of the code
 
@@ -92,9 +90,10 @@
 
 > Run below command in terminal tab
 
-> `git push origin html_forms`
+> `git push origin css_bootstrap_redux`
 > - When running the code above, the Git application will send all commits (<b>groupings of saved files</b>) to the 
-remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</b>), specifically to the feature branch/group <b>html_forms</b>
+remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</b>), specifically to the feature 
+branch/group <b>css_bootstrap_redux</b>
 
 ##### 4. See if your feature fits with what everyone else was working on (Pull Request)
 
@@ -122,7 +121,7 @@ remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</
 > 1. `head fork: [your_user_name]/prototypes`
 >   1. Here you will select the option that matches your username / prototypes
 >   1. If you can not locate an option that has your username / prototypes, contact an instructor
-> 1. `compare: html_forms`
+> 1. `compare: css_bootstrap_redux`
 >   1. Here you will locate the branch name (or feature name) you created at the beginning of the prototype
 >   1. This will usually be the same as the name of the prototype
 > 1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
@@ -134,7 +133,7 @@ remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</
 
 > ####Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. If you set the commit message above you should get get <b>html_forms - [you name first & last 
+>   1. If you set the commit message above you should get get <b>css_bootstrap_redux - [you name first & last 
 name]</b> already pre populated in the Title field
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
