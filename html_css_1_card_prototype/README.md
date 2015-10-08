@@ -69,6 +69,8 @@ For our examples, we will use the following urls for images.  You can change the
 	- On hover of the card container
 	- cause the back face to disappear.  Don't worry about animation, this will be for the next feature set.
 
+<img src="https://github.com/Learning-Fuze/prototypes/blob/html_css_1_card_prototype/html_css_1_card_prototype/helper_images/side_by_side.png">
+
 ### Feature Set 2 (Layout 2) 
 #### Create a single card with rotate animation
 > - Create a file, fs2.html, and put the requisite code in it to satisfy Feature Set 2
@@ -91,6 +93,7 @@ For our examples, we will use the following urls for images.  You can change the
 	- Should be somewhat responsive to resizing.
 	- All cards should be hover functional still, without animations spilling over to other cards inadvertently 
 
+<img src="https://github.com/Learning-Fuze/prototypes/blob/html_css_1_card_prototype/html_css_1_card_prototype/helper_images/all_cards.png">
 
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
