@@ -1,20 +1,4 @@
-# Prototype - HTML Layout Structure, Blocks &amp; Design
-
-Expand your HTML knowledge with better understanding of HTML layout structure, blocks and design. As you work through 
-this prototype we will be building out aspects of the portfolio project v1 (Explanation Coming Soon). This prototype 
-is based on the information that you obtained through the following resources (<b>If you haven't gone through these 
-then please do so now</b>).
-
-- Readings
-    - HTML Blocks - <a href="http://www.w3schools.com/html/html_blocks.asp" target="_blank">Link</a>
-    - HTML Layout - <a href="http://www.w3schools.com/html/html_layout.asp" target="_blank">Link</a>
-    - HTML Lists - <a href="http://www.w3schools.com/html/html_lists.asp" target="_blank">Link</a>
-- Presentations
-    - 6. HTML Structure Intent and Layout
-        - <a href="https://drive.google.com/drive/u/0/folders/0B6mn1BHjNxTgVTVuNzdLMVNYRGs" target="_blank">Slides Link</a>
-    - 7. HTML Horizontal Layout &amp; Semantic Elements
-        - <a href="https://drive.google.com/drive/u/0/folders/0B6mn1BHjNxTgVTVuNzdLMVNYRGs" target="_blank">Slides Link</a>
-        - <a href="https://www.youtube.com/watch?v=0-WRsALktzE" target="_blank">Video Link (covers both)</a>
+# HTML CSS 1 Card Prototype
 
 ## Code Setup Details
 
@@ -39,10 +23,10 @@ then please do so now</b>).
 > `git pull https://github.com/Learning-Fuze/prototypes.git` & press enter
 > - The command above downloads the newly posted prototypes and saves them to your local machine
 
-> `git checkout -b html_fundamentals_5`
+> `git checkout -b html_css_1_card_prototype`
 > - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
 > - Any modifications to these files after <b>branching</b> can be undone
-> - "html_fundamentals_5" is the branch name.
+> - "html_css_1_card_prototype" is the branch name.
 
 ## Coding Instructions
 For our examples, we will use the following urls for images.  You can change them if you wish.
@@ -107,7 +91,7 @@ For our examples, we will use the following urls for images.  You can change the
 
 > Run below command in terminal tab
 
-> `git commit -m "html_fundamentals_5 - Eric Johnson"`
+> `git commit -m "html_css_1_card_prototype - Eric Johnson"`
 > - Eric Johnson should be replaced with your First & Last name
 > - Grouping files with a message allows those changes to be seen by others as a specific version of the code
 
@@ -115,9 +99,10 @@ For our examples, we will use the following urls for images.  You can change the
 
 > Run below command in terminal tab
 
-> `git push origin html_fundamentals_5`
+> `git push origin html_css_1_card_prototype`
 > - When running the code above, the Git application will send all commits (<b>groupings of saved files</b>) to the 
-remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</b>), specifically to the feature branch/group <b>html_fundamentals_5</b>
+remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</b>), specifically to the feature 
+branch/group <b>html_css_1_card_prototype</b>
 
 ##### 4. See if your feature fits with what everyone else was working on (Pull Request)
 
@@ -145,7 +130,7 @@ remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</
 >> 1. `head fork: [your_user_name]/prototypes`
 >>   1. Here you will select the option that matches your username / prototypes
 >>   1. If you can not locate an option that has your username / prototypes, contact an instructor
->> 1. `compare: html_fundamentals_5`
+>> 1. `compare: html_css_1_card_prototype`
 >>   1. Here you will locate the branch name (or feature name) you created at the beginning of the prototype
 >>   1. This will usually be the same as the name of the prototype
 >> 1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
@@ -157,7 +142,7 @@ remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</
 
 > ####Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. If you set the commit message above you should get get <b>html_fundamentals_5 - [you name first & last 
+>   1. If you set the commit message above you should get get <b>html_css_1_card_prototype - [you name first & last 
 name]</b> already pre populated in the Title field
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
