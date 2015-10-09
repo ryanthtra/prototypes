@@ -1,0 +1,131 @@
+/*fs1.html*/
+div.game-area
+{
+    position: relative;
+    background-color: burlywood;
+    width: 54vw;
+    height: 36.6vw;
+    display: inline-flex;
+}
+
+div.card-container
+{
+    position: relative;
+
+}
+
+.card-container>img#card-back
+{
+    z-index: 200;
+    position: absolute;
+    width: 8vw;
+    height: auto;
+}
+
+.card-container>img#card-front
+{
+    z-index: 100;
+    position: absolute;
+    width: 8vw;
+    height: auto;
+}
+
+div.card-container:hover>img#card-back
+{
+    z-index: 90;
+}
+/*END fs1.html*/
+
+
+/*fs2.html*/
+div.fs2-card-container
+{
+    position: relative;
+
+}
+
+div.fs2-card-container>img#card-back
+{
+    transition-duration: 1s;
+    z-index: 200;
+    position: absolute;
+    width: 8vw;
+    height: auto;
+    transform-origin: 50% 50%;
+    backface-visibility: hidden;
+}
+
+div.fs2-card-container>img#card-front
+{
+    transition-duration: 1s;
+    z-index: 100;
+    position: absolute;
+    width: 8vw;
+    height: auto;
+    transform-origin: 50% 50%;
+    transform: rotateY(180deg);
+}
+
+div.fs2-card-container:hover>img#card-back
+{
+    transition-duration: 1s;
+    z-index: 90;
+    transform-origin: 50% 50%;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+div.fs2-card-container:hover>img#card-front
+{
+    transition-duration: 1s;
+    transform-origin: 50% 50%;
+    transform: rotateY(360deg);
+}
+/*END fs2.html*/
+
+
+/*fs3.html*/
+div.fs3-card-container
+{
+    position: relative;
+
+}
+
+div.fs3-card-container>img.card-back
+{
+    transition-duration: 1s;
+    z-index: 200;
+    position: absolute;
+    width: 8vw;
+    height: auto;
+    transform-origin: 50% 50%;
+    backface-visibility: hidden;
+}
+
+div.fs3-card-container>img.card-front
+{
+    transition-duration: 1s;
+    z-index: 100;
+    position: absolute;
+    width: 8vw;
+    height: auto;
+    transform-origin: 50% 50%;
+    transform: rotateY(180deg);
+}
+
+div.fs3-card-container:hover>img.card-back
+{
+    transition-duration: 1s;
+    z-index: 90;
+    transform-origin: 50% 50%;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+div.fs3-card-container:hover>img.card-front
+{
+    transition-duration: 1s;
+    transform-origin: 50% 50%;
+    transform: rotateY(360deg);
+}
+/*END fs3.html*/
