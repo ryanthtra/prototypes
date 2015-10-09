@@ -12,7 +12,7 @@
 
 <body>
 <div class="page-wrapper">
-    <!--Navigation Bar (Feature Set 1)-->
+    <!--Bootstrap Nav Module (Feature Set 1)-->
     <nav class="navbar navbar-fixed-top navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -40,9 +40,191 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> <!--END Feature Set 1-->
 
+    <!--Bootstrap Carousel Module (Feature Set 2)-->
+    <div class="container col-md-3">
 
+        <div id="ryan-gallery" class="carousel slide" data-ride="carousel">
+            <!--The "Dots"-->
+            <ol class="carousel-indicators">
+                <li data-target="#ryan-gallery" data-slide-to="0" class="active"></li>
+                <li data-target="#ryan-gallery" data-slide-to="1"></li>
+                <li data-target="#ryan-gallery" data-slide-to="2"></li>
+                <li data-target="#ryan-gallery" data-slide-to="3"></li>
+                <li data-target="#ryan-gallery" data-slide-to="4"></li>
+            </ol> <!--END .carousel-indicators-->
+
+            <!--The Images-->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="#" data-toggle="modal" data-target="#img01-modal">
+                        <img src="images/me01.jpg" alt="Me 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" data-toggle="modal" data-target="#img02-modal">
+                        <img src="images/me02.jpg" alt="Me 2">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" data-toggle="modal" data-target="#img03-modal">
+                        <img src="images/me03.jpg" alt="Me 3">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" data-toggle="modal" data-target="#img04-modal">
+                        <img src="images/me04.jpg" alt="Me 4">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" data-toggle="modal" data-target="#img05-modal">
+                        <img src="images/me05.jpg" alt="Me 5">
+                    </a>
+                </div>
+            </div> <!--END .carousel-inner-->
+
+            <!--left-right carousel controls-->
+            <a class="left carousel-control" role="button" data-slide="prev" href="#ryan-gallery">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" role="button" data-slide="next" href="#ryan-gallery">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--END left-right carousel controls-->
+        </div>
+
+    </div> <!--END Feature Set 2-->
+
+    <!--Bootstrap Modal Module (Feature Set 3)-->
+    <div id="img01-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title">
+                        Me 01
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/me01.jpg">
+                        Selfie of me in the restaurant in my wife's neighboorhood in Paranaque.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dafault" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="img02-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title">
+                        Me 02
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/me02.jpg">
+                        Selfie of me with long hair and a beard in 2013.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dafault" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="img03-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title">
+                        Me 03
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/me03.jpg">
+                        A pic my wife took of me at a mall in Makati.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dafault" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="img04-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title">
+                        Me 04
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/me04.jpg">
+                        Playing a guitar in a music store at Market Market in Taguig.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dafault" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="img05-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title">
+                        Me 05
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <img src="images/me05.jpg">
+                        Selfie of my wife and me in a karaoke booth.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dafault" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END Feature Set 3-->
 </div>
 </body>
 
