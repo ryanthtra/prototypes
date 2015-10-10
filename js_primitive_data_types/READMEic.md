@@ -1,7 +1,7 @@
 # JavaScript - Primitive Data Types
 
 This prototype is designed to introduce you to primitive data types in JavaScript, to demonstrate how they are used 
-and show how they can be manipulated.
+and show how they can be manipulated. Make sure you have reviewed the slides and video before attempting this prototype. (*links below*)
 
 - Presentations
     - JS Primitive Data Types
