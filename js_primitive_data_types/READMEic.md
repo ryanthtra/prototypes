@@ -6,7 +6,7 @@ and show how they can be manipulated.
 - Presentations
     - JS Primitive Data Types
         - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDudmtWS1cwM0FMamc/view" target="_blank">Slides Link</a>
-        - <a href="" target="_blank">Video Link</a>
+        - <a href="https://www.youtube.com/watch?v=rj7CRTPoNkE" target="_blank">Video Link</a>
 - Projects
     - This project will help build towards the Memory Match project, as well as be a foundation for general 
     programming knowledge that will be used in all future projects.
