@@ -1,14 +1,12 @@
 # JavaScript - Special Data Types
 
 This prototype is designed to build on the knowledge gained from primitive data types and introduce you to special 
-data types.
+data types. Make sure you have reviewed the slides and video before attempting this prototype. (*links below*)
 
-- Readings
-    - JS Special Data Types - <a href="" target="_blank">Link</a>
 - Presentations
     - JS Special Data Types
-        - <a href="" target="_blank">Slides Link</a>
-        - <a href="" target="_blank">Video Link (covers both)</a>
+        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuQ013UWNQWUVRbkE/view" target="_blank">Slides Link</a>
+        - <a href="https://www.youtube.com/watch?v=KTggErSlJ6U" target="_blank">Video Link</a>
 - Projects
     - This project will help build towards the Memory Match project, as well as be a foundation for general 
     programming knowledge that will be used in all future projects.
