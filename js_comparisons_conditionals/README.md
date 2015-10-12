@@ -5,7 +5,7 @@ This prototype is designed to build on the knowledge gained from primitive data 
 - Presentations
     - JS Comparisons and Conditionals
         - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuR2FKZTVvN0lQQ00/view" target="_blank">Slides Link</a>
-        - <a href="" target="_blank">Coming Soon</a>
+        - <a href="" target="_blank">Video Coming Soon</a>
 - Projects
     - This project will help build towards the Memory Match project, as well as be a foundation for general
     programming knowledge that will be used in all future projects.
