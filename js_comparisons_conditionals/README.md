@@ -1,6 +1,6 @@
 # Javascript - Comparisons and Conditionals
 
-This prototype is designed to build on the knowledge gained from primitive data types and speecial data type prototypes, and introduce you to making comarprisons and conditional statements. Make sure you have reviewed the slides and video before attempting this prototype. (*links below*)
+This prototype is designed to build on the knowledge gained from primitive data types and speecial data type prototypes, and introduce you to making comarprisons and conditional statements in JavaScript. Make sure you have reviewed the slides and video before attempting this prototype. (*links below*)
 
 - Presentations
     - JS Comparisons and Conditionals
@@ -42,7 +42,7 @@ This prototype is designed to build on the knowledge gained from primitive data 
 
 #### Getting Started
 
->1. Make an index.html inside the `js-conditionals` folder
+>1. Make an index.html inside the `js_comparisons_conditionals` folder
 1. Create a basic HTML DOM structure
 	- DOCTYPE tag
 	- HTML tag
@@ -64,10 +64,11 @@ This prototype is designed to build on the knowledge gained from primitive data 
 #### Feature Set 2 - Create output
 
 >Create four output variables named:
-	- `output1`
-	- `output2`
-	- `output3`
-	- `output4`
+
+> - `output1`
+- `output2`
+- `output3`
+- `output4`
 
 >Set the outputs as shown below
 <br>
