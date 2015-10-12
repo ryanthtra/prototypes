@@ -93,7 +93,7 @@ div.fs3-card-container
 
 div.fs3-card-container>img.card-back
 {
-    transition-duration: 1s;
+    transition-duration: .4s;
     z-index: 200;
     position: absolute;
     width: 8vw;
@@ -104,18 +104,19 @@ div.fs3-card-container>img.card-back
 
 div.fs3-card-container>img.card-front
 {
-    transition-duration: 1s;
+    transition-duration: .4s;
     z-index: 100;
     position: absolute;
     width: 8vw;
     height: auto;
     transform-origin: 50% 50%;
     transform: rotateY(180deg);
+    backface-visibility: hidden;
 }
 
 div.fs3-card-container:hover>img.card-back
 {
-    transition-duration: 1s;
+    transition-duration: .8s;
     z-index: 90;
     transform-origin: 50% 50%;
     transform: rotateY(-180deg);
@@ -124,7 +125,7 @@ div.fs3-card-container:hover>img.card-back
 
 div.fs3-card-container:hover>img.card-front
 {
-    transition-duration: 1s;
+    transition-duration: .8s;
     transform-origin: 50% 50%;
     transform: rotateY(360deg);
 }
