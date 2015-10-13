@@ -68,6 +68,9 @@ Your form should do the following:
 >
 ### Example images
 > 
+form3 in desktop view should look like:
+<img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_forms/form3.png" alt="Form 3 layout">
+>
 form3 should look like the following at the iphone6 width and height:
 > #### iphone6 devtools view:
   - Using dev tools to see mobile views in the browser - <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/html_css_responsive/README.md" target="_blank">Reference Link</a>
