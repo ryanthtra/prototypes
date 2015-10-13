@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>JavaScript - Comparisons and Conditionals</title>
+    <script>
+
+        // Feature Set 1
+        var mySmallNumber = 5;
+        var myString = "5";
+        var myBigNumber = 255;
+
+
+        // Feature Set 2
+        var output1;
+        var output2;
+        var output3;
+        var output4;
+
+        output1 = "mySmallNumber == myString is " + (mySmallNumber == myString);
+        output2 = "mySmallNumber === myString is " + (mySmallNumber === myString);
+        output3 = "mySmallNumber < myBigNumber is " + (mySmallNumber < myBigNumber);
+        output4 = "mySmallNumber > myBigNumber is " + (mySmallNumber > myBigNumber);
+
+        // Result copied and pasted from Chrome Dev Tools inspector
+        console.log(output1);  // result: mySmallNumber == myString is true
+        console.log(output2);  // result: mySmallNumber === myString is false
+        console.log(output3);  // result: mySmallNumber < myBigNumber is true
+        console.log(output4);  // result: mySmallNumber > myBigNumber is false
+
+        // FS2 small challenge
+        var challenge =  (mySmallNumber + myString) === (mySmallNumber + myString);
+        console.log(challenge);  // result: true
+
+
+        // Feature Set 3
+        var myTruth = true;
+        var myLie = false;
+
+
+        // Feature Set 4
+        console.log("I'm " + myTruth + "!");
+        console.log("I'm " + (myLie ? true : false) + "!");
+        console.log("I'm " + ((myTruth == myLie) ? true : false) + "!");
+        if (!myLie)
+            console.log("I'm a true lie!");
+
+
+        // Feature Set 5
+        var myNumber = 55;
+
+        switch (myNumber)
+        {
+            case 1:
+            {
+                console.log("Now the world is gone, I'm just " + myNumber);
+                break;
+            }
+            case 18:
+            {
+                console.log(myNumber + "and life you got it.  " + myNumber + "and life you know.");
+                break;
+            }
+            case 55:
+            {
+                console.log("I can't drive " + myNumber);
+                break;
+            }
+            default:
+            {
+                console.log(myNumber + " is not between 1 and 100");
+                break;
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+<div class="page-wrapper">
+
+</div>
+</body>
+
+</html>
