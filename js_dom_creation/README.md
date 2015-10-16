@@ -5,7 +5,7 @@ Building from previous prototypes this prototype will introduce you to DOM creat
 - Presentations
     - JS DOM Creation
         - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDualpHYlF6dERaWUk/view" target="_blank">Slides Link</a>
-        - <a href="#" target="_blank">Video Coming Soon</a>
+        - <a href="https://plus.google.com/u/0/hangouts/onair/watch?hid=hoaevent/cpujfhnr3e85i52ijekqghl3egk&ytl=jzQNurWMZr8&wpsrc=yta" target="_blank">Video Link</a>
 - Projects
     - This prototype will help build towards more advanced versions of Memory Match project by giving you the tools to dynamically creating the gameboard.
 
