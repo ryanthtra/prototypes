@@ -41,34 +41,16 @@
 $(document).ready(function()
 {
 	//playground 1 code
-	var first_playground =  $('.playground_source:first-of-type').html();
-//	console.log(first_playground);
-	var copy = $("<div>");
-	copy.append(first_playground);
-//	console.log(copy);
-	var first_destination = $("#playground1");
-	first_destination.append(copy);
-//	console.log(first_destination);
+	var first_playground =  $('.playground:first-of-type').html();
+	$('#playground1').append(first_playground);
 
 	//playground 2 code
-	var second_playground =  $('.playground_source:nth-of-type(3)').html();  // Why is it 3rd-of-type and not 2nd?
-//	console.log(second_playground);
-	copy = $("<div>");
-	copy.append(second_playground);
-//	console.log(copy);
-	var second_destination = $("#playground2");
-	second_destination.append(copy);
-//	console.log(second_destination);
+	var second_playground =  $('.playground:nth-of-type(3)').html();
+	$('#playground2').append(second_playground);
 
 	//playground 3 code
-	var third_playground =  $('.playground_source:nth-of-type(5)').html();  // Why is it 5th-of-type and not 3rd?
-//	console.log(third_playground);
-	copy = $("<div>");
-	copy.append(third_playground);
-//	console.log(copy);
-	var third_destination = $("#playground3");
-	third_destination.append(copy);
-//	console.log(third_destination);
+	var third_playground =  $('.playground:nth-of-type(5)').html();
+	$('#playground3').append(third_playground);
 
 });
 </script>
