@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script>
+
+        // Feature Set 1.0
+        student_array = ["Matthew", "Mark", "Luke", "John", "Abraham"];
+        console.log(student_array[2]);
+
+        // Feature Set 1.1
+        console.log(student_array);
+        console.log(student_array.length);
+        student_array.push("Mary", "Elizabeth");
+        console.log(student_array.length);
+        console.log(student_array);
+
+        // Feature Set 2.0
+        var student = {};
+        student.firstName = "Dirk";
+        student.lastName = "Diggler";
+        student.age = 43;
+        student.school = "Boogie Nights University";
+        student.questionList = [];
+        student.hasQuestion = false;
+
+        // Feature Set 2.1
+        student.greeting = function()
+        {
+            return ("Hello, my name is " + this.firstName);
+        }
+
+        student.aboutMe = function()
+        {
+            return ("My full name is " + this.firstName + " " + this.lastName + ", I am " + this.age + " years old and I am a student at " + this.school + ".");
+        }
+
+        student.askQuestion = function(question)
+        {
+            this.questionList.push(question);
+            this.hasQuestion = true;
+            return ("A question has been added to your list");
+        }
+
+        student.answerQuestion = function()
+        {
+            if (this.hasQuestion)
+            {
+                this.hasQuestion = false;
+                return (this.questionList[this.questionList.length - 1]);
+            }
+            else
+            {
+                return ("You have no pending questions");
+            }
+        }
+
+        // Feature Set 2.2
+        console.log("Greeting function: " + student.greeting());
+        console.log("aboutMe function: " + student.aboutMe());
+        console.log("answerQuestion function: " + student.answerQuestion());
+        console.log("askQuestion function: " + student.askQuestion("Why did the chicken cross the road?"));
+        console.log("askQuestion function: " + student.askQuestion("Where do babies come from?"));
+        console.log("askQuestion function: " + student.askQuestion("How much wood would a woodchuck chuck if a woodchuck could chuck wood?"));
+        console.log("answerQuestion funciton: " + student.answerQuestion());
+        console.log("Question Log: " + student.questionList);
+
+    </script>
+
+</head>
+
+
+<body>
+<div class="page-wrapper">
+
+</div>
+</body>
+
+</html>
