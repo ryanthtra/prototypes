@@ -4,8 +4,8 @@ Building from previous prototypes this prototype will introduce you to JavaScrip
 
 - Presentations
     - JS Repeat Blocks
-        - <a href="" target="_blank">Slides Link</a>
-        - <a href="" target="_blank">Video Link</a>
+        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0BwjF2I7CBLDVbG5jSkZzTFlHWlU/view" target="_blank">Slides Link</a>
+        - <a href="" target="_blank">Video Link Coming Soon</a>
 - Projects
     - This prototype will help build towards the student grade table (SGT). The SGT project will rely heavily on arrays and objects requiring the use of repeat blocks to access and manipulate the data.
 
