@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script>
+
+        //----------- Feature Set 1 ---------------//
+        // 1.
+        var numbers = [1,2,3,4,5,6,7,8,9,10];
+
+        // 2.
+        console.log("//----------- Feature Set 1 ---------------//");
+        for (var i = 0; i < numbers.length; i++)
+        {
+            console.log(numbers[i]);
+        }
+        console.log("---------------------------");
+
+        // 4.
+        for (var i = 0; i < numbers.length; i++)
+        {
+            console.log(numbers[numbers.length - 1 - i]);
+        }
+        console.log("---------------------------");
+
+        // 6.
+        for (var i = 0; i < numbers.length; i++)
+        {
+            if (numbers[i] % 2 == 1)
+                console.log(numbers[i]);
+        }
+        console.log("---------------------------");
+
+        // 7.
+        var mixedArray = [4,56,11,13,97,22,7,36,19,5,8,10];
+        for (var i = 0; i < mixedArray.length; i++)
+        {
+            if (mixedArray[i] % 2 == 1)
+                console.log(mixedArray[i]);
+        }
+
+
+        //----------- Feature Set 2 ---------------//
+        console.log("//----------- Feature Set 2 ---------------//");
+        // 1.
+        var classRoom =
+            {
+                desk1: 'Stu',
+                desk2: 'Peggy',
+                desk3: 'LoneStar',
+                desk4: 'George',
+                desk5: 'Sheldon'
+            };
+
+        for (desk in classRoom)
+        {
+            console.log(classRoom[desk] + " is at " + desk + ".");
+        }
+
+
+        //----------- Feature Set 3 ---------------//
+        console.log("//----------- Feature Set 3 ---------------//");
+        // 1.
+        var studentArray =
+                [
+                    {name: "Bob", grade: 87},
+                    {name: "Fred", grade: 82},
+                    {name: "George", grade: 93},
+                    {name: "Robert", grade: 85}
+                ];
+
+        // 2.
+        function findStudent(name)
+        {
+            var output = '';
+            var i = 0;
+            var found = false;
+
+            while (!found && i < studentArray.length)
+            {
+                if (studentArray[i].name == name)
+                {
+                    found = true;
+                    output = '\"Found ' + name + ' their grade is: ' + studentArray[i].grade + '.\"';
+                }
+                i++;
+            }
+            return (found ? output : '\"Student ' + name + ' not found.\"');
+        }
+        console.log(findStudent("George"));
+        console.log(findStudent("Fred"));
+        console.log(findStudent("Hank"));
+    </script>
+
+</head>
+
+
+<body>
+<div class="page-wrapper">
+
+
+</div>
+</body>
+
+</html>
