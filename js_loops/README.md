@@ -69,7 +69,7 @@ Building from previous prototypes this prototype will introduce you to JavaScrip
 #### Feature Set 2 - For in loop
 
 >1. Given the following object
-	- `var students = {desk1: 'Stu', desk2: 'Peggy', desk3: 'LoneStar', desk4: 'George', desk5: 'Sheldon'}`
+	- `var classRoom = {desk1: 'Stu', desk2: 'Peggy', desk3: 'LoneStar', desk4: 'George', desk5: 'Sheldon'}`
 	- Use a `for in` loop to loop through each key value pair
 	- Create the following output `Stu is at desk1` `Peggy is at desk2` and so on ...
 
@@ -78,7 +78,7 @@ Building from previous prototypes this prototype will introduce you to JavaScrip
 >1. Given the following array:
 	- `var studentArray = [{name: "Bob", grade: 87}, {name: "Fred", grade: 82}, {name: "George", grade: 93}, {name: "Robert". grade: 85}]
 2. Write a function called `findStudent` that takes in **1** paramter 
-	- The function should find a given student in the above array structure and give out put based on the result of the search
+	- The function should find a given student in the above array structure and give output based on the result of the search
 		- If the student is found the output should be: `"Found [student name] their grade is: [grade]."`
 		- If student is not found the output should be: `"Student [student name] not found."`
 		
@@ -111,9 +111,10 @@ function findStudent(name) {
 	return output;
 }
 ```
-- Using 3 `console.log` test your function
+- Using 3 `console.log`s test your function
 	1. Make sure you copied the `studentArray` into your file
 	1. log the result of: `findStudent("George")`
+		- *Example*: `console.log("Test 1:", findStudent("George"));`
 	1. log the result of: `findStudent("Fred")`
 	1. log the result of: `findStudent("Hank")`
 - Verify you got the expected output from your function
