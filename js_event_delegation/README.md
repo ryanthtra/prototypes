@@ -11,8 +11,7 @@ Building from previous prototypes this prototype will introduce you to JavaScrip
     - JS Event Handling
         - <a href="https://plus.google.com/events/cqla4jlj56hlg36ebuebhm44r4c" target="_blank">JS Event Handling</a>
 - Projects
-    - This prototype will help build towards the student grade table (SGT). The SGT project will rely heavily on arrays and objects requiring the use of repeat blocks to access and manipulate the data.
-
+    - This prototype will help build towards the student grade table (SGT). 
 ## Code Setup Details
 
 #####1. Open PHPStorm
@@ -45,7 +44,7 @@ Building from previous prototypes this prototype will introduce you to JavaScrip
 
 #### Getting Started
 
->1. Use the provided index.html inside the `js_event_delegation` folder - Do not modify this HTML file!
+>1. Use the provided index.html inside the `js_event_delegation` folder - Do not modify this README.md or the included index.html file!
 >2. In the provided main.js file, create the following:
 
 #### Feature Set 1 - The lonely event listener
@@ -62,7 +61,7 @@ Building from previous prototypes this prototype will introduce you to JavaScrip
 >1. Create another button using jQuery DOM Creation:
 	- example - `"<li><button style='margin-top: 10px'>Delegated Button#5 Handler</button></li>"`
 	- Add the button to the #list with .append
->- Now click on the the last button - Add comments to the top of your main.js file and answer the following questions:
+>- Now click on the the last button - Add comments to the top of your main.js file (NOT IN HERE) and answer the following questions:
 	- What do you think is going to happen? 
 	- What happened? 
 	- Why? 
