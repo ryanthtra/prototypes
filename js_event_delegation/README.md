@@ -1,6 +1,5 @@
 # JS-Event Delegation - (jQuery)
 
-Building from previous prototypes this prototype will introduce you to JavaScript repeat blocks, giving you the ability to loop through data structures such as arrays and objects.
 
 - Readings
     - JS Dom Creation & JS Event Handling
@@ -74,7 +73,7 @@ Building from previous prototypes this prototype will introduce you to JavaScrip
 		
 #### Additional Challenge 
 
->- Create a new button that has a unique attribute and when clicked goes opens a new tab and navigates to google.com.
+>- Create a new button that has a unique attribute and when clicked, opens a new tab and navigates to google.com.
 >- Create a jQuery .on() handler that contains a conditional and only fires if the element contains a certain HTML attribute. 
 
 ##### Don't forget to test all of your work
