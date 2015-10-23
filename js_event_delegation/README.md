@@ -1,5 +1,6 @@
 # JS-Event Delegation - (jQuery)
 
+Building from previous prototypes, this prototype will introduce you to JavaScript/jQuery Event Delegation. This prototype will increase your knowledge of how, when, where, and why events are or are not handled.
 
 - Readings
     - JS Dom Creation & JS Event Handling
