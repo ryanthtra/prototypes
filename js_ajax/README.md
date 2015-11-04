@@ -3,10 +3,10 @@
 Building from previous prototypes, this prototype will introduce you to JavaScript/jQuery AJAX calls. AJAX is a built in method of the jQuery object from the jQuery library. This prototype will demonstrate how an AJAX call can be used to retrieve information from an outside source using an API. This prototype will be using the Apple iTunes API to retrieve the current top 10 movies on iTunes.
 
 - Readings
-    - JS APIs
-        - <a href="" target="_blank">JS API Slides</a>
-	- JS AJAX
-        - <a href="" target="_blank">JS AJAX Slides</a>
+    - JS AJAX
+        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDubkkzNmsta0llLTA/view" target="_blank">JS AJAX Slides</a>
+	- JS AJAX Sending
+        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B7eOl4joefDuSVRmRWMwdG9sOVU/view" target="_blank">JS AJAX Sending Slides</a>
 
 - Presentations
     - JS APIs and AJAX
