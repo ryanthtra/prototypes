@@ -1,5 +1,3 @@
-**IMPORTANT NOTE** Do a find and replace for `angular_dom_and_events` To add the prototypes branch name to all the appropriate places throughout readme **Del this line**
-
 # AngularJS - DOM and Events
 
 Building from the intro to Angular prototype, we will be adding to your Angular toolbag with directives that can show, hide and disable elements as well as adding click handlers.
