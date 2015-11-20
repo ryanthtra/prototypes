@@ -44,29 +44,57 @@ This prototype is intended to be a gentle introduction to the magic called Angul
 
 #### Getting Started
 
->1. index.html
+>1. An `index.html` file has been included in the `angular_intro` folder
 1. **DO NOT** Edit this README file
 
 #### Feature Set 1 - Toe testing Angular
 
 >1. Within the included HTML file:
-	- Link to the Angular CDN
-	- ng-app: Correctly include the `ng-app` directive to the applicable HTML element
-	- ng-init: Define a variable using `ng-init`
-	- expression: Using an Angular `expression` display the variable value in the DOM	
+	- Link to the <a href="https://developers.google.com/speed/libraries/#angularjs" target="_blank">Angular CDN</a>
+	- ng-app: 
+		- Correctly include the `ng-app` directive to the applicable HTML element
+	- ng-init: 
+		- Create a div within the body
+		- In the opening tag of the div initialize a variable using `ng-init`
+			- Name the variable `myVar`
+			- Set it to any string you like
+	- expression: 
+		- Within the div use an Angular `expression` to display the variable's value in the DOM
+1. Run your code
+	1. Do you see your string displayed on the page as expected?
+		1. **YES** - Continue on to Feature Set 2
+		1. **NO** - Return to step 1
 
 #### Feature Set 2 - The water is fine!
 
 >1. Building on the previous feature set:
-	- ng-init: Create an array called carArray using `ng-init` and add it to the applicable HTML element
-		- note: the cars do not need to be objects, strings are fine here.
-	- ng-repeat: Properly display all cars in the carArray in the DOM
+	- ng-init: 
+		- Create a new div below the previous one
+		- Create an array called `carArray` using `ng-init` inside the opening tag of your new div
+		- The carArray should contain at least four car names as strings
+	- ng-repeat:
+		- Within your div create a `<ul>` that contains **1** `<li>`
+		- In the opening tag of the `<li>` add the `ng-repeat` directive with the proper values to loop through your `carArray`
+		- Add an expression between the opening and closing `<li>` tags to display the data from your `carsArray`
+1. Run your code
+	1. Does your `carsArray` display properly as an unordered list on your page?
+		1. **YES** - Continue on to Feature Set 3
+		1. **NO** - Return to step 1
 	
 #### Feature Set 3 - Dude...its friggen magic?!
 
->1. Building on the previous feature set:
-	- ng-model: Create HTML input that displays its value below as its state changes (everytime a character is added)
-
+>1. Building on the previous feature sets:
+	- ng-model: 
+		- Create a final div after the other two
+		- Create an input of type text inside the input
+			- Use the `ng-model` directive to bind a variable called `myInput` to the input
+		- Create a `<p>` tag bellow the input
+			- Create an expression within the p tag that displays the value of the `myInput` variable
+1. Run your code
+	1. As you type in the input do you see its value displayed below the input?
+		1. **YES** - You've made it!
+		1. **NO** - Return to step 1
+		
 ## After Coding Details
 
 ##### 1. Save files to Git - Add all modified & created files
