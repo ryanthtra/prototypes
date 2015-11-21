@@ -4,13 +4,11 @@
 This prototype is intended to be a gentle introduction to the magic called Angular
 
 - Presentation(s)
-    - [Name of related slides]
-        - <a href="[URL]" target="_blank">Slides Link</a>
+    - Angular Intro
+        - <a href="https://drive.google.com/open?id=0B6piuc4O8oQmY20xd1NrRm9SWGM" target="_blank">Slides Link</a>
 - Video(s)
-    - [Name of related videos]
-        - <a href="[URL]" target="_blank">Video Link</a>
-- Projects
-    - [Replace this sentence with a description on current/upcoming projects that are related to this prototype] 
+    - FE-1-Frameworks
+        - <a href="https://plus.google.com/events/c4p84n8l27comis3ub8h919jhis" target="_blank">Video Link</a>
     
 ## Code Setup Details
 
