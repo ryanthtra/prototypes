@@ -4,10 +4,10 @@ Building from the intro to Angular prototype, we will be adding to your Angular 
 
 - Presentation(s)
     - AngularJS - DOM and Events
-        - <a href="[URL]" target="_blank">Slides Link</a>
+        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0B6piuc4O8oQmQjhNNEJjaEVabEk/view" target="_blank">Slides Link</a>
 - Video(s)
-    - Coming Soon!
-        - <a href="[URL]" target="_blank">Video Link</a>
+    - C6 - FE - Angular DOM & Events
+        - <a href="https://plus.google.com/u/0/events/cmbi3ika1hhmueb0sc19dlauo7c?cfem=1" target="_blank">Video Link</a>
 - Projects
     - This prototype will build towards building out the SGT project using Angular
     
