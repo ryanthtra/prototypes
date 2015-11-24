@@ -93,15 +93,18 @@ Building from the previous Angular prototypes, this prototype will introduce con
 
 #### Feature Set 3 - Keeping it short
 
->1. In the HTML add a `<p>` tag that will display the amount of remaining characters for the comment section
-     1. **Example Output**: Characters Remaining: 15
-1. Within the controller declare a variable to set a max length to the comment section
-    1. `this.maxLength = 25;`
-1. Create a method that returns the total number of characters still available for the comment
-    1. subtract the length of the comments string from the maxLangth variable
-1. Add a method to your controller that returns `true` if remaining characters <= 0 and `false` for everything else
-1. Use your new method to disable the textarea if the max amount of characters have been used
-1. Make sure to reset the textarea when you add to the infoArray
+>1. Within the script tag do the following:
+    1. Within the `formController` 
+        1. Declare a variable to set a max length to the comment section
+            1. `this.maxLength = 25;`
+        1. Create a method that returns the total number of characters still available for the comment
+            1. subtract the length of the comments string from the maxLangth variable
+        1. Add a method to your controller that returns `true` if remaining characters <= 0 and `false` for everything else
+1. Within the HTML
+    1. Add a `<p>` tag that will display the amount of remaining characters for the comment section
+            1. **Example Output**: Characters Remaining: 15
+    1. Use your new method to disable the textarea if the max amount of characters have been used
+    1. Make sure to reset the textarea after the form object has been added to the infoArray
 1. Run your code
     1. Does the comments textarea become disabled when you reach the character limit as well as retain the functionality from the previous feature sets?
         1. **YES** - Continue on to Feature Set 4
