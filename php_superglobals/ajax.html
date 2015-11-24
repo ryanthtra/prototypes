@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Prototype 3</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script>
+
+        function makeRequest(button)
+        {
+            if ($(button).val() == 'Call ajax GET')
+            {
+                $.ajax(
+                    {
+                        method: 'GET',
+                        dataType: 'text',
+                        url: 'index.php?' + 'howdy=' + $('input[type=checkbox]:checked').val() + '&message=' + $('textarea').val(),
+                        success: function(result)
+                        {
+                            console.log(result);
+                        },
+                        error: function(result)
+                        {
+                            console.log("ERROR!");
+                        }
+                    });
+            }
+            else
+            {
+                $.ajax(
+                    {
+                        method: 'POST',
+                        dataType: 'text',
+                        url: 'index.php',
+                        data:
+                            {
+                                howdy: $('input[type=checkbox]:checked').val(),
+                                message: $('textarea').val()
+                            },
+                        success: function(result)
+                        {
+                            console.log(result);
+                        },
+                        error: function(result)
+                        {
+                            console.log("ERROR!");
+                        }
+                    });
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function()
+        {
+            var form = $('form');
+            form.on('click', '.ajax-button', function()
+            {
+                makeRequest(this);
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <form>
+        <input type="checkbox" value="howdy" />Howdy
+        <textarea name="message" cols="20" rows="20"></textarea>
+        <input class="ajax-button" type="button" value="Call ajax GET" />
+        <input class="ajax-button" type="button" value="Call ajax POST" />
+    </form>
+</body>
+</html>
