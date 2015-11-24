@@ -109,31 +109,32 @@ Building from the previous Angular prototypes, this prototype will introduce con
         
 #### Feature Set 4 - Multiple controllers
 
->1. Wrap your table within a `<div>`
-    1. Give the div a new controller called `tableController as tc`
-1. In the script tag create the JavaScript to create your new controller
+>1. In the script tag create the JavaScript to create a new controller `tableController` and update the `formController`
     1. in the function keyword pass in the `$scope` parameter, also add $scope to the Form controller as well
         1. `app.controller("formController", function($scope){...});`
     1. Within your `formController` change the `formArray` from using `this` to use `$scope`
         1. `$scope.formArray = [];`
         1. Make sure to update everywhere you refer to the `formArray`
-1. Update the HTML to reflect the changes to the `formArray`
-    1. In the `ng-repeat` directive you can now just refer to the `formArray` directly
-        1. `ng-repeat="info in formArray"`
-    1. Add an additional column to your table to hold a delete button
-    1. Add a button to each entry
-1. Within the script tags
     1. Add a method to the `tableController` that takes in one parameter
-        1. The parameter should be the index of the list item
-        1. Have the method remove that object from the `formArray`
-1. Update your button to call the delete method from the `tableController`
-    1. Remember to pass in `$index`
-1. At the top of your table div add a `<p>` tag
-    1. It should display the total number of entries in the table
-        1. **Example Output**: Total Entries: 4
-1. Within the script tags
-    1. Add a function that will return the total number of entries in the table
-    1. Call the function in the `<p>` you created in the previous step 
+        1. The parameter should be the index of a table row
+        1. Have the method remove the corresponding object from the `formArray`
+    1. Add another method to the `tableController`
+        1. Add a method that will return the total number of entries in the table
+1. Make the following updates to the HTML
+    1. Wrap the table within a `<div>`
+        1. Give the div a new controller called `tableController as tc`
+    1. Update the HTML to reflect the changes to the `formArray`
+        1. In the `ng-repeat` directive you can now just refer to the `formArray` directly
+            1. `ng-repeat="info in formArray"`
+        1. Add an additional column to your table to hold a delete button
+        1. Add a button to each entry
+            1. Have the buttons call the delete method from the `tableController`
+            1. Remember to pass in `$index`
+        1. Add an additional row to the table that will show a live update of the form data as it is entered
+    1. At the top of your table div add a `<p>` tag
+        1. It should display the total number of entries in the table
+            1. **Example Output**: Total Entries: 4
+            1. Utilize the method that was created in the `tableController`
         
 ## After Coding Details
 
