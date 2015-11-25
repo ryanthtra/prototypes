@@ -1,44 +1,36 @@
-# Angular
-
-Angular routes
+# Angular routes
 
 - Presentation(s)
-    - Angular Routes
-        - <a href="[URL]" target="_blank">Slides Link</a>
+	- Angular Routes
+		- <a href="[URL]" target="_blank">Slides Link</a>
 - Video(s)
-    - [Name of related videos]
-        - <a href="[URL]" target="_blank">Video Link</a>
+	- [Name of related videos]
+		- <a href="[URL]" target="_blank">Video Link</a>
 - Projects
-    - [Replace this sentence with a description on current/upcoming projects that are related to this prototype] 
-
+	- [Replace this sentence with a description on current/upcoming projects that are related to this prototype] 
 - Resources
-	- <a href="https://docs.angularjs.org/api/ngRoute/provider/$routeProvider" target="_blank">$routeProvider</a> 
-	- <a href="https://docs.angularjs.org/api/ng/function/angular.module" target="_blank">Modules</a> 
-	- <a href="https://docs.angularjs.org/guide/controller" target="_blank">Controllers</a> 
-
+	- <a href="https://docs.angularjs.org/api/ngRoute/provider/$routeProvider" target="_blank">$routeProvider</a>
+	- <a href="https://docs.angularjs.org/api/ng/function/angular.module" target="_blank">Modules</a>
+	- <a href="https://docs.angularjs.org/guide/controller" target="_blank">Controllers</a>
+	
 ## Code Setup Details
 
 #####1. Open PHPStorm
 
 #####2. Navigate to prototypes
 
-> Insert this command in the terminal tab
-
-> `cd prototypes` & press enter
-
-> - this changes the directory to the prototypes folder
-> - If you get an error with the above command its probably because you are already within the correct directory
+>Insert this command in the terminal tab
+	`cd prototypes` & press enter
+- this changes the directory to the prototypes folder
+- If you get an error with the above command its probably because you are already within the correct directory
 
 #####3. Create a feature grouping (*Create feature branch*)
 
 > Insert & execute these command in the terminal tab individually
-
 > `git checkout master` & press enter
 > - The command above switches to the default branch
-
 > `git pull https://github.com/Learning-Fuze/prototypes.git` & press enter
 > - The command above downloads the newly posted prototypes and saves them to your local machine
-
 > `git checkout -b angular_routes`
 > - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
 > - Any modifications to these files after <b>branching</b> can be undone
@@ -49,9 +41,9 @@ Angular routes
 #### Getting Started
 
 >1. included:
->	- script.js
-> 	- index.html
-> 	- pages folder
+	- script.js
+	- index.html
+	- pages folder
  		- home.html
  		- about.html
  		- contact.html
@@ -59,53 +51,46 @@ Angular routes
 1. Also included is bootstrap and fontawesome
 1. **DO NOT** Edit this README file
 
-#### Feature Set 1 - "So many activites!" - Will Ferrell - [Step Brothers] (https://youtu.be/moR_v1lmJL4) 
-
->1. HTML 
-	- index.html
-		- include required angular scripts via CDN
-
->1. Module
-	- script.js  
-		- create an angular application called routeApp
-
->1. Controller 
-	- Place a controller on routeApp and name it 'routeCtrl' and give it a callback function that has $scope as a parameter
-		- In the controller, assign a message property to $scope and give it a string of "lorem ipsum"
+#### Feature Set 1 - "So many activites!" - Will Ferrell - [Step Brothers] (https://youtu.be/moR_v1lmJL4)
 
 >1. HTML
+	- index.html
+	- include required angular scripts via CDN
+1. Module
+	- script.js  
+		- create an angular application called routeApp
+1. Controller
+	- Place a controller on routeApp and name it 'routeCtrl' and give it a callback function that has $scope as a parameter
+		- In the controller, assign a message property to $scope and give it a string of "lorem ipsum"
+1. HTML
 	- index.html
 		- Initialize the Angular application and add associated Angular directives
 			- Display the message variable that was defined within the route controller with an Angular expression
 
-
 #### Feature Set 2 - "more cowbell? = false; more Angular injections = true;"
 
->1. HTML
+> 1. HTML
 	- index.html
-		- Add a div with the directive ng-view in the #main div
-
->1. Javascript Angular.config
+	- Add a div with the directive ng-view in the #main div
+1. Javascript Angular.config
 	- script.js
-		- Add the dependency ngRoute into the routeApp
-		- configure routes:
-			- Call the config method on routeApp 
-				- The config method should have a callback function that takes $routeProvider as an argument
-			- Call the when method on $routeProvider three times
-				- The when method expects 2 arguments ('path', route) path is a string and route is an object
-					- the path argument should should be a string and is the url
-						- if the path was home.html it should be '/home'
-					- Assign values to the templateUrl and controller properties of the route object
-						- templateUrl should look like - template: 'pages/home.html'
-						- controller should look like - controller: 'mainCtrl'
-				
->1. Javascript
+	- Add the dependency ngRoute into the routeApp
+	- configure routes:
+		- Call the config method on routeApp
+			- The config method should have a callback function that takes $routeProvider as an argument
+		- Call the when method on $routeProvider three times
+			- The when method expects 2 arguments ('path', route) path is a string and route is an object
+				- the path argument should should be a string and is the url
+					- if the path was home.html it should be '/home'
+				- Assign values to the templateUrl and controller properties of the route object
+					- templateUrl should look like - template: 'pages/home.html'
+					- controller should look like - controller: 'mainCtrl'
+1. Javascript
 	- script.js
 		- for each route create controllers
 		- the controller should take $scope as an argument
 			- assign a different message for each controller
-		
->1. HTML
+1. HTML
 	- Within the pages folder, add the message from the controllers to the associated HTML files
 
 ## After Coding Details
