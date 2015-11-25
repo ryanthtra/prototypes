@@ -52,6 +52,15 @@ Building from the previous Angular prototypes, this prototype will introduce con
 >1. Add a `ng-app` directive to your body tag
     1. Give your app a name
     1. For the examples `myApp` will be the name of the application
+1. Add `<script>` tags at the bottom of the body
+    1. Create a module and assign it to a variable
+        1. `var app = angular.module("myApp", []);`
+    1. Create the controller
+        1. `app.controller("formController", function(){...});`
+    1. Within the controller declare an empty form object
+        1. `this.form = {};`
+    1. Declare an empty array to hold the form objects in the future
+        1. `this.formArray = [];`  
 1. Add a `<div>` within the body
     1. Add a `ng-controller` directive to your div
         1. For the examples `formController as fc` will be used for the controller
@@ -63,28 +72,18 @@ Building from the previous Angular prototypes, this prototype will introduce con
         1. one input for an email
             1. Add `fc.form.email` to the email input field so that the value inserted binds to the object property
         1. One textarea for comments
-            1. Add `fc.form.comments` to the comments textarea so that the value inserted binds to the object property
-1. Add `<script>` tags at the bottom of the body
-    1. Create a module and assign it to a variable
-        1. `var app = angular.module("myApp", []);`
-    1. Create the controller
-        1. `app.controller("formController", function(){...});`
-    1. Within the controller declare an empty form object
-        1. `this.form = {};`
-    1. Declare an empty array to hold the form objects in the future
-        1. `this.formArray = [];`        
+            1. Add `fc.form.comments` to the comments textarea so that the value inserted binds to the object property      
 
 #### Feature Set 2 - Make it functional
 
->1. Within the controller add a method that returns a persons full name
-    1. **Example**: `Eric Johnson`
-1. Add another method that adds the form object to the formArray
-    1. Before adding the object to the array add a fullName value to the form object
-        1. `this.form.fullName = this.fullName();`
-    1. After you have added the form object to the `formArray` clear the form object
-        1. `this.form = {};`
-1. Add a button after the textarea that calls the add function when clicked
-1. Below the button create a table that has three columns: Full Name, Email, and Comments
+>1. In the script tags do the following:
+    1. Add another method that adds the form object to the formArray
+        1. After you have added the form object to the `formArray` clear the form object
+            1. `this.form = {};`
+1. WIthin in the HTML add the following:
+    1. Add a button after the textarea that calls the add function when clicked
+    1. Below the button create a table that has three columns: Full Name, Email, and Comments
+        1. For the full name use concatenation to display the first and last names in the same cell
     1. Use `ng-repeat` to loop through the `formArray` and display the data in the table
 1. Run your code
     1. Are you able to add data to the `formArray` and have the table update with the added info?
