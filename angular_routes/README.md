@@ -67,41 +67,43 @@ Angular routes
 
 >1. Module
 	- script.js  
-		- create a variable called routeApp and an associated Angular Module
+		- create an angular application called routeApp
 
 >1. Controller 
 	- Place a controller on routeApp and name it 'routeCtrl' and give it a callback function that has $scope as a parameter
-		- In the controller, assign a message property to $scope and give it a string to display in our view
+		- In the controller, assign a message property to $scope and give it a string of "lorem ipsum"
 
 >1. HTML
 	- index.html
-		- Add the Module and Controller
-			- Test with $scope.message
+		- Initialize the Angular application and add associated Angular directives
+			- Display the message variable that was defined within the route controller with an Angular expression
 
 
 #### Feature Set 2 - "more cowbell? = false; more Angular injections = true;"
 
 >1. HTML
 	- index.html
-		- Nest an ng-view div in the #main div
+		- Add a div with the directive ng-view in the #main div
 
 >1. Javascript Angular.config
 	- script.js
-		- within routeApp, add ngRoute as a dependency
+		- Add the dependency ngRoute into the routeApp
 		- configure routes:
-			- add .config to routeApp and a function that takes $routeProvider as a parameter
-			- add .when methods to $routeProvider that route to the home, about and contact pages
-				- the when method expects 2 arguments ('page', route) path is a string and route is an object
-					- assign the applicable page to the templateUrl property of the object
-						- should point to pages in the pages directory
-					- assign the applicable controller to the controller property of the object
+			- Call the config method on routeApp 
+				- The config method should have a callback function that takes $routeProvider as an argument
+			- Call the when method on $routeProvider three times
+				- The when method expects 2 arguments ('path', route) path is a string and route is an object
+					- the path argument should should be a string and is the url
+						- if the path was home.html it should be '/home'
+					- Assign values to the templateUrl and controller properties of the route object
+						- templateUrl should look like - template: 'pages/home.html'
+						- controller should look like - controller: 'mainCtrl'
 				
 >1. Javascript
 	- script.js
-		- configure controllers
-			- create controllers for the pages
-				- the controller should take $scope as an argument
-				- assign a different message for each controller
+		- for each route create controllers
+		- the controller should take $scope as an argument
+			- assign a different message for each controller
 		
 >1. HTML
 	- Within the pages folder, add the message from the controllers to the associated HTML files
