@@ -12,7 +12,10 @@ function load_files(directory)
             dataType: 'json',
             success: function(result)
             {
+                // For Featureset 2
                 //img_dom_arr = createCarousel(result['files']);
+
+                // For Featureset 3-5
                 createAnimatedCarousel(result['files']);                
             },
             error: function(result)
@@ -22,12 +25,12 @@ function load_files(directory)
         });
 }
 
-function incrementArrayIndex(index, array)
+function getIncrementArrayIndex(index, array)
 {
     length = array.length;
     return (++index == length ? 0 : index);
 }
-function decrementArrayIndex(index, array)
+function getDecrementArrayIndex(index, array)
 {
     length = array.length;
     return (--index < 0 ? length - 1 : index);
@@ -109,11 +112,11 @@ function displayNewImage(button, img_dom_arr)
     switch ($(button).attr('id'))
     {
         case 'prev-button':
-            img_dom_arr.active = decrementArrayIndex(img_dom_arr.active, img_dom_arr.imgs);
+            img_dom_arr.active = getDecrementArrayIndex(img_dom_arr.active, img_dom_arr.imgs);
             break;
 
         case 'next-button':
-            img_dom_arr.active = incrementArrayIndex(img_dom_arr.active, img_dom_arr.imgs);
+            img_dom_arr.active = getIncrementArrayIndex(img_dom_arr.active, img_dom_arr.imgs);
             break;
     }
 
@@ -136,21 +139,17 @@ var carousel_obj = {
 var left_img_css = {
     position: 'absolute',
     right: '100%',
-    //left: '0',
     width: '100%',
     height: 'auto'
 };
 var middle_img_css = {
     position: 'absolute',
-    //left: '0',
-    //right: '0',
     width: '100%',
     height: 'auto'
 };
 var right_img_css = {
     position: 'absolute',
     left: '100%',
-    //right: '0',
     width: '100%',
     height: 'auto'
 };
@@ -180,7 +179,7 @@ function createAnimatedCarousel(img_arr)
         height: '42vw',
         left: '0',          // Used for centering
         right: '0',         // absolutely-positioned
-        margin: '0 auto',   // container to the body.
+        margin: '0 auto',   // container to the parent.
         clip: 'rect(0, 56vw, 42vw, 0)',
         overflow: 'hidden'
     };
@@ -222,6 +221,7 @@ function createAnimatedCarousel(img_arr)
     body.append(clip_container);
 
     var buttons = $('<div>');
+    buttons.attr('id', 'carousel-buttons');
     buttons.on('click', 'button', function()
     {
         slideCarousel(this, carousel_obj);
@@ -261,6 +261,7 @@ function slideCarousel(button, carousel_obj)
             next_image(carousel_obj, length);
             break;
     }
+
     changeCarouselImages(carousel_obj);
     changeActiveIndicator(carousel_obj);
 }
@@ -270,7 +271,7 @@ function slideCarousel(button, carousel_obj)
 function prev_image(carousel_obj, length)
 {
     length = typeof length !== 'undefined' ? length : carousel_obj.src_arr.length;
-    carousel_obj.active = decrementArrayIndex(carousel_obj.active, carousel_obj.src_arr);
+    carousel_obj.active = getDecrementArrayIndex(carousel_obj.active, carousel_obj.src_arr);
 
     $('#image-container').css(left_translate);
 }
@@ -280,7 +281,7 @@ function prev_image(carousel_obj, length)
 function next_image(carousel_obj, length)
 {
     length = typeof length !== 'undefined' ? length : carousel_obj.src_arr.length;
-    carousel_obj.active = incrementArrayIndex(carousel_obj.active, carousel_obj.src_arr);
+    carousel_obj.active = getIncrementArrayIndex(carousel_obj.active, carousel_obj.src_arr);
 
     $('#image-container').css(right_translate);
 }
@@ -291,12 +292,22 @@ function changeCarouselImages(carousel_obj)
 {
     var active = carousel_obj.active;
     var length = carousel_obj.src_arr.length;
+    $('#carousel-buttons').off('click');
+    $('#carousel-indicators').off('click');
     setTimeout(function()
     {
-        carousel_obj.dom_arr[0].attr('src', carousel_obj.src_arr[decrementArrayIndex(active, carousel_obj.src_arr)]);
+        carousel_obj.dom_arr[0].attr('src', carousel_obj.src_arr[getDecrementArrayIndex(active, carousel_obj.src_arr)]);
         carousel_obj.dom_arr[1].attr('src', carousel_obj.src_arr[active]);
-        carousel_obj.dom_arr[2].attr('src', carousel_obj.src_arr[incrementArrayIndex(active, carousel_obj.src_arr)]);
+        carousel_obj.dom_arr[2].attr('src', carousel_obj.src_arr[getIncrementArrayIndex(active, carousel_obj.src_arr)]);
         $('#image-container').css(middle_translate);
+        $('#carousel-buttons').on('click', 'button', function()
+        {
+            slideCarousel(this, carousel_obj);
+        });
+        $('#carousel-indicators').on('click', 'li', function()
+        {
+            indicatorClicked(this, carousel_obj);
+        });
     }, SLIDE_TIME);
 }
 /*********** END Featureset 3 **************/
@@ -335,9 +346,14 @@ function createCarouselIndicators(carousel_obj)
     ul.attr('id', 'carousel-indicators');
     ul.css(ul_css);
 
+    ul.on('click', 'li', function()
+    {
+        indicatorClicked(this, carousel_obj);
+    });
     for (var i = 0; i < length; i++)
     {
         var li = $('<li>');
+        li.attr('index', i);
         li.css(i == 0 ? indicator_active_css : indicator_css);
         carousel_obj.ind_arr.push(li);
         ul.append(li);
@@ -353,3 +369,32 @@ function changeActiveIndicator(carousel_obj)
         $(carousel_obj.ind_arr[i]).css(i == active_index ? indicator_active_css : indicator_css);
     }
 }
+/*********** END Featureset 4 **************/
+
+
+/*********** START Featureset 5 **************/
+function indicatorClicked(indicator, carousel_obj)
+{
+    var clicked_index = $(indicator).attr('index');
+
+    if (clicked_index < carousel_obj.active)
+    {
+        // Replace the left DOM image
+        $(carousel_obj.dom_arr[0]).attr('src', carousel_obj.src_arr[clicked_index]);
+        $('#image-container').css(left_translate);
+    }
+    else if (clicked_index > carousel_obj.active)
+    {
+        // Replace the right DOM image
+        $(carousel_obj.dom_arr[2]).attr('src', carousel_obj.src_arr[clicked_index]);
+        $('#image-container').css(right_translate);
+    }
+    else
+    {
+        return;
+    }
+    carousel_obj.active = clicked_index;
+    changeCarouselImages(carousel_obj);
+    changeActiveIndicator(carousel_obj);
+}
+/*********** END Featureset 5 **************/
