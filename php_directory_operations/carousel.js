@@ -1,9 +1,4 @@
-﻿var img_dom_arr = {
-    active: 0,
-    imgs: []
-};
-
-document.addEventListener("DOMContentLoaded", function()
+﻿document.addEventListener("DOMContentLoaded", function()
 {
     load_files("images");
 });
@@ -18,7 +13,7 @@ function load_files(directory)
             success: function(result)
             {
                 //img_dom_arr = createCarousel(result['files']);
-                createAnimatedCarousel(result['files']);
+                createAnimatedCarousel(result['files']);                
             },
             error: function(result)
             {
@@ -27,7 +22,25 @@ function load_files(directory)
         });
 }
 
-/* START Featureset 2*/
+function incrementArrayIndex(index, array)
+{
+    length = array.length;
+    return (++index == length ? 0 : index);
+}
+function decrementArrayIndex(index, array)
+{
+    length = array.length;
+    return (--index < 0 ? length - 1 : index);
+}
+
+/*********** START Featureset 2 **************/
+var img_dom_arr = {
+    active: 0,
+    imgs: []
+};
+/**
+ * createCarousel
+ */
 function createCarousel(img_arr)
 {
     var container = $('<div>', {
@@ -96,11 +109,11 @@ function displayNewImage(button, img_dom_arr)
     switch ($(button).attr('id'))
     {
         case 'prev-button':
-            prev_image(img_dom_arr, length);
+            img_dom_arr.active = decrementArrayIndex(img_dom_arr.active, img_dom_arr.imgs);
             break;
 
         case 'next-button':
-            next_image(img_dom_arr, length);
+            img_dom_arr.active = incrementArrayIndex(img_dom_arr.active, img_dom_arr.imgs);
             break;
     }
 
@@ -112,9 +125,9 @@ function displayNewImage(button, img_dom_arr)
             img_dom_arr.imgs[i].css('display', 'initial');
     }
 }
-/* END Featureset 2*/
+/*********** END Featureset 2 **************/
 
-/* START Featureset 3*/
+/*********** START Featureset 3 **************/
 var carousel_obj = {
     active: 0,      // The index for currently displayed image
     src_arr: [],    // The array holding the filenames of the images
@@ -230,8 +243,11 @@ function createAnimatedCarousel(img_arr)
     buttons.append(button_prev, button_next);
 
     body.append(buttons);
+    body.append(createCarouselIndicators(carousel_obj));
 }
-
+/**
+ * slideCarousel
+ */
 function slideCarousel(button, carousel_obj)
 {
     var length = carousel_obj.src_arr.length;
@@ -246,8 +262,11 @@ function slideCarousel(button, carousel_obj)
             break;
     }
     changeCarouselImages(carousel_obj);
+    changeActiveIndicator(carousel_obj);
 }
-
+/**
+ * prev_image
+ */
 function prev_image(carousel_obj, length)
 {
     length = typeof length !== 'undefined' ? length : carousel_obj.src_arr.length;
@@ -255,7 +274,9 @@ function prev_image(carousel_obj, length)
 
     $('#image-container').css(left_translate);
 }
-
+/**
+ * next_image
+ */
 function next_image(carousel_obj, length)
 {
     length = typeof length !== 'undefined' ? length : carousel_obj.src_arr.length;
@@ -263,7 +284,9 @@ function next_image(carousel_obj, length)
 
     $('#image-container').css(right_translate);
 }
-
+/**
+ * changeCarouselImages
+ */
 function changeCarouselImages(carousel_obj)
 {
     var active = carousel_obj.active;
@@ -276,16 +299,57 @@ function changeCarouselImages(carousel_obj)
         $('#image-container').css(middle_translate);
     }, SLIDE_TIME);
 }
+/*********** END Featureset 3 **************/
 
-/* END Featureset 3*/
 
-function incrementArrayIndex(index, array)
+/*********** START Featureset 4 **************/
+var indicator_css = {
+    float: 'left',
+    margin: '0.75vw',
+    'font-size': '2vw',
+    'list-style-type': 'circle'
+};
+var indicator_active_css = {
+    float: 'left',
+    margin: '0.75vw',
+    'font-size': '2vw',
+    'list-style-type': 'disc'
+};
+carousel_obj.ind_arr = [];
+function createCarouselIndicators(carousel_obj)
 {
-    length = array.length;
-    return (++index == length ? 0 : index);
+    var img_arr = carousel_obj.src_arr;
+    var length = img_arr.length;
+
+    var ul = $('<ul>');
+    var ul_width = length * 1.5;
+    var ul_css = {
+        position: 'absolute',
+        left: '0',
+        right: '0',
+        top: '41vw',
+        width: ul_width + 'vw',
+        margin: '0 auto',
+        padding: '0',
+    };
+    ul.attr('id', 'carousel-indicators');
+    ul.css(ul_css);
+
+    for (var i = 0; i < length; i++)
+    {
+        var li = $('<li>');
+        li.css(i == 0 ? indicator_active_css : indicator_css);
+        carousel_obj.ind_arr.push(li);
+        ul.append(li);
+    }
+    return ul;
 }
-function decrementArrayIndex(index, array)
+function changeActiveIndicator(carousel_obj)
 {
-    length = array.length;
-    return (--index < 0 ? length-1 : index);
+    var active_index = carousel_obj.active;
+    var length = carousel_obj.ind_arr.length;
+    for (var i = 0; i < length; i++)
+    {
+        $(carousel_obj.ind_arr[i]).css(i == active_index ? indicator_active_css : indicator_css);
+    }
 }
