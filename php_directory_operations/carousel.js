@@ -244,12 +244,33 @@ function createAnimatedCarousel(img_arr)
 
     body.append(buttons);
     body.append(createCarouselIndicators(carousel_obj));
+
+    var anim_button_container = $('<div>');
+    anim_button_container.attr('id', 'anim-button');
+    anim_button_container.css({
+        position: 'relative',
+        top: '44vw',
+        width: '56vw',
+        margin: '0 auto'
+    });
+    anim_button_container.on('click', 'button', function()
+    {
+        activateCarouselAutoChange(this, carousel_obj);
+    });
+    var button_activate_auto = $('<button>');
+    button_activate_auto.text('Disable Auto-slide')
+    anim_button_container.append(button_activate_auto);
+    body.append(anim_button_container);
+    enableCarouselAutoChange(carousel_obj);
 }
 /**
  * slideCarousel
  */
 function slideCarousel(button, carousel_obj)
 {
+    if (auto_on)
+        resetIntervalTimer(carousel_obj);
+
     var length = carousel_obj.src_arr.length;
     switch ($(button).attr('id'))
     {
@@ -262,8 +283,7 @@ function slideCarousel(button, carousel_obj)
             break;
     }
 
-    changeCarouselImages(carousel_obj);
-    changeActiveIndicator(carousel_obj);
+    goToCarouselImage(carousel_obj, carousel_obj.active);
 }
 /**
  * prev_image
@@ -288,9 +308,13 @@ function next_image(carousel_obj, length)
 /**
  * changeCarouselImages
  */
-function changeCarouselImages(carousel_obj)
+function changeCarouselImages(carousel_obj, new_index)
 {
-    var active = carousel_obj.active;
+    // If we aren't setting a new active image index, then 
+    // grab the active index from the carousel object.
+    new_index = typeof new_index !== 'undefined' ? new_index : carousel_obj.active;
+
+    var active = new_index;
     var length = carousel_obj.src_arr.length;
     $('#carousel-buttons').off('click');
     $('#carousel-indicators').off('click');
@@ -360,9 +384,13 @@ function createCarouselIndicators(carousel_obj)
     }
     return ul;
 }
-function changeActiveIndicator(carousel_obj)
+function changeActiveIndicator(carousel_obj, new_index)
 {
-    var active_index = carousel_obj.active;
+    // If we aren't setting a new active image index, then 
+    // grab the active index from the carousel object.
+    new_index = typeof new_index !== 'undefined' ? new_index : carousel_obj.active;
+
+    var active_index = new_index;
     var length = carousel_obj.ind_arr.length;
     for (var i = 0; i < length; i++)
     {
@@ -375,6 +403,8 @@ function changeActiveIndicator(carousel_obj)
 /*********** START Featureset 5 **************/
 function indicatorClicked(indicator, carousel_obj)
 {
+    if (auto_on)
+        resetIntervalTimer(carousel_obj);
     var clicked_index = $(indicator).attr('index');
 
     if (clicked_index < carousel_obj.active)
@@ -394,7 +424,49 @@ function indicatorClicked(indicator, carousel_obj)
         return;
     }
     carousel_obj.active = clicked_index;
-    changeCarouselImages(carousel_obj);
-    changeActiveIndicator(carousel_obj);
+    goToCarouselImage(carousel_obj, clicked_index);
 }
 /*********** END Featureset 5 **************/
+
+function goToCarouselImage(carousel_obj, image_index)
+{
+    // If we aren't setting a new active image index, then 
+    // grab the active index from the carousel object.
+    image_index = typeof image_index !== 'undefined' ? image_index : carousel_obj.active;
+
+    changeCarouselImages(carousel_obj, image_index);
+    changeActiveIndicator(carousel_obj, image_index);
+}
+
+var auto_animate;
+var auto_on = false;
+function activateCarouselAutoChange(button, carousel_obj)
+{
+    if ($(button).text().search('Disable') != -1)
+    {
+        auto_on = false;
+        clearInterval(auto_animate);
+        $(button).text('Enable Auto-slide');
+    }
+    else
+    {
+        enableCarouselAutoChange(carousel_obj);
+        $(button).text('Disable Auto-slide');
+    }
+}
+
+function enableCarouselAutoChange(carousel_obj)
+{
+    auto_on = true;
+    auto_animate = setInterval(function()
+    {
+        next_image(carousel_obj);
+        goToCarouselImage(carousel_obj);
+    }, 3000);
+}
+
+function resetIntervalTimer(carousel_obj)
+{
+    clearInterval(auto_animate);
+    enableCarouselAutoChange(carousel_obj);
+}
