@@ -268,7 +268,7 @@ function createAnimatedCarousel(img_arr)
  */
 function slideCarousel(button, carousel_obj)
 {
-    if (auto_on)
+    if (carousel_obj.auto_on)
         resetIntervalTimer(carousel_obj);
 
     var length = carousel_obj.src_arr.length;
@@ -403,7 +403,7 @@ function changeActiveIndicator(carousel_obj, new_index)
 /*********** START Featureset 5 **************/
 function indicatorClicked(indicator, carousel_obj)
 {
-    if (auto_on)
+    if (carousel_obj.auto_on)
         resetIntervalTimer(carousel_obj);
     var clicked_index = $(indicator).attr('index');
 
@@ -438,14 +438,14 @@ function goToCarouselImage(carousel_obj, image_index)
     changeActiveIndicator(carousel_obj, image_index);
 }
 
-var auto_animate;
-var auto_on = false;
+carousel_obj.auto_animate = null;
+carousel_obj.auto_on = false;
 function activateCarouselAutoChange(button, carousel_obj)
 {
     if ($(button).text().search('Disable') != -1)
     {
-        auto_on = false;
-        clearInterval(auto_animate);
+        carousel_obj.auto_on = false;
+        clearInterval(carousel_obj.auto_animate);
         $(button).text('Enable Auto-slide');
     }
     else
@@ -457,8 +457,8 @@ function activateCarouselAutoChange(button, carousel_obj)
 
 function enableCarouselAutoChange(carousel_obj)
 {
-    auto_on = true;
-    auto_animate = setInterval(function()
+    carousel_obj.auto_on = true;
+    carousel_obj.auto_animate = setInterval(function()
     {
         next_image(carousel_obj);
         goToCarouselImage(carousel_obj);
@@ -467,6 +467,6 @@ function enableCarouselAutoChange(carousel_obj)
 
 function resetIntervalTimer(carousel_obj)
 {
-    clearInterval(auto_animate);
+    clearInterval(carousel_obj.auto_animate);
     enableCarouselAutoChange(carousel_obj);
 }
