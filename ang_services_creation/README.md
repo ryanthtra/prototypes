@@ -1,6 +1,6 @@
 # Angular - Services Creation
 
-Building from the services Intro prototype this prototype will give you the opportunity to create your own services using Factories, Services and Pro
+Building from the services Intro prototype this prototype will give you the opportunity to create your own service using Provider
 
 - Presentation(s)
     - AngularJS - Services Creation
@@ -51,8 +51,8 @@ Building from the services Intro prototype this prototype will give you the oppo
 >1. In the `script.js` file do the following
 1. Create three variables at the beginning of your provider code
     1. One to hold `this`
-    1. One to hold your `api_key` set to: ''
-    1. One to hold the `api_url` set to: ''
+    1. One to hold your `api_key` set to: ""
+    1. One to hold the `api_url` set to: ""
 1. In the $get method add in the needed services
     1. $http
     1. $q
