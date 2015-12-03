@@ -53,7 +53,7 @@ Building from the services Intro prototype this prototype will give you the oppo
     1. One to hold `this`
     1. One to hold your `api_key` set to: ""
     1. One to hold the `api_url` set to: ""
-1. In the $get method add in the needed services
+1. In the $get method inject in the needed services
     1. $http
     1. $q
     1. $log (optional)
@@ -93,6 +93,7 @@ Building from the services Intro prototype this prototype will give you the oppo
 #### Feature Set 3 - Add the final control
 
 >1. Add the following code to the `ioController`
+    1. Inject your new service into the controller and any other service you may need
     1. Create a variable to hold `this`
         1. Make sure you name it different than what you used in your provider code
             1. **IE:** Don't use `self` in both places
