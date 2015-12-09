@@ -6,10 +6,10 @@ This prototype will build off of the previous Angular prototypes and introduce y
 
 - Presentation(s)
     - Angular - Directives Creation
-        - <a href="[URL]" target="_blank">Slides Link</a>
+        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0BwjF2I7CBLDVS0wxNWkyODRlbFk/viewC6 - FE - Angular Directives Intro" target="_blank">Slides Link</a>
 - Video(s)
-    - [Name of related videos]
-        - <a href="[URL]" target="_blank">Video Link</a>
+    - C6 - FE - Angular Directives Intro
+        - <a href="https://plus.google.com/u/0/events/cqn8g6k3iup1hipg70rat72ghh4?authkey=COGU5bvYmuuB3AE" target="_blank">Video Link</a>
 - Projects
     - This prototype shows an alternate beginning to the Tic-Tac-Toe application
     
@@ -99,7 +99,7 @@ This prototype will build off of the previous Angular prototypes and introduce y
 1. Create a directive that utilizes the `info-bar-template.html` file
 1. Add your new directive to the `index.html` file
 1. Here is an example of the possible design:
-    1. <img src="" alt"Image of a possible layout for the tic tac toe game"
+    1. <img src="https://github.com/Learning-Fuze/prototypes/blob/directive-creation/ang_directive_creation/example-design.png?raw=true" alt"Image of a possible layout for the tic tac toe game"
 
 ## After Coding Details
 
