@@ -1,5 +1,3 @@
-**IMPORTANT NOTE** Do a find and replace for `branch_name` To add the prototypes branch name to all the appropriate places throughout readme **Del this line**
-
 # Angular - Directive Creation
 
 This prototype will build off of the previous Angular prototypes and introduce you to building custom directives
@@ -36,10 +34,10 @@ This prototype will build off of the previous Angular prototypes and introduce y
 > `git pull https://github.com/Learning-Fuze/prototypes.git` & press enter
 > - The command above downloads the newly posted prototypes and saves them to your local machine
 
-> `git checkout -b branch_name`
+> `git checkout -b ang_directive_creation`
 > - Creating this feature groupings allow users to modify code without causing issues with the current functioning code.
 > - Any modifications to these files after <b>branching</b> can be undone
-> - "branch_name" is the branch name.
+> - "ang_directive_creation" is the branch name.
 
 ## Coding Instructions
 
@@ -99,7 +97,7 @@ This prototype will build off of the previous Angular prototypes and introduce y
 1. Create a directive that utilizes the `info-bar-template.html` file
 1. Add your new directive to the `index.html` file
 1. Here is an example of the possible design:
-    1. <img src="https://github.com/Learning-Fuze/prototypes/blob/directive-creation/ang_directive_creation/example-design.png?raw=true" alt"Image of a possible layout for the tic tac toe game"
+    1. <img src="https://github.com/Learning-Fuze/prototypes/blob/directive-creation/ang_directive_creation/example-design.png?raw=true" alt="Image of a possible layout for the tic tac toe game"
 
 ## After Coding Details
 
@@ -114,7 +112,7 @@ This prototype will build off of the previous Angular prototypes and introduce y
 
 > Run below command in terminal tab
 
-> `git commit -m "branch_name - Eric Johnson"`
+> `git commit -m "ang_directive_creation - Eric Johnson"`
 > - Eric Johnson should be replaced with your First & Last name
 > - Grouping files with a message allows those changes to be seen by others as a specific version of the code
 
@@ -122,10 +120,10 @@ This prototype will build off of the previous Angular prototypes and introduce y
 
 > Run below command in terminal tab
 
-> `git push origin branch_name`
+> `git push origin ang_directive_creation`
 > - When running the code above, the Git application will send all commits (<b>groupings of saved files</b>) to the 
 remote location (<b>github.com/[your-user-name]/prototypes indicated by origin</b>), specifically to the feature 
-branch/group <b>branch_name</b>
+branch/group <b>ang_directive_creation</b>
 
 ##### 4. See if your feature fits with what everyone else was working on (Pull Request)
 
@@ -153,7 +151,7 @@ branch/group <b>branch_name</b>
 >  1. `head fork: [your_user_name]/prototypes`
 >    1. Here you will select the option that matches your username / prototypes
 >    1. If you can not locate an option that has your username / prototypes, contact an instructor
->  1. `compare: branch_name`
+>  1. `compare: ang_directive_creation`
 >    1. Here you will locate the branch name (or feature name) you created at the beginning of the prototype
 >    1. This will usually be the same as the name of the prototype
 >  1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
@@ -166,10 +164,10 @@ instructors at start)
 
 > ####Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. If you set the commit message above you should get <b>branch_name - [your first & last 
+>   1. If you set the commit message above you should get <b>ang_directive_creation - [your first & last 
 name]</b> already pre-populated in the Title field
 >   1. If there is a different title pre-populated, change the title to match the correct format:
->      1. <b>branch_name - [your first and last name]</b>
+>      1. <b>ang_directive_creation - [your first and last name]</b>
 > 1. <b>Don't assign a user.</b> (An Instructor will select who this gets assigned too)
 >   1. Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
