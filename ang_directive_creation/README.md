@@ -97,8 +97,7 @@ This prototype will build off of the previous Angular prototypes and introduce y
 1. Create a directive that utilizes the `info-bar-template.html` file
 1. Add your new directive to the `index.html` file
 1. Here is an example of the possible design:
-    1. <img src="https://github.com/Learning-Fuze/prototypes/blob/directive-creation/ang_directive_creation/example-design.png?raw=true" alt="Image of a possible layout for the tic tac toe game"
-
+    1. <img src="https://github.com/Learning-Fuze/prototypes/blob/directive-creation/ang_directive_creation/example-design.png?raw=true" height="400px">
 ## After Coding Details
 
 ##### 1. Save files to Git - Add all modified & created files
