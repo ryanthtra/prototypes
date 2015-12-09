@@ -4,7 +4,7 @@ This prototype will build off of the previous Angular prototypes and introduce y
 
 - Presentation(s)
     - Angular - Directives Creation
-        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0BwjF2I7CBLDVS0wxNWkyODRlbFk/viewC6 - FE - Angular Directives Intro" target="_blank">Slides Link</a>
+        - <a href="https://drive.google.com/a/learningfuze.com/file/d/0BwjF2I7CBLDVS0wxNWkyODRlbFk/view" target="_blank">Slides Link</a>
 - Video(s)
     - C6 - FE - Angular Directives Intro
         - <a href="https://plus.google.com/u/0/events/cqn8g6k3iup1hipg70rat72ghh4?authkey=COGU5bvYmuuB3AE" target="_blank">Video Link</a>
