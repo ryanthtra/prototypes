@@ -1,5 +1,5 @@
 ﻿<!doctype html>
-<html lang="en" ng-app>
+<html ng-app lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Angular Intro</title>
@@ -14,5 +14,17 @@
         <p>This is what your mom said: {{myVar}}</p>
     </div>
 
+    <!-- Feature Set #2 -->
+    <div ng-init="carArray=['Yugo', 'Gremlin', 'Vega', 'Pinto'];">
+        <ul>
+            <li ng-repeat="car in carArray">{{car}}</li>
+        </ul>
+    </div>
+
+    <!-- Feature Set #3 -->
+    <div>
+        <input type="text" ng-model="myInput"/>
+        <p>{{myInput}}</p>
+    </div>
 </body>
 </html>
