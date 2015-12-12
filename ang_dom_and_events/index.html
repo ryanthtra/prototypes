@@ -1,12 +1,27 @@
-<!doctype html>
-<html lang="en">
+﻿<!doctype html>
+<html lang="en" ng-app>
 <head>
     <meta charset="UTF-8">
     <title>Angular DOM and Events</title>
     <!-- Add Angular CDN below -->
-
+    <script src="https://rawgit.com/angular/bower-angular/master/angular.min.js"></script>
 </head>
 <body>
+    <!-- Featureset #1 --> <!-- Featureset #4 -->
+    <div ng-init="flag=true; counter=0">
 
+        <!-- Featureset #3 -->
+        <span ng-hide="flag">Button is enabled</span>
+        <span ng-show="flag">Button is disabled</span>
+
+        <!-- Featureset #1 --> <!-- Featureset #4 -->
+        <button ng-disabled="flag" ng-click="counter=counter+1">whatever you want</button>
+
+        <!--Fetureset #2 -->
+        <input type="checkbox" ng-model="flag"/>
+
+        <!-- Featureset #4 -->
+        <p ng-model="counter">The button has been clicked {{counter}} times.</p>
+    </div>
 </body>
 </html>
